@@ -148,6 +148,7 @@
 			<item>Columns</item>
 			<item>TextureSlot</item>
 			<item>EmissionRate</item>
+			<item>GlobalSeqId</item>
 		</list>
 		<list name="floatproperties">
 			<item>BoundsRadius</item>

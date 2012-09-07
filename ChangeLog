@@ -1,3 +1,6 @@
+2012-09-07 Tamino Dauth <tamino@cdauth.eu>
+* Kate (MDL): Added keyword "GlobalSeqId".
+
 2011-01-16 Tamino Dauth <tamino@cdauth.eu>
 * Kate (vJass): Expression "interface" after expression "function" is considered as keyword now.
 * Kate (vJass): Keyword "thistype" is considered in function identifiers now.
