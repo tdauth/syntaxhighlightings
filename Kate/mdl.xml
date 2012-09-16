@@ -115,6 +115,7 @@
 			<item>Linear</item>
 			<item>Hermite</item>
 			<item>Bezier</item>
+			<item>Squirt</item>
 		</list>
 		<list name="stringproperties">
 			<item>Image</item>
