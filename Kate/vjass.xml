@@ -2960,10 +2960,10 @@
 			<item>subanimtype</item>
 			<item>framehandle</item>
 			<item>originframetype</item>
-			<item>framepoint</item>
-			<item>textalign</item>
-			<item>frameevent</item>
-			<item>oskey</item>
+			<item>framepointtype</item>
+			<item>textaligntype</item>
+			<item>frameeventtype</item>
+			<item>oskeytype</item>
 			<item>abilityintegerfield</item>
 			<item>abilityrealfield</item>
 			<item>abilitybooleanfield</item>
@@ -2988,12 +2988,12 @@
 			<item>itemrealfield</item>
 			<item>itembooleanfield</item>
 			<item>itemstringfield</item>
-			<item>move</item>
+			<item>movetype</item>
 			<item>targetflag</item>
-			<item>armor</item>
+			<item>armortype</item>
 			<item>heroattribute</item>
-			<item>defense</item>
-			<item>regen</item>
+			<item>defensetype</item>
+			<item>regentype</item>
 			<item>unitcategory</item>
 			<item>pathingflag</item>
 			<item>commandbuttoneffect</item>
@@ -3431,228 +3431,218 @@
 			<item>PLAYER_COLOR_MAROON</item>
 			<item>PLAYER_COLOR_NAVY</item>
 			<item>PLAYER_COLOR_TURQUOISE</item>
-			<item>PLAYER_COLOR_VIOLE</item>
-			<item>PLAYER_COLOR_WHEA</item>
-			<item>PLAYER_COLOR_PEAC</item>
-			<item>PLAYER_COLOR_MIN</item>
-			<item>PLAYER_COLOR_LAVENDE</item>
-			<item>PLAYER_COLOR_COA</item>
-			<item>PLAYER_COLOR_SNO</item>
-			<item>PLAYER_COLOR_EMERAL</item>
-			<item>PLAYER_COLOR_PEANU</item>
-			<item>MOUSE_BUTTON_TYPE_LEF</item>
-			<item>MOUSE_BUTTON_TYPE_MIDDL</item>
-			<item>MOUSE_BUTTON_TYPE_RIGH</item>
-			<item>ANIM_TYPE_BIRT</item>
-			<item>ANIM_TYPE_DEAT</item>
-			<item>ANIM_TYPE_DECA</item>
-			<item>ANIM_TYPE_DISSIPAT</item>
-			<item>ANIM_TYPE_STAN</item>
-			<item>ANIM_TYPE_WAL</item>
-			<item>ANIM_TYPE_ATTAC</item>
-			<item>ANIM_TYPE_MORP</item>
-			<item>ANIM_TYPE_SLEE</item>
-			<item>ANIM_TYPE_SPEL</item>
-			<item>ANIM_TYPE_PORTRAI</item>
-			<item>SUBANIM_TYPE_ROOTE</item>
-			<item>SUBANIM_TYPE_ALTERNATE_E</item>
-			<item>SUBANIM_TYPE_LOOPIN</item>
-			<item>SUBANIM_TYPE_SLA</item>
-			<item>SUBANIM_TYPE_THRO</item>
-			<item>SUBANIM_TYPE_SPIKE</item>
-			<item>SUBANIM_TYPE_FAS</item>
-			<item>SUBANIM_TYPE_SPI</item>
-			<item>SUBANIM_TYPE_READ</item>
-			<item>SUBANIM_TYPE_CHANNE</item>
-			<item>SUBANIM_TYPE_DEFEN</item>
-			<item>SUBANIM_TYPE_VICTOR</item>
-			<item>SUBANIM_TYPE_TUR</item>
-			<item>SUBANIM_TYPE_LEF</item>
-			<item>SUBANIM_TYPE_RIGH</item>
-			<item>SUBANIM_TYPE_FIR</item>
-			<item>SUBANIM_TYPE_FLES</item>
-			<item>SUBANIM_TYPE_HI</item>
-			<item>SUBANIM_TYPE_WOUNDE</item>
-			<item>SUBANIM_TYPE_LIGH</item>
-			<item>SUBANIM_TYPE_MODERAT</item>
-			<item>SUBANIM_TYPE_SEVER</item>
-			<item>SUBANIM_TYPE_CRITICA</item>
-			<item>SUBANIM_TYPE_COMPLET</item>
-			<item>SUBANIM_TYPE_GOL</item>
-			<item>SUBANIM_TYPE_LUMBE</item>
-			<item>SUBANIM_TYPE_WOR</item>
-			<item>SUBANIM_TYPE_TAL</item>
-			<item>SUBANIM_TYPE_FIRS</item>
-			<item>SUBANIM_TYPE_SECON</item>
-			<item>SUBANIM_TYPE_THIR</item>
-			<item>SUBANIM_TYPE_FOURT</item>
-			<item>SUBANIM_TYPE_FIFT</item>
-			<item>SUBANIM_TYPE_ON</item>
-			<item>SUBANIM_TYPE_TW</item>
-			<item>SUBANIM_TYPE_THRE</item>
-			<item>SUBANIM_TYPE_FOU</item>
-			<item>SUBANIM_TYPE_FIV</item>
-			<item>SUBANIM_TYPE_SMAL</item>
-			<item>SUBANIM_TYPE_MEDIU</item>
-			<item>SUBANIM_TYPE_LARG</item>
-			<item>SUBANIM_TYPE_UPGRAD</item>
-			<item>SUBANIM_TYPE_DRAI</item>
-			<item>SUBANIM_TYPE_FIL</item>
-			<item>SUBANIM_TYPE_CHAINLIGHTNIN</item>
-			<item>SUBANIM_TYPE_EATTRE</item>
-			<item>SUBANIM_TYPE_PUK</item>
-			<item>SUBANIM_TYPE_FLAI</item>
-			<item>SUBANIM_TYPE_OF</item>
-			<item>SUBANIM_TYPE_SWI</item>
-			<item>SUBANIM_TYPE_ENTANGL</item>
-			<item>SUBANIM_TYPE_BERSER</item>
-			<item>EVENT_PLAYER_UNIT_DAMAGE</item>
-			<item>EVENT_PLAYER_UNIT_DAMAGIN</item>
-			<item>EVENT_UNIT_DAMAGIN</item>
-			<item>EVENT_GAME_CUSTOM_UI_FRAM</item>
-			<item>EVENT_PLAYER_MOUSE_DOW</item>
-			<item>EVENT_PLAYER_MOUSE_U</item>
-			<item>EVENT_PLAYER_MOUSE_MOV</item>
-			<item>EVENT_PLAYER_SYNC_DAT</item>
-			<item>EVENT_PLAYER_KE</item>
-			<item>EVENT_PLAYER_KEY_DOW</item>
-			<item>EVENT_PLAYER_KEY_U</item>
-			<item>EVENT_PLAYER_UNIT_STACK_ITE</item>
-			<item>EVENT_UNIT_STACK_ITE</item>
-			<item>CAMERA_FIELD_NEAR</item>
-			<item>CAMERA_FIELD_LOCAL_PITC</item>
-			<item>CAMERA_FIELD_LOCAL_YA</item>
-			<item>CAMERA_FIELD_LOCAL_ROL</item>
-			<item>ORIGIN_FRAME_GAME_U</item>
-			<item>ORIGIN_FRAME_COMMAND_BUTTO</item>
-			<item>ORIGIN_FRAME_HERO_BA</item>
-			<item>ORIGIN_FRAME_HERO_BUTTO</item>
-			<item>ORIGIN_FRAME_HERO_HP_BA</item>
-			<item>ORIGIN_FRAME_HERO_MANA_BA</item>
-			<item>ORIGIN_FRAME_HERO_BUTTON_INDICATO</item>
-			<item>ORIGIN_FRAME_ITEM_BUTTO</item>
-			<item>ORIGIN_FRAME_MINIMA</item>
-			<item>ORIGIN_FRAME_MINIMAP_BUTTO</item>
-			<item>ORIGIN_FRAME_SYSTEM_BUTTO</item>
-			<item>ORIGIN_FRAME_TOOLTI</item>
-			<item>ORIGIN_FRAME_UBERTOOLTI</item>
-			<item>ORIGIN_FRAME_CHAT_MS</item>
-			<item>ORIGIN_FRAME_UNIT_MS</item>
-			<item>ORIGIN_FRAME_TOP_MS</item>
-			<item>ORIGIN_FRAME_PORTRAI</item>
-			<item>ORIGIN_FRAME_WORLD_FRAM</item>
-			<item>ORIGIN_FRAME_SIMPLE_UI_PAREN</item>
-			<item>ORIGIN_FRAME_PORTRAIT_HP_TEX</item>
-			<item>ORIGIN_FRAME_PORTRAIT_MANA_TEX</item>
-			<item>ORIGIN_FRAME_UNIT_PANEL_BUFF_BA</item>
-			<item>ORIGIN_FRAME_UNIT_PANEL_BUFF_BAR_LABE</item>
-			<item>FRAMEPOINT_TOPLEF</item>
-			<item>FRAMEPOINT_TO</item>
-			<item>FRAMEPOINT_TOPRIGH</item>
-			<item>FRAMEPOINT_LEF</item>
-			<item>FRAMEPOINT_CENTE</item>
-			<item>FRAMEPOINT_RIGH</item>
-			<item>FRAMEPOINT_BOTTOMLEF</item>
-			<item>FRAMEPOINT_BOTTO</item>
-			<item>FRAMEPOINT_BOTTOMRIGH</item>
-			<item>TEXT_JUSTIFY_TO</item>
-			<item>TEXT_JUSTIFY_MIDDL</item>
-			<item>TEXT_JUSTIFY_BOTTO</item>
-			<item>TEXT_JUSTIFY_LEF</item>
-			<item>TEXT_JUSTIFY_CENTE</item>
-			<item>TEXT_JUSTIFY_RIGH</item>
-			<item>FRAMEEVENT_CONTROL_CLIC</item>
-			<item>FRAMEEVENT_MOUSE_ENTE</item>
-			<item>FRAMEEVENT_MOUSE_LEAV</item>
-			<item>FRAMEEVENT_MOUSE_U</item>
-			<item>FRAMEEVENT_MOUSE_DOW</item>
-			<item>FRAMEEVENT_MOUSE_WHEE</item>
-			<item>FRAMEEVENT_CHECKBOX_CHECKE</item>
-			<item>FRAMEEVENT_CHECKBOX_UNCHECKE</item>
-			<item>FRAMEEVENT_EDITBOX_TEXT_CHANGE</item>
-			<item>FRAMEEVENT_POPUPMENU_ITEM_CHANGE</item>
-			<item>FRAMEEVENT_MOUSE_DOUBLECLIC</item>
-			<item>FRAMEEVENT_SPRITE_ANIM_UPDAT</item>
-			<item>FRAMEEVENT_SLIDER_VALUE_CHANGE</item>
-			<item>FRAMEEVENT_DIALOG_CANCE</item>
-			<item>FRAMEEVENT_DIALOG_ACCEP</item>
-			<item>FRAMEEVENT_EDITBOX_ENTE</item>
-			<item>OSKEY_BACKSPAC</item>
-			<item>OSKEY_TA</item>
-			<item>OSKEY_CLEA</item>
-			<item>OSKEY_RETUR</item>
-			<item>OSKEY_SHIF</item>
-			<item>OSKEY_CONTRO</item>
-			<item>OSKEY_AL</item>
-			<item>OSKEY_PAUS</item>
-			<item>OSKEY_CAPSLOC</item>
-			<item>OSKEY_KAN</item>
-			<item>OSKEY_HANGU</item>
-			<item>OSKEY_JUNJ</item>
-			<item>OSKEY_FINA</item>
-			<item>OSKEY_HANJ</item>
-			<item>OSKEY_KANJ</item>
-			<item>OSKEY_ESCAP</item>
-			<item>OSKEY_CONVER</item>
-			<item>OSKEY_NONCONVER</item>
-			<item>OSKEY_ACCEP</item>
-			<item>OSKEY_MODECHANG</item>
-			<item>OSKEY_SPAC</item>
-			<item>OSKEY_PAGEU</item>
-			<item>OSKEY_PAGEDOW</item>
-			<item>OSKEY_EN</item>
-			<item>OSKEY_HOM</item>
-			<item>OSKEY_LEF</item>
+			<item>PLAYER_COLOR_VIOLET</item>
+			<item>PLAYER_COLOR_WHEAT</item>
+			<item>PLAYER_COLOR_PEACH</item>
+			<item>PLAYER_COLOR_MINT</item>
+			<item>PLAYER_COLOR_LAVENDER</item>
+			<item>PLAYER_COLOR_COAL</item>
+			<item>PLAYER_COLOR_SNOW</item>
+			<item>PLAYER_COLOR_EMERALD</item>
+			<item>PLAYER_COLOR_PEANUT</item>
+			<item>MOUSE_BUTTON_TYPE_LEFT</item>
+			<item>MOUSE_BUTTON_TYPE_MIDDLE</item>
+			<item>MOUSE_BUTTON_TYPE_RIGHT</item>
+			<item>ANIM_TYPE_BIRTH</item>
+			<item>ANIM_TYPE_DEATH</item>
+			<item>ANIM_TYPE_DECAY</item>
+			<item>ANIM_TYPE_DISSIPATE</item>
+			<item>ANIM_TYPE_STAND</item>
+			<item>ANIM_TYPE_WALK</item>
+			<item>ANIM_TYPE_ATTACK</item>
+			<item>ANIM_TYPE_MORPH</item>
+			<item>ANIM_TYPE_SLEEP</item>
+			<item>ANIM_TYPE_SPELL</item>
+			<item>ANIM_TYPE_PORTRAIT</item>
+			<item>SUBANIM_TYPE_ROOTED</item>
+			<item>SUBANIM_TYPE_ALTERNATE_EX</item>
+			<item>SUBANIM_TYPE_LOOPING</item>
+			<item>SUBANIM_TYPE_SLAM</item>
+			<item>SUBANIM_TYPE_THROW</item>
+			<item>SUBANIM_TYPE_SPIKED</item>
+			<item>SUBANIM_TYPE_FAST</item>
+			<item>SUBANIM_TYPE_SPIN</item>
+			<item>SUBANIM_TYPE_READY</item>
+			<item>SUBANIM_TYPE_CHANNEL</item>
+			<item>SUBANIM_TYPE_DEFEND</item>
+			<item>SUBANIM_TYPE_VICTORY</item>
+			<item>SUBANIM_TYPE_TURN</item>
+			<item>SUBANIM_TYPE_LEFT</item>
+			<item>SUBANIM_TYPE_RIGHT</item>
+			<item>SUBANIM_TYPE_FIRE</item>
+			<item>SUBANIM_TYPE_FLESH</item>
+			<item>SUBANIM_TYPE_HIT</item>
+			<item>SUBANIM_TYPE_WOUNDED</item>
+			<item>SUBANIM_TYPE_LIGHT</item>
+			<item>SUBANIM_TYPE_MODERATE</item>
+			<item>SUBANIM_TYPE_SEVERE</item>
+			<item>SUBANIM_TYPE_CRITICAL</item>
+			<item>SUBANIM_TYPE_COMPLETE</item>
+			<item>SUBANIM_TYPE_GOLD</item>
+			<item>SUBANIM_TYPE_LUMBER</item>
+			<item>SUBANIM_TYPE_WORK</item>
+			<item>SUBANIM_TYPE_TALK</item>
+			<item>SUBANIM_TYPE_FIRST</item>
+			<item>SUBANIM_TYPE_SECOND</item>
+			<item>SUBANIM_TYPE_THIRD</item>
+			<item>SUBANIM_TYPE_FOURTH</item>
+			<item>SUBANIM_TYPE_FIFTH</item>
+			<item>SUBANIM_TYPE_ONE</item>
+			<item>SUBANIM_TYPE_TWO</item>
+			<item>SUBANIM_TYPE_THREE</item>
+			<item>SUBANIM_TYPE_FOUR</item>
+			<item>SUBANIM_TYPE_FIVE</item>
+			<item>SUBANIM_TYPE_SMALL</item>
+			<item>SUBANIM_TYPE_MEDIUM</item>
+			<item>SUBANIM_TYPE_LARGE</item>
+			<item>SUBANIM_TYPE_UPGRADE</item>
+			<item>SUBANIM_TYPE_DRAIN</item>
+			<item>SUBANIM_TYPE_FILL</item>
+			<item>SUBANIM_TYPE_CHAINLIGHTNING</item>
+			<item>SUBANIM_TYPE_EATTREE</item>
+			<item>SUBANIM_TYPE_PUKE</item>
+			<item>SUBANIM_TYPE_FLAIL</item>
+			<item>SUBANIM_TYPE_OFF</item>
+			<item>SUBANIM_TYPE_SWIM</item>
+			<item>SUBANIM_TYPE_ENTANGLE</item>
+			<item>SUBANIM_TYPE_BERSERK</item>
+			<item>EVENT_PLAYER_UNIT_DAMAGED</item>
+			<item>EVENT_PLAYER_UNIT_DAMAGING</item>
+			<item>EVENT_UNIT_DAMAGING</item>
+			<item>EVENT_GAME_CUSTOM_UI_FRAME</item>
+			<item>EVENT_PLAYER_MOUSE_DOWN</item>
+			<item>EVENT_PLAYER_MOUSE_UP</item>
+			<item>EVENT_PLAYER_MOUSE_MOVE</item>
+			<item>EVENT_PLAYER_SYNC_DATA</item>
+			<item>EVENT_PLAYER_KEY</item>
+			<item>EVENT_PLAYER_KEY_DOWN</item>
+			<item>EVENT_PLAYER_KEY_UP</item>
+			<item>EVENT_PLAYER_UNIT_STACK_ITEM</item>
+			<item>EVENT_UNIT_STACK_ITEM</item>
+			<item>CAMERA_FIELD_NEARZ</item>
+			<item>CAMERA_FIELD_LOCAL_PITCH</item>
+			<item>CAMERA_FIELD_LOCAL_YAW</item>
+			<item>CAMERA_FIELD_LOCAL_ROLL</item>
+			<item>ORIGIN_FRAME_GAME_UI</item>
+			<item>ORIGIN_FRAME_COMMAND_BUTTON</item>
+			<item>ORIGIN_FRAME_HERO_BAR</item>
+			<item>ORIGIN_FRAME_HERO_BUTTON</item>
+			<item>ORIGIN_FRAME_HERO_HP_BAR</item>
+			<item>ORIGIN_FRAME_HERO_MANA_BAR</item>
+			<item>ORIGIN_FRAME_HERO_BUTTON_INDICATOR</item>
+			<item>ORIGIN_FRAME_ITEM_BUTTON</item>
+			<item>ORIGIN_FRAME_MINIMAP</item>
+			<item>ORIGIN_FRAME_MINIMAP_BUTTON</item>
+			<item>ORIGIN_FRAME_SYSTEM_BUTTON</item>
+			<item>ORIGIN_FRAME_TOOLTIP</item>
+			<item>ORIGIN_FRAME_UBERTOOLTIP</item>
+			<item>ORIGIN_FRAME_CHAT_MSG</item>
+			<item>ORIGIN_FRAME_UNIT_MSG</item>
+			<item>ORIGIN_FRAME_TOP_MSG</item>
+			<item>ORIGIN_FRAME_PORTRAIT</item>
+			<item>ORIGIN_FRAME_WORLD_FRAME</item>
+			<item>ORIGIN_FRAME_SIMPLE_UI_PARENT</item>
+			<item>ORIGIN_FRAME_PORTRAIT_HP_TEXT</item>
+			<item>ORIGIN_FRAME_PORTRAIT_MANA_TEXT</item>
+			<item>ORIGIN_FRAME_UNIT_PANEL_BUFF_BAR</item>
+			<item>ORIGIN_FRAME_UNIT_PANEL_BUFF_BAR_LABEL</item>
+			<item>FRAMEPOINT_TOPLEFT</item>
+			<item>FRAMEPOINT_TOP</item>
+			<item>FRAMEPOINT_TOPRIGHT</item>
+			<item>FRAMEPOINT_LEFT</item>
+			<item>FRAMEPOINT_CENTER</item>
+			<item>FRAMEPOINT_RIGHT</item>
+			<item>FRAMEPOINT_BOTTOMLEFT</item>
+			<item>FRAMEPOINT_BOTTOM</item>
+			<item>FRAMEPOINT_BOTTOMRIGHT</item>
+			<item>TEXT_JUSTIFY_TOP</item>
+			<item>TEXT_JUSTIFY_MIDDLE</item>
+			<item>TEXT_JUSTIFY_BOTTOM</item>
+			<item>TEXT_JUSTIFY_LEFT</item>
+			<item>TEXT_JUSTIFY_CENTER</item>
+			<item>TEXT_JUSTIFY_RIGHT</item>
+			<item>FRAMEEVENT_CONTROL_CLICK</item>
+			<item>FRAMEEVENT_MOUSE_ENTER</item>
+			<item>FRAMEEVENT_MOUSE_LEAVE</item>
+			<item>FRAMEEVENT_MOUSE_UP</item>
+			<item>FRAMEEVENT_MOUSE_DOWN</item>
+			<item>FRAMEEVENT_MOUSE_WHEEL</item>
+			<item>FRAMEEVENT_CHECKBOX_CHECKED</item>
+			<item>FRAMEEVENT_CHECKBOX_UNCHECKED</item>
+			<item>FRAMEEVENT_EDITBOX_TEXT_CHANGED</item>
+			<item>FRAMEEVENT_POPUPMENU_ITEM_CHANGED</item>
+			<item>FRAMEEVENT_MOUSE_DOUBLECLICK</item>
+			<item>FRAMEEVENT_SPRITE_ANIM_UPDATE</item>
+			<item>FRAMEEVENT_SLIDER_VALUE_CHANGED</item>
+			<item>FRAMEEVENT_DIALOG_CANCEL</item>
+			<item>FRAMEEVENT_DIALOG_ACCEPT</item>
+			<item>FRAMEEVENT_EDITBOX_ENTER</item>
+			<item>OSKEY_BACKSPACE</item>
+			<item>OSKEY_TAB</item>
+			<item>OSKEY_CLEAR</item>
+			<item>OSKEY_RETURN</item>
+			<item>OSKEY_SHIFT</item>
+			<item>OSKEY_CONTROL</item>
+			<item>OSKEY_ALT</item>
+			<item>OSKEY_PAUSE</item>
+			<item>OSKEY_CAPSLOCK</item>
+			<item>OSKEY_KANA</item>
+			<item>OSKEY_HANGUL</item>
+			<item>OSKEY_JUNJA</item>
+			<item>OSKEY_FINAL</item>
+			<item>OSKEY_HANJA</item>
+			<item>OSKEY_KANJI</item>
+			<item>OSKEY_ESCAPE</item>
+			<item>OSKEY_CONVERT</item>
+			<item>OSKEY_NONCONVERT</item>
+			<item>OSKEY_ACCEPT</item>
+			<item>OSKEY_MODECHANGE</item>
+			<item>OSKEY_SPACE</item>
+			<item>OSKEY_PAGEUP</item>
+			<item>OSKEY_PAGEDOWN</item>
+			<item>OSKEY_END</item>
+			<item>OSKEY_HOME</item>
+			<item>OSKEY_LEFT</item>
+			<item>OSKEY_UP</item>
+			<item>OSKEY_RIGHT</item>
+			<item>OSKEY_DOWN</item>
+			<item>OSKEY_SELECT</item>
+			<item>OSKEY_PRINT</item>
+			<item>OSKEY_EXECUTE</item>
+			<item>OSKEY_PRINTSCREEN</item>
+			<item>OSKEY_INSERT</item>
+			<item>OSKEY_DELETE</item>
+			<item>OSKEY_HELP</item>
+			<item>OSKEY_A</item>
+			<item>OSKEY_B</item>
+			<item>OSKEY_C</item>
+			<item>OSKEY_D</item>
+			<item>OSKEY_E</item>
+			<item>OSKEY_F</item>
+			<item>OSKEY_G</item>
+			<item>OSKEY_H</item>
+			<item>OSKEY_I</item>
+			<item>OSKEY_J</item>
+			<item>OSKEY_K</item>
+			<item>OSKEY_L</item>
+			<item>OSKEY_M</item>
+			<item>OSKEY_N</item>
+			<item>OSKEY_O</item>
+			<item>OSKEY_P</item>
+			<item>OSKEY_Q</item>
+			<item>OSKEY_R</item>
+			<item>OSKEY_S</item>
+			<item>OSKEY_T</item>
 			<item>OSKEY_U</item>
-			<item>OSKEY_RIGH</item>
-			<item>OSKEY_DOW</item>
-			<item>OSKEY_SELEC</item>
-			<item>OSKEY_PRIN</item>
-			<item>OSKEY_EXECUT</item>
-			<item>OSKEY_PRINTSCREE</item>
-			<item>OSKEY_INSER</item>
-			<item>OSKEY_DELET</item>
-			<item>OSKEY_HEL</item>
-			<item>OSKEY_0</item>
-			<item>OSKEY_1</item>
-			<item>OSKEY_2</item>
-			<item>OSKEY_3</item>
-			<item>OSKEY_4</item>
-			<item>OSKEY_5</item>
-			<item>OSKEY_6</item>
-			<item>OSKEY_7</item>
-			<item>OSKEY_8</item>
-			<item>OSKEY_9</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_</item>
-			<item>OSKEY_LMET</item>
-			<item>OSKEY_RMET</item>
-			<item>OSKEY_APP</item>
-			<item>OSKEY_SLEE</item>
+			<item>OSKEY_V</item>
+			<item>OSKEY_W</item>
+			<item>OSKEY_X</item>
+			<item>OSKEY_Y</item>
+			<item>OSKEY_Z</item>
+			<item>OSKEY_LMETA</item>
+			<item>OSKEY_RMETA</item>
+			<item>OSKEY_APPS</item>
+			<item>OSKEY_SLEEP</item>
 			<item>OSKEY_NUMPAD0</item>
 			<item>OSKEY_NUMPAD1</item>
 			<item>OSKEY_NUMPAD2</item>
@@ -3663,12 +3653,12 @@
 			<item>OSKEY_NUMPAD7</item>
 			<item>OSKEY_NUMPAD8</item>
 			<item>OSKEY_NUMPAD9</item>
-			<item>OSKEY_MULTIPL</item>
-			<item>OSKEY_AD</item>
-			<item>OSKEY_SEPARATO</item>
-			<item>OSKEY_SUBTRAC</item>
-			<item>OSKEY_DECIMA</item>
-			<item>OSKEY_DIVID</item>
+			<item>OSKEY_MULTIPLY</item>
+			<item>OSKEY_ADD</item>
+			<item>OSKEY_SEPARATOR</item>
+			<item>OSKEY_SUBTRACT</item>
+			<item>OSKEY_DECIMAL</item>
+			<item>OSKEY_DIVIDE</item>
 			<item>OSKEY_F1</item>
 			<item>OSKEY_F2</item>
 			<item>OSKEY_F3</item>
@@ -3693,43 +3683,43 @@
 			<item>OSKEY_F22</item>
 			<item>OSKEY_F23</item>
 			<item>OSKEY_F24</item>
-			<item>OSKEY_NUMLOC</item>
-			<item>OSKEY_SCROLLLOC</item>
-			<item>OSKEY_OEM_NEC_EQUA</item>
-			<item>OSKEY_OEM_FJ_JISH</item>
-			<item>OSKEY_OEM_FJ_MASSHO</item>
-			<item>OSKEY_OEM_FJ_TOUROK</item>
-			<item>OSKEY_OEM_FJ_LOY</item>
-			<item>OSKEY_OEM_FJ_ROY</item>
-			<item>OSKEY_LSHIF</item>
-			<item>OSKEY_RSHIF</item>
-			<item>OSKEY_LCONTRO</item>
-			<item>OSKEY_RCONTRO</item>
-			<item>OSKEY_LAL</item>
-			<item>OSKEY_RAL</item>
-			<item>OSKEY_BROWSER_BAC</item>
-			<item>OSKEY_BROWSER_FORWAR</item>
-			<item>OSKEY_BROWSER_REFRES</item>
-			<item>OSKEY_BROWSER_STO</item>
-			<item>OSKEY_BROWSER_SEARC</item>
-			<item>OSKEY_BROWSER_FAVORITE</item>
-			<item>OSKEY_BROWSER_HOM</item>
-			<item>OSKEY_VOLUME_MUT</item>
-			<item>OSKEY_VOLUME_DOW</item>
-			<item>OSKEY_VOLUME_U</item>
-			<item>OSKEY_MEDIA_NEXT_TRAC</item>
-			<item>OSKEY_MEDIA_PREV_TRAC</item>
-			<item>OSKEY_MEDIA_STO</item>
-			<item>OSKEY_MEDIA_PLAY_PAUS</item>
-			<item>OSKEY_LAUNCH_MAI</item>
-			<item>OSKEY_LAUNCH_MEDIA_SELEC</item>
+			<item>OSKEY_NUMLOCK</item>
+			<item>OSKEY_SCROLLLOCK</item>
+			<item>OSKEY_OEM_NEC_EQUAL</item>
+			<item>OSKEY_OEM_FJ_JISHO</item>
+			<item>OSKEY_OEM_FJ_MASSHOU</item>
+			<item>OSKEY_OEM_FJ_TOUROKU</item>
+			<item>OSKEY_OEM_FJ_LOYA</item>
+			<item>OSKEY_OEM_FJ_ROYA</item>
+			<item>OSKEY_LSHIFT</item>
+			<item>OSKEY_RSHIFT</item>
+			<item>OSKEY_LCONTROL</item>
+			<item>OSKEY_RCONTROL</item>
+			<item>OSKEY_LALT</item>
+			<item>OSKEY_RALT</item>
+			<item>OSKEY_BROWSER_BACK</item>
+			<item>OSKEY_BROWSER_FORWARD</item>
+			<item>OSKEY_BROWSER_REFRESH</item>
+			<item>OSKEY_BROWSER_STOP</item>
+			<item>OSKEY_BROWSER_SEARCH</item>
+			<item>OSKEY_BROWSER_FAVORITES</item>
+			<item>OSKEY_BROWSER_HOME</item>
+			<item>OSKEY_VOLUME_MUTE</item>
+			<item>OSKEY_VOLUME_DOWN</item>
+			<item>OSKEY_VOLUME_UP</item>
+			<item>OSKEY_MEDIA_NEXT_TRACK</item>
+			<item>OSKEY_MEDIA_PREV_TRACK</item>
+			<item>OSKEY_MEDIA_STOP</item>
+			<item>OSKEY_MEDIA_PLAY_PAUSE</item>
+			<item>OSKEY_LAUNCH_MAIL</item>
+			<item>OSKEY_LAUNCH_MEDIA_SELECT</item>
 			<item>OSKEY_LAUNCH_APP1</item>
 			<item>OSKEY_LAUNCH_APP2</item>
 			<item>OSKEY_OEM_1</item>
-			<item>OSKEY_OEM_PLU</item>
-			<item>OSKEY_OEM_COMM</item>
-			<item>OSKEY_OEM_MINU</item>
-			<item>OSKEY_OEM_PERIO</item>
+			<item>OSKEY_OEM_PLUS</item>
+			<item>OSKEY_OEM_COMMA</item>
+			<item>OSKEY_OEM_MINUS</item>
+			<item>OSKEY_OEM_PERIOD</item>
 			<item>OSKEY_OEM_2</item>
 			<item>OSKEY_OEM_3</item>
 			<item>OSKEY_OEM_4</item>
@@ -3737,95 +3727,95 @@
 			<item>OSKEY_OEM_6</item>
 			<item>OSKEY_OEM_7</item>
 			<item>OSKEY_OEM_8</item>
-			<item>OSKEY_OEM_A</item>
+			<item>OSKEY_OEM_AX</item>
 			<item>OSKEY_OEM_102</item>
-			<item>OSKEY_ICO_HEL</item>
+			<item>OSKEY_ICO_HELP</item>
 			<item>OSKEY_ICO_00</item>
-			<item>OSKEY_PROCESSKE</item>
-			<item>OSKEY_ICO_CLEA</item>
-			<item>OSKEY_PACKE</item>
-			<item>OSKEY_OEM_RESE</item>
-			<item>OSKEY_OEM_JUM</item>
+			<item>OSKEY_PROCESSKEY</item>
+			<item>OSKEY_ICO_CLEAR</item>
+			<item>OSKEY_PACKET</item>
+			<item>OSKEY_OEM_RESET</item>
+			<item>OSKEY_OEM_JUMP</item>
 			<item>OSKEY_OEM_PA1</item>
 			<item>OSKEY_OEM_PA2</item>
 			<item>OSKEY_OEM_PA3</item>
-			<item>OSKEY_OEM_WSCTR</item>
-			<item>OSKEY_OEM_CUSE</item>
-			<item>OSKEY_OEM_ATT</item>
-			<item>OSKEY_OEM_FINIS</item>
-			<item>OSKEY_OEM_COP</item>
-			<item>OSKEY_OEM_AUT</item>
-			<item>OSKEY_OEM_ENL</item>
-			<item>OSKEY_OEM_BACKTA</item>
-			<item>OSKEY_ATT</item>
-			<item>OSKEY_CRSE</item>
-			<item>OSKEY_EXSE</item>
-			<item>OSKEY_EREO</item>
-			<item>OSKEY_PLA</item>
-			<item>OSKEY_ZOO</item>
-			<item>OSKEY_NONAM</item>
+			<item>OSKEY_OEM_WSCTRL</item>
+			<item>OSKEY_OEM_CUSEL</item>
+			<item>OSKEY_OEM_ATTN</item>
+			<item>OSKEY_OEM_FINISH</item>
+			<item>OSKEY_OEM_COPY</item>
+			<item>OSKEY_OEM_AUTO</item>
+			<item>OSKEY_OEM_ENLW</item>
+			<item>OSKEY_OEM_BACKTAB</item>
+			<item>OSKEY_ATTN</item>
+			<item>OSKEY_CRSEL</item>
+			<item>OSKEY_EXSEL</item>
+			<item>OSKEY_EREOF</item>
+			<item>OSKEY_PLAY</item>
+			<item>OSKEY_ZOOM</item>
+			<item>OSKEY_NONAME</item>
 			<item>OSKEY_PA1</item>
-			<item>OSKEY_OEM_CLEA</item>
-			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_</item>
-			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_</item>
-			<item>ABILITY_IF_BUTTON_POSITION_ACTIVATED_</item>
-			<item>ABILITY_IF_BUTTON_POSITION_ACTIVATED_</item>
-			<item>ABILITY_IF_BUTTON_POSITION_RESEARCH_</item>
-			<item>ABILITY_IF_BUTTON_POSITION_RESEARCH_</item>
-			<item>ABILITY_IF_MISSILE_SPEE</item>
-			<item>ABILITY_IF_TARGET_ATTACHMENT</item>
-			<item>ABILITY_IF_CASTER_ATTACHMENT</item>
-			<item>ABILITY_IF_PRIORIT</item>
-			<item>ABILITY_IF_LEVEL</item>
-			<item>ABILITY_IF_REQUIRED_LEVE</item>
-			<item>ABILITY_IF_LEVEL_SKIP_REQUIREMEN</item>
-			<item>ABILITY_BF_HERO_ABILIT</item>
-			<item>ABILITY_BF_ITEM_ABILIT</item>
-			<item>ABILITY_BF_CHECK_DEPENDENCIE</item>
-			<item>ABILITY_RF_ARF_MISSILE_AR</item>
-			<item>ABILITY_SF_NAM</item>
-			<item>ABILITY_SF_ICON_ACTIVATE</item>
-			<item>ABILITY_SF_ICON_RESEARC</item>
-			<item>ABILITY_SF_EFFECT_SOUN</item>
-			<item>ABILITY_SF_EFFECT_SOUND_LOOPIN</item>
-			<item>ABILITY_ILF_MANA_COS</item>
-			<item>ABILITY_ILF_NUMBER_OF_WAVE</item>
-			<item>ABILITY_ILF_NUMBER_OF_SHARD</item>
-			<item>ABILITY_ILF_NUMBER_OF_UNITS_TELEPORTE</item>
+			<item>OSKEY_OEM_CLEAR</item>
+			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_X</item>
+			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_Y</item>
+			<item>ABILITY_IF_BUTTON_POSITION_ACTIVATED_X</item>
+			<item>ABILITY_IF_BUTTON_POSITION_ACTIVATED_Y</item>
+			<item>ABILITY_IF_BUTTON_POSITION_RESEARCH_X</item>
+			<item>ABILITY_IF_BUTTON_POSITION_RESEARCH_Y</item>
+			<item>ABILITY_IF_MISSILE_SPEED</item>
+			<item>ABILITY_IF_TARGET_ATTACHMENTS</item>
+			<item>ABILITY_IF_CASTER_ATTACHMENTS</item>
+			<item>ABILITY_IF_PRIORITY</item>
+			<item>ABILITY_IF_LEVELS</item>
+			<item>ABILITY_IF_REQUIRED_LEVEL</item>
+			<item>ABILITY_IF_LEVEL_SKIP_REQUIREMENT</item>
+			<item>ABILITY_BF_HERO_ABILITY</item>
+			<item>ABILITY_BF_ITEM_ABILITY</item>
+			<item>ABILITY_BF_CHECK_DEPENDENCIES</item>
+			<item>ABILITY_RF_ARF_MISSILE_ARC</item>
+			<item>ABILITY_SF_NAME</item>
+			<item>ABILITY_SF_ICON_ACTIVATED</item>
+			<item>ABILITY_SF_ICON_RESEARCH</item>
+			<item>ABILITY_SF_EFFECT_SOUND</item>
+			<item>ABILITY_SF_EFFECT_SOUND_LOOPING</item>
+			<item>ABILITY_ILF_MANA_COST</item>
+			<item>ABILITY_ILF_NUMBER_OF_WAVES</item>
+			<item>ABILITY_ILF_NUMBER_OF_SHARDS</item>
+			<item>ABILITY_ILF_NUMBER_OF_UNITS_TELEPORTED</item>
 			<item>ABILITY_ILF_SUMMONED_UNIT_COUNT_HWE2</item>
-			<item>ABILITY_ILF_NUMBER_OF_IMAGE</item>
+			<item>ABILITY_ILF_NUMBER_OF_IMAGES</item>
 			<item>ABILITY_ILF_NUMBER_OF_CORPSES_RAISED_UAN1</item>
-			<item>ABILITY_ILF_MORPHING_FLAG</item>
+			<item>ABILITY_ILF_MORPHING_FLAGS</item>
 			<item>ABILITY_ILF_STRENGTH_BONUS_NRG5</item>
 			<item>ABILITY_ILF_DEFENSE_BONUS_NRG6</item>
-			<item>ABILITY_ILF_NUMBER_OF_TARGETS_HI</item>
+			<item>ABILITY_ILF_NUMBER_OF_TARGETS_HIT</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_OFS1</item>
 			<item>ABILITY_ILF_NUMBER_OF_SUMMONED_UNITS_OSF2</item>
 			<item>ABILITY_ILF_NUMBER_OF_SUMMONED_UNITS_EFN1</item>
 			<item>ABILITY_ILF_NUMBER_OF_CORPSES_RAISED_HRE1</item>
-			<item>ABILITY_ILF_STACK_FLAG</item>
-			<item>ABILITY_ILF_MINIMUM_NUMBER_OF_UNIT</item>
+			<item>ABILITY_ILF_STACK_FLAGS</item>
+			<item>ABILITY_ILF_MINIMUM_NUMBER_OF_UNITS</item>
 			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_UNITS_NDP3</item>
 			<item>ABILITY_ILF_NUMBER_OF_UNITS_CREATED_NRC2</item>
-			<item>ABILITY_ILF_SHIELD_LIF</item>
+			<item>ABILITY_ILF_SHIELD_LIFE</item>
 			<item>ABILITY_ILF_MANA_LOSS_AMS4</item>
 			<item>ABILITY_ILF_GOLD_PER_INTERVAL_BGM1</item>
-			<item>ABILITY_ILF_MAX_NUMBER_OF_MINER</item>
-			<item>ABILITY_ILF_CARGO_CAPACIT</item>
+			<item>ABILITY_ILF_MAX_NUMBER_OF_MINERS</item>
+			<item>ABILITY_ILF_CARGO_CAPACITY</item>
 			<item>ABILITY_ILF_MAXIMUM_CREEP_LEVEL_DEV3</item>
 			<item>ABILITY_ILF_MAX_CREEP_LEVEL_DEV1</item>
 			<item>ABILITY_ILF_GOLD_PER_INTERVAL_EGM1</item>
-			<item>ABILITY_ILF_DEFENSE_REDUCTIO</item>
+			<item>ABILITY_ILF_DEFENSE_REDUCTION</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_FLA1</item>
-			<item>ABILITY_ILF_FLARE_COUN</item>
-			<item>ABILITY_ILF_MAX_GOL</item>
-			<item>ABILITY_ILF_MINING_CAPACIT</item>
+			<item>ABILITY_ILF_FLARE_COUNT</item>
+			<item>ABILITY_ILF_MAX_GOLD</item>
+			<item>ABILITY_ILF_MINING_CAPACITY</item>
 			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_CORPSES_GYD1</item>
-			<item>ABILITY_ILF_DAMAGE_TO_TRE</item>
-			<item>ABILITY_ILF_LUMBER_CAPACIT</item>
-			<item>ABILITY_ILF_GOLD_CAPACIT</item>
+			<item>ABILITY_ILF_DAMAGE_TO_TREE</item>
+			<item>ABILITY_ILF_LUMBER_CAPACITY</item>
+			<item>ABILITY_ILF_GOLD_CAPACITY</item>
 			<item>ABILITY_ILF_DEFENSE_INCREASE_INF2</item>
-			<item>ABILITY_ILF_INTERACTION_TYP</item>
+			<item>ABILITY_ILF_INTERACTION_TYPE</item>
 			<item>ABILITY_ILF_GOLD_COST_NDT1</item>
 			<item>ABILITY_ILF_LUMBER_COST_NDT2</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_NDT3</item>
@@ -3836,221 +3826,221 @@
 			<item>ABILITY_ILF_MOVEMENT_UPDATE_FREQUENCY_PRG1</item>
 			<item>ABILITY_ILF_ATTACK_UPDATE_FREQUENCY_PRG2</item>
 			<item>ABILITY_ILF_MANA_LOSS_PRG6</item>
-			<item>ABILITY_ILF_UNITS_SUMMONED_TYPE_ON</item>
-			<item>ABILITY_ILF_UNITS_SUMMONED_TYPE_TW</item>
-			<item>ABILITY_ILF_MAX_UNITS_SUMMONE</item>
+			<item>ABILITY_ILF_UNITS_SUMMONED_TYPE_ONE</item>
+			<item>ABILITY_ILF_UNITS_SUMMONED_TYPE_TWO</item>
+			<item>ABILITY_ILF_MAX_UNITS_SUMMONED</item>
 			<item>ABILITY_ILF_ALLOW_WHEN_FULL_REJ3</item>
-			<item>ABILITY_ILF_MAXIMUM_UNITS_CHARGED_TO_CASTE</item>
-			<item>ABILITY_ILF_MAXIMUM_UNITS_AFFECTE</item>
+			<item>ABILITY_ILF_MAXIMUM_UNITS_CHARGED_TO_CASTER</item>
+			<item>ABILITY_ILF_MAXIMUM_UNITS_AFFECTED</item>
 			<item>ABILITY_ILF_DEFENSE_INCREASE_ROA2</item>
 			<item>ABILITY_ILF_MAX_UNITS_ROA7</item>
-			<item>ABILITY_ILF_ROOTED_WEAPON</item>
-			<item>ABILITY_ILF_UPROOTED_WEAPON</item>
-			<item>ABILITY_ILF_UPROOTED_DEFENSE_TYP</item>
-			<item>ABILITY_ILF_ACCUMULATION_STE</item>
-			<item>ABILITY_ILF_NUMBER_OF_OWL</item>
+			<item>ABILITY_ILF_ROOTED_WEAPONS</item>
+			<item>ABILITY_ILF_UPROOTED_WEAPONS</item>
+			<item>ABILITY_ILF_UPROOTED_DEFENSE_TYPE</item>
+			<item>ABILITY_ILF_ACCUMULATION_STEP</item>
+			<item>ABILITY_ILF_NUMBER_OF_OWLS</item>
 			<item>ABILITY_ILF_STACKING_TYPE_SPO4</item>
-			<item>ABILITY_ILF_NUMBER_OF_UNIT</item>
-			<item>ABILITY_ILF_SPIDER_CAPACIT</item>
-			<item>ABILITY_ILF_INTERVALS_BEFORE_CHANGING_TREE</item>
-			<item>ABILITY_ILF_AGILITY_BONU</item>
-			<item>ABILITY_ILF_INTELLIGENCE_BONU</item>
-			<item>ABILITY_ILF_STRENGTH_BONUS_IST</item>
-			<item>ABILITY_ILF_ATTACK_BONU</item>
-			<item>ABILITY_ILF_DEFENSE_BONUS_IDE</item>
-			<item>ABILITY_ILF_SUMMON_1_AMOUN</item>
-			<item>ABILITY_ILF_SUMMON_2_AMOUN</item>
-			<item>ABILITY_ILF_EXPERIENCE_GAINE</item>
-			<item>ABILITY_ILF_HIT_POINTS_GAINED_IHP</item>
-			<item>ABILITY_ILF_MANA_POINTS_GAINED_IMP</item>
+			<item>ABILITY_ILF_NUMBER_OF_UNITS</item>
+			<item>ABILITY_ILF_SPIDER_CAPACITY</item>
+			<item>ABILITY_ILF_INTERVALS_BEFORE_CHANGING_TREES</item>
+			<item>ABILITY_ILF_AGILITY_BONUS</item>
+			<item>ABILITY_ILF_INTELLIGENCE_BONUS</item>
+			<item>ABILITY_ILF_STRENGTH_BONUS_ISTR</item>
+			<item>ABILITY_ILF_ATTACK_BONUS</item>
+			<item>ABILITY_ILF_DEFENSE_BONUS_IDEF</item>
+			<item>ABILITY_ILF_SUMMON_1_AMOUNT</item>
+			<item>ABILITY_ILF_SUMMON_2_AMOUNT</item>
+			<item>ABILITY_ILF_EXPERIENCE_GAINED</item>
+			<item>ABILITY_ILF_HIT_POINTS_GAINED_IHPG</item>
+			<item>ABILITY_ILF_MANA_POINTS_GAINED_IMPG</item>
 			<item>ABILITY_ILF_HIT_POINTS_GAINED_IHP2</item>
 			<item>ABILITY_ILF_MANA_POINTS_GAINED_IMP2</item>
-			<item>ABILITY_ILF_DAMAGE_BONUS_DIC</item>
-			<item>ABILITY_ILF_ARMOR_PENALTY_IAR</item>
+			<item>ABILITY_ILF_DAMAGE_BONUS_DICE</item>
+			<item>ABILITY_ILF_ARMOR_PENALTY_IARP</item>
 			<item>ABILITY_ILF_ENABLED_ATTACK_INDEX_IOB5</item>
-			<item>ABILITY_ILF_LEVELS_GAINE</item>
-			<item>ABILITY_ILF_MAX_LIFE_GAINE</item>
-			<item>ABILITY_ILF_MAX_MANA_GAINE</item>
-			<item>ABILITY_ILF_GOLD_GIVE</item>
-			<item>ABILITY_ILF_LUMBER_GIVE</item>
+			<item>ABILITY_ILF_LEVELS_GAINED</item>
+			<item>ABILITY_ILF_MAX_LIFE_GAINED</item>
+			<item>ABILITY_ILF_MAX_MANA_GAINED</item>
+			<item>ABILITY_ILF_GOLD_GIVEN</item>
+			<item>ABILITY_ILF_LUMBER_GIVEN</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_IFA1</item>
-			<item>ABILITY_ILF_MAXIMUM_CREEP_LEVEL_ICR</item>
-			<item>ABILITY_ILF_MOVEMENT_SPEED_BONU</item>
-			<item>ABILITY_ILF_HIT_POINTS_REGENERATED_PER_SECON</item>
-			<item>ABILITY_ILF_SIGHT_RANGE_BONU</item>
-			<item>ABILITY_ILF_DAMAGE_PER_DURATIO</item>
-			<item>ABILITY_ILF_MANA_USED_PER_SECON</item>
-			<item>ABILITY_ILF_EXTRA_MANA_REQUIRE</item>
-			<item>ABILITY_ILF_DETECTION_RADIUS_IDE</item>
-			<item>ABILITY_ILF_MANA_LOSS_PER_UNIT_IDI</item>
-			<item>ABILITY_ILF_DAMAGE_TO_SUMMONED_UNITS_IDI</item>
-			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_UNITS_IRE</item>
-			<item>ABILITY_ILF_DELAY_AFTER_DEATH_SECOND</item>
-			<item>ABILITY_ILF_RESTORED_LIF</item>
-			<item>ABILITY_ILF_RESTORED_MANA__1_FOR_CURREN</item>
-			<item>ABILITY_ILF_HIT_POINTS_RESTORE</item>
-			<item>ABILITY_ILF_MANA_POINTS_RESTORE</item>
-			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_UNITS_ITP</item>
+			<item>ABILITY_ILF_MAXIMUM_CREEP_LEVEL_ICRE</item>
+			<item>ABILITY_ILF_MOVEMENT_SPEED_BONUS</item>
+			<item>ABILITY_ILF_HIT_POINTS_REGENERATED_PER_SECOND</item>
+			<item>ABILITY_ILF_SIGHT_RANGE_BONUS</item>
+			<item>ABILITY_ILF_DAMAGE_PER_DURATION</item>
+			<item>ABILITY_ILF_MANA_USED_PER_SECOND</item>
+			<item>ABILITY_ILF_EXTRA_MANA_REQUIRED</item>
+			<item>ABILITY_ILF_DETECTION_RADIUS_IDET</item>
+			<item>ABILITY_ILF_MANA_LOSS_PER_UNIT_IDIM</item>
+			<item>ABILITY_ILF_DAMAGE_TO_SUMMONED_UNITS_IDID</item>
+			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_UNITS_IREC</item>
+			<item>ABILITY_ILF_DELAY_AFTER_DEATH_SECONDS</item>
+			<item>ABILITY_ILF_RESTORED_LIFE</item>
+			<item>ABILITY_ILF_RESTORED_MANA__1_FOR_CURRENT</item>
+			<item>ABILITY_ILF_HIT_POINTS_RESTORED</item>
+			<item>ABILITY_ILF_MANA_POINTS_RESTORED</item>
+			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_UNITS_ITPM</item>
 			<item>ABILITY_ILF_NUMBER_OF_CORPSES_RAISED_CAD1</item>
-			<item>ABILITY_ILF_TERRAIN_DEFORMATION_DURATION_M</item>
-			<item>ABILITY_ILF_MAXIMUM_UNIT</item>
+			<item>ABILITY_ILF_TERRAIN_DEFORMATION_DURATION_MS</item>
+			<item>ABILITY_ILF_MAXIMUM_UNITS</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_DET1</item>
-			<item>ABILITY_ILF_GOLD_COST_PER_STRUCTUR</item>
-			<item>ABILITY_ILF_LUMBER_COST_PER_US</item>
+			<item>ABILITY_ILF_GOLD_COST_PER_STRUCTURE</item>
+			<item>ABILITY_ILF_LUMBER_COST_PER_USE</item>
 			<item>ABILITY_ILF_DETECTION_TYPE_NSP3</item>
-			<item>ABILITY_ILF_NUMBER_OF_SWARM_UNIT</item>
-			<item>ABILITY_ILF_MAX_SWARM_UNITS_PER_TARGE</item>
+			<item>ABILITY_ILF_NUMBER_OF_SWARM_UNITS</item>
+			<item>ABILITY_ILF_MAX_SWARM_UNITS_PER_TARGET</item>
 			<item>ABILITY_ILF_NUMBER_OF_SUMMONED_UNITS_NBA2</item>
 			<item>ABILITY_ILF_MAXIMUM_CREEP_LEVEL_NCH1</item>
-			<item>ABILITY_ILF_ATTACKS_PREVENTE</item>
+			<item>ABILITY_ILF_ATTACKS_PREVENTED</item>
 			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_TARGETS_EFK3</item>
 			<item>ABILITY_ILF_NUMBER_OF_SUMMONED_UNITS_ESV1</item>
 			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_CORPSES_EXH1</item>
-			<item>ABILITY_ILF_ITEM_CAPACIT</item>
+			<item>ABILITY_ILF_ITEM_CAPACITY</item>
 			<item>ABILITY_ILF_MAXIMUM_NUMBER_OF_TARGETS_SPL2</item>
 			<item>ABILITY_ILF_ALLOW_WHEN_FULL_IRL3</item>
-			<item>ABILITY_ILF_MAXIMUM_DISPELLED_UNIT</item>
-			<item>ABILITY_ILF_NUMBER_OF_LURE</item>
-			<item>ABILITY_ILF_NEW_TIME_OF_DAY_HOU</item>
-			<item>ABILITY_ILF_NEW_TIME_OF_DAY_MINUT</item>
+			<item>ABILITY_ILF_MAXIMUM_DISPELLED_UNITS</item>
+			<item>ABILITY_ILF_NUMBER_OF_LURES</item>
+			<item>ABILITY_ILF_NEW_TIME_OF_DAY_HOUR</item>
+			<item>ABILITY_ILF_NEW_TIME_OF_DAY_MINUTE</item>
 			<item>ABILITY_ILF_NUMBER_OF_UNITS_CREATED_MEC1</item>
-			<item>ABILITY_ILF_MINIMUM_SPELL</item>
-			<item>ABILITY_ILF_MAXIMUM_SPELL</item>
-			<item>ABILITY_ILF_DISABLED_ATTACK_INDE</item>
+			<item>ABILITY_ILF_MINIMUM_SPELLS</item>
+			<item>ABILITY_ILF_MAXIMUM_SPELLS</item>
+			<item>ABILITY_ILF_DISABLED_ATTACK_INDEX</item>
 			<item>ABILITY_ILF_ENABLED_ATTACK_INDEX_GRA4</item>
-			<item>ABILITY_ILF_MAXIMUM_ATTACK</item>
+			<item>ABILITY_ILF_MAXIMUM_ATTACKS</item>
 			<item>ABILITY_ILF_BUILDING_TYPES_ALLOWED_NPR1</item>
 			<item>ABILITY_ILF_BUILDING_TYPES_ALLOWED_NSA1</item>
-			<item>ABILITY_ILF_ATTACK_MODIFICATIO</item>
+			<item>ABILITY_ILF_ATTACK_MODIFICATION</item>
 			<item>ABILITY_ILF_SUMMONED_UNIT_COUNT_NPA5</item>
-			<item>ABILITY_ILF_UPGRADE_LEVEL</item>
+			<item>ABILITY_ILF_UPGRADE_LEVELS</item>
 			<item>ABILITY_ILF_NUMBER_OF_SUMMONED_UNITS_NDO2</item>
-			<item>ABILITY_ILF_BEASTS_PER_SECON</item>
-			<item>ABILITY_ILF_TARGET_TYP</item>
-			<item>ABILITY_ILF_OPTION</item>
+			<item>ABILITY_ILF_BEASTS_PER_SECOND</item>
+			<item>ABILITY_ILF_TARGET_TYPE</item>
+			<item>ABILITY_ILF_OPTIONS</item>
 			<item>ABILITY_ILF_ARMOR_PENALTY_NAB3</item>
 			<item>ABILITY_ILF_WAVE_COUNT_NHS6</item>
 			<item>ABILITY_ILF_MAX_CREEP_LEVEL_NTM3</item>
-			<item>ABILITY_ILF_MISSILE_COUN</item>
-			<item>ABILITY_ILF_SPLIT_ATTACK_COUN</item>
-			<item>ABILITY_ILF_GENERATION_COUN</item>
-			<item>ABILITY_ILF_ROCK_RING_COUN</item>
+			<item>ABILITY_ILF_MISSILE_COUNT</item>
+			<item>ABILITY_ILF_SPLIT_ATTACK_COUNT</item>
+			<item>ABILITY_ILF_GENERATION_COUNT</item>
+			<item>ABILITY_ILF_ROCK_RING_COUNT</item>
 			<item>ABILITY_ILF_WAVE_COUNT_NVC2</item>
 			<item>ABILITY_ILF_PREFER_HOSTILES_TAU1</item>
 			<item>ABILITY_ILF_PREFER_FRIENDLIES_TAU2</item>
 			<item>ABILITY_ILF_MAX_UNITS_TAU3</item>
-			<item>ABILITY_ILF_NUMBER_OF_PULSE</item>
+			<item>ABILITY_ILF_NUMBER_OF_PULSES</item>
 			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_HWE1</item>
 			<item>ABILITY_ILF_SUMMONED_UNIT_UIN4</item>
 			<item>ABILITY_ILF_SUMMONED_UNIT_OSF1</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_EFN</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NBA</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NTO</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_ESV</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE</item>
-			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NDO</item>
-			<item>ABILITY_ILF_ALTERNATE_FORM_UNIT_EME</item>
-			<item>ABILITY_ILF_PLAGUE_WARD_UNIT_TYP</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_EFNU</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NBAU</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NTOU</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_ESVU</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPES</item>
+			<item>ABILITY_ILF_SUMMONED_UNIT_TYPE_NDOU</item>
+			<item>ABILITY_ILF_ALTERNATE_FORM_UNIT_EMEU</item>
+			<item>ABILITY_ILF_PLAGUE_WARD_UNIT_TYPE</item>
 			<item>ABILITY_ILF_ALLOWED_UNIT_TYPE_BTL1</item>
-			<item>ABILITY_ILF_NEW_UNIT_TYP</item>
+			<item>ABILITY_ILF_NEW_UNIT_TYPE</item>
 			<item>ABILITY_ILF_RESULTING_UNIT_TYPE_ENT1</item>
-			<item>ABILITY_ILF_CORPSE_UNIT_TYP</item>
+			<item>ABILITY_ILF_CORPSE_UNIT_TYPE</item>
 			<item>ABILITY_ILF_ALLOWED_UNIT_TYPE_LOA1</item>
-			<item>ABILITY_ILF_UNIT_TYPE_FOR_LIMIT_CHEC</item>
-			<item>ABILITY_ILF_WARD_UNIT_TYPE_STA</item>
-			<item>ABILITY_ILF_EFFECT_ABILIT</item>
-			<item>ABILITY_ILF_CONVERSION_UNI</item>
-			<item>ABILITY_ILF_UNIT_TO_PRESERV</item>
-			<item>ABILITY_ILF_UNIT_TYPE_ALLOWE</item>
-			<item>ABILITY_ILF_SWARM_UNIT_TYP</item>
-			<item>ABILITY_ILF_RESULTING_UNIT_TYPE_COA</item>
-			<item>ABILITY_ILF_UNIT_TYPE_EXH</item>
-			<item>ABILITY_ILF_WARD_UNIT_TYPE_HWD</item>
-			<item>ABILITY_ILF_LURE_UNIT_TYP</item>
-			<item>ABILITY_ILF_UNIT_TYPE_IPM</item>
-			<item>ABILITY_ILF_FACTORY_UNIT_I</item>
-			<item>ABILITY_ILF_SPAWN_UNIT_ID_NFY</item>
-			<item>ABILITY_ILF_DESTRUCTIBLE_I</item>
-			<item>ABILITY_ILF_UPGRADE_TYP</item>
-			<item>ABILITY_RLF_CASTING_TIM</item>
-			<item>ABILITY_RLF_DURATION_NORMA</item>
-			<item>ABILITY_RLF_DURATION_HER</item>
-			<item>ABILITY_RLF_COOLDOW</item>
-			<item>ABILITY_RLF_AREA_OF_EFFEC</item>
-			<item>ABILITY_RLF_CAST_RANG</item>
+			<item>ABILITY_ILF_UNIT_TYPE_FOR_LIMIT_CHECK</item>
+			<item>ABILITY_ILF_WARD_UNIT_TYPE_STAU</item>
+			<item>ABILITY_ILF_EFFECT_ABILITY</item>
+			<item>ABILITY_ILF_CONVERSION_UNIT</item>
+			<item>ABILITY_ILF_UNIT_TO_PRESERVE</item>
+			<item>ABILITY_ILF_UNIT_TYPE_ALLOWED</item>
+			<item>ABILITY_ILF_SWARM_UNIT_TYPE</item>
+			<item>ABILITY_ILF_RESULTING_UNIT_TYPE_COAU</item>
+			<item>ABILITY_ILF_UNIT_TYPE_EXHU</item>
+			<item>ABILITY_ILF_WARD_UNIT_TYPE_HWDU</item>
+			<item>ABILITY_ILF_LURE_UNIT_TYPE</item>
+			<item>ABILITY_ILF_UNIT_TYPE_IPMU</item>
+			<item>ABILITY_ILF_FACTORY_UNIT_ID</item>
+			<item>ABILITY_ILF_SPAWN_UNIT_ID_NFYU</item>
+			<item>ABILITY_ILF_DESTRUCTIBLE_ID</item>
+			<item>ABILITY_ILF_UPGRADE_TYPE</item>
+			<item>ABILITY_RLF_CASTING_TIME</item>
+			<item>ABILITY_RLF_DURATION_NORMAL</item>
+			<item>ABILITY_RLF_DURATION_HERO</item>
+			<item>ABILITY_RLF_COOLDOWN</item>
+			<item>ABILITY_RLF_AREA_OF_EFFECT</item>
+			<item>ABILITY_RLF_CAST_RANGE</item>
 			<item>ABILITY_RLF_DAMAGE_HBZ2</item>
 			<item>ABILITY_RLF_BUILDING_REDUCTION_HBZ4</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_HBZ5</item>
-			<item>ABILITY_RLF_MAXIMUM_DAMAGE_PER_WAV</item>
-			<item>ABILITY_RLF_MANA_REGENERATION_INCREAS</item>
-			<item>ABILITY_RLF_CASTING_DELA</item>
+			<item>ABILITY_RLF_MAXIMUM_DAMAGE_PER_WAVE</item>
+			<item>ABILITY_RLF_MANA_REGENERATION_INCREASE</item>
+			<item>ABILITY_RLF_CASTING_DELAY</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_OWW1</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_OWW2</item>
-			<item>ABILITY_RLF_CHANCE_TO_CRITICAL_STRIK</item>
+			<item>ABILITY_RLF_CHANCE_TO_CRITICAL_STRIKE</item>
 			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_OCR2</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_OCR3</item>
-			<item>ABILITY_RLF_CHANCE_TO_EVADE_OCR4 </item>
+			<item>ABILITY_RLF_CHANCE_TO_EVADE_OCR4</item>
 			<item>ABILITY_RLF_DAMAGE_DEALT_PERCENT_OMI2</item>
 			<item>ABILITY_RLF_DAMAGE_TAKEN_PERCENT_OMI3</item>
-			<item>ABILITY_RLF_ANIMATION_DELA</item>
-			<item>ABILITY_RLF_TRANSITION_TIM</item>
+			<item>ABILITY_RLF_ANIMATION_DELAY</item>
+			<item>ABILITY_RLF_TRANSITION_TIME</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_PERCENT_OWK2</item>
-			<item>ABILITY_RLF_BACKSTAB_DAMAG</item>
+			<item>ABILITY_RLF_BACKSTAB_DAMAGE</item>
 			<item>ABILITY_RLF_AMOUNT_HEALED_DAMAGED_UDC1</item>
-			<item>ABILITY_RLF_LIFE_CONVERTED_TO_MAN</item>
-			<item>ABILITY_RLF_LIFE_CONVERTED_TO_LIF</item>
+			<item>ABILITY_RLF_LIFE_CONVERTED_TO_MANA</item>
+			<item>ABILITY_RLF_LIFE_CONVERTED_TO_LIFE</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_PERCENT_UAU1</item>
-			<item>ABILITY_RLF_LIFE_REGENERATION_INCREASE_PERCEN</item>
+			<item>ABILITY_RLF_LIFE_REGENERATION_INCREASE_PERCENT</item>
 			<item>ABILITY_RLF_CHANCE_TO_EVADE_EEV1</item>
-			<item>ABILITY_RLF_DAMAGE_PER_INTERVA</item>
+			<item>ABILITY_RLF_DAMAGE_PER_INTERVAL</item>
 			<item>ABILITY_RLF_MANA_DRAINED_PER_SECOND_EIM2</item>
-			<item>ABILITY_RLF_BUFFER_MANA_REQUIRE</item>
-			<item>ABILITY_RLF_MAX_MANA_DRAINE</item>
-			<item>ABILITY_RLF_BOLT_DELA</item>
-			<item>ABILITY_RLF_BOLT_LIFETIM</item>
-			<item>ABILITY_RLF_ALTITUDE_ADJUSTMENT_DURATIO</item>
-			<item>ABILITY_RLF_LANDING_DELAY_TIM</item>
-			<item>ABILITY_RLF_ALTERNATE_FORM_HIT_POINT_BONU</item>
-			<item>ABILITY_RLF_MOVE_SPEED_BONUS_INFO_PANEL_ONL</item>
-			<item>ABILITY_RLF_ATTACK_SPEED_BONUS_INFO_PANEL_ONL</item>
-			<item>ABILITY_RLF_LIFE_REGENERATION_RATE_PER_SECON</item>
+			<item>ABILITY_RLF_BUFFER_MANA_REQUIRED</item>
+			<item>ABILITY_RLF_MAX_MANA_DRAINED</item>
+			<item>ABILITY_RLF_BOLT_DELAY</item>
+			<item>ABILITY_RLF_BOLT_LIFETIME</item>
+			<item>ABILITY_RLF_ALTITUDE_ADJUSTMENT_DURATION</item>
+			<item>ABILITY_RLF_LANDING_DELAY_TIME</item>
+			<item>ABILITY_RLF_ALTERNATE_FORM_HIT_POINT_BONUS</item>
+			<item>ABILITY_RLF_MOVE_SPEED_BONUS_INFO_PANEL_ONLY</item>
+			<item>ABILITY_RLF_ATTACK_SPEED_BONUS_INFO_PANEL_ONLY</item>
+			<item>ABILITY_RLF_LIFE_REGENERATION_RATE_PER_SECOND</item>
 			<item>ABILITY_RLF_STUN_DURATION_USL1</item>
-			<item>ABILITY_RLF_ATTACK_DAMAGE_STOLEN_PERCEN</item>
+			<item>ABILITY_RLF_ATTACK_DAMAGE_STOLEN_PERCENT</item>
 			<item>ABILITY_RLF_DAMAGE_UCS1</item>
 			<item>ABILITY_RLF_MAX_DAMAGE_UCS2</item>
 			<item>ABILITY_RLF_DISTANCE_UCS3</item>
 			<item>ABILITY_RLF_FINAL_AREA_UCS4</item>
 			<item>ABILITY_RLF_DAMAGE_UIN1</item>
-			<item>ABILITY_RLF_DURATIO</item>
-			<item>ABILITY_RLF_IMPACT_DELA</item>
+			<item>ABILITY_RLF_DURATION</item>
+			<item>ABILITY_RLF_IMPACT_DELAY</item>
 			<item>ABILITY_RLF_DAMAGE_PER_TARGET_OCL1</item>
-			<item>ABILITY_RLF_DAMAGE_REDUCTION_PER_TARGE</item>
+			<item>ABILITY_RLF_DAMAGE_REDUCTION_PER_TARGET</item>
 			<item>ABILITY_RLF_EFFECT_DELAY_OEQ1</item>
-			<item>ABILITY_RLF_DAMAGE_PER_SECOND_TO_BUILDING</item>
-			<item>ABILITY_RLF_UNITS_SLOWED_PERCEN</item>
+			<item>ABILITY_RLF_DAMAGE_PER_SECOND_TO_BUILDINGS</item>
+			<item>ABILITY_RLF_UNITS_SLOWED_PERCENT</item>
 			<item>ABILITY_RLF_FINAL_AREA_OEQ4</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_EER1</item>
-			<item>ABILITY_RLF_DAMAGE_DEALT_TO_ATTACKER</item>
-			<item>ABILITY_RLF_LIFE_HEALE</item>
-			<item>ABILITY_RLF_HEAL_INTERVA</item>
+			<item>ABILITY_RLF_DAMAGE_DEALT_TO_ATTACKERS</item>
+			<item>ABILITY_RLF_LIFE_HEALED</item>
+			<item>ABILITY_RLF_HEAL_INTERVAL</item>
 			<item>ABILITY_RLF_BUILDING_REDUCTION_ETQ3</item>
-			<item>ABILITY_RLF_INITIAL_IMMUNITY_DURATIO</item>
-			<item>ABILITY_RLF_MAX_LIFE_DRAINED_PER_SECOND_PERCEN</item>
+			<item>ABILITY_RLF_INITIAL_IMMUNITY_DURATION</item>
+			<item>ABILITY_RLF_MAX_LIFE_DRAINED_PER_SECOND_PERCENT</item>
 			<item>ABILITY_RLF_BUILDING_REDUCTION_UDD2</item>
-			<item>ABILITY_RLF_ARMOR_DURATIO</item>
+			<item>ABILITY_RLF_ARMOR_DURATION</item>
 			<item>ABILITY_RLF_ARMOR_BONUS_UFA2</item>
-			<item>ABILITY_RLF_AREA_OF_EFFECT_DAMAG</item>
+			<item>ABILITY_RLF_AREA_OF_EFFECT_DAMAGE</item>
 			<item>ABILITY_RLF_SPECIFIC_TARGET_DAMAGE_UFN2</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_HFA1</item>
 			<item>ABILITY_RLF_DAMAGE_DEALT_ESF1</item>
 			<item>ABILITY_RLF_DAMAGE_INTERVAL_ESF2</item>
 			<item>ABILITY_RLF_BUILDING_REDUCTION_ESF3</item>
-			<item>ABILITY_RLF_DAMAGE_BONUS_PERCEN</item>
+			<item>ABILITY_RLF_DAMAGE_BONUS_PERCENT</item>
 			<item>ABILITY_RLF_DEFENSE_BONUS_HAV1</item>
-			<item>ABILITY_RLF_HIT_POINT_BONU</item>
+			<item>ABILITY_RLF_HIT_POINT_BONUS</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_HAV3</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_HAV4</item>
-			<item>ABILITY_RLF_CHANCE_TO_BAS</item>
+			<item>ABILITY_RLF_CHANCE_TO_BASH</item>
 			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_HBH2</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_HBH3</item>
 			<item>ABILITY_RLF_CHANCE_TO_MISS_HBH4</item>
@@ -4066,7 +4056,7 @@
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_HCA3</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_PERCENT_OAE1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_INCREASE_PERCENT_OAE2</item>
-			<item>ABILITY_RLF_REINCARNATION_DELA</item>
+			<item>ABILITY_RLF_REINCARNATION_DELAY</item>
 			<item>ABILITY_RLF_DAMAGE_OSH1</item>
 			<item>ABILITY_RLF_MAXIMUM_DAMAGE_OSH2</item>
 			<item>ABILITY_RLF_DISTANCE_OSH3</item>
@@ -4076,21 +4066,21 @@
 			<item>ABILITY_RLF_DAMAGE_NFD3</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DAMAGE_AMS1</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_AMS2</item>
-			<item>ABILITY_RLF_AURA_DURATIO</item>
+			<item>ABILITY_RLF_AURA_DURATION</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_APL2</item>
-			<item>ABILITY_RLF_DURATION_OF_PLAGUE_WAR</item>
-			<item>ABILITY_RLF_AMOUNT_OF_HIT_POINTS_REGENERATE</item>
+			<item>ABILITY_RLF_DURATION_OF_PLAGUE_WARD</item>
+			<item>ABILITY_RLF_AMOUNT_OF_HIT_POINTS_REGENERATED</item>
 			<item>ABILITY_RLF_ATTACK_DAMAGE_INCREASE_AKB1</item>
 			<item>ABILITY_RLF_MANA_LOSS_ADM1</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DAMAGE_ADM2</item>
-			<item>ABILITY_RLF_EXPANSION_AMOUN</item>
+			<item>ABILITY_RLF_EXPANSION_AMOUNT</item>
 			<item>ABILITY_RLF_INTERVAL_DURATION_BGM2</item>
-			<item>ABILITY_RLF_RADIUS_OF_MINING_RIN</item>
+			<item>ABILITY_RLF_RADIUS_OF_MINING_RING</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_INCREASE_PERCENT_BLO1</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_PERCENT_BLO2</item>
-			<item>ABILITY_RLF_SCALING_FACTO</item>
+			<item>ABILITY_RLF_SCALING_FACTOR</item>
 			<item>ABILITY_RLF_HIT_POINTS_PER_SECOND_CAN1</item>
-			<item>ABILITY_RLF_MAX_HIT_POINT</item>
+			<item>ABILITY_RLF_MAX_HIT_POINTS</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_DEV2</item>
 			<item>ABILITY_RLF_MOVEMENT_UPDATE_FREQUENCY_CHD1</item>
 			<item>ABILITY_RLF_ATTACK_UPDATE_FREQUENCY_CHD2</item>
@@ -4098,11 +4088,11 @@
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_PERCENT_CRI1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_PERCENT_CRI2</item>
 			<item>ABILITY_RLF_DAMAGE_REDUCTION_CRI3</item>
-			<item>ABILITY_RLF_CHANCE_TO_MISS_CR</item>
+			<item>ABILITY_RLF_CHANCE_TO_MISS_CRS</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_RADIUS_DDA1</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_AMOUNT_DDA2</item>
-			<item>ABILITY_RLF_PARTIAL_DAMAGE_RADIU</item>
-			<item>ABILITY_RLF_PARTIAL_DAMAGE_AMOUN</item>
+			<item>ABILITY_RLF_PARTIAL_DAMAGE_RADIUS</item>
+			<item>ABILITY_RLF_PARTIAL_DAMAGE_AMOUNT</item>
 			<item>ABILITY_RLF_BUILDING_DAMAGE_FACTOR_SDS1</item>
 			<item>ABILITY_RLF_MAX_DAMAGE_UCO5</item>
 			<item>ABILITY_RLF_MOVE_SPEED_BONUS_UCO6</item>
@@ -4111,35 +4101,35 @@
 			<item>ABILITY_RLF_MOVEMENT_SPEED_FACTOR_DEF3</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_DEF4</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_DEF5</item>
-			<item>ABILITY_RLF_CHANCE_TO_DEFLEC</item>
-			<item>ABILITY_RLF_DEFLECT_DAMAGE_TAKEN_PIERCIN</item>
-			<item>ABILITY_RLF_DEFLECT_DAMAGE_TAKEN_SPELL</item>
-			<item>ABILITY_RLF_RIP_DELA</item>
-			<item>ABILITY_RLF_EAT_DELA</item>
+			<item>ABILITY_RLF_CHANCE_TO_DEFLECT</item>
+			<item>ABILITY_RLF_DEFLECT_DAMAGE_TAKEN_PIERCING</item>
+			<item>ABILITY_RLF_DEFLECT_DAMAGE_TAKEN_SPELLS</item>
+			<item>ABILITY_RLF_RIP_DELAY</item>
+			<item>ABILITY_RLF_EAT_DELAY</item>
 			<item>ABILITY_RLF_HIT_POINTS_GAINED_EAT3</item>
-			<item>ABILITY_RLF_AIR_UNIT_LOWER_DURATIO</item>
-			<item>ABILITY_RLF_AIR_UNIT_HEIGH</item>
-			<item>ABILITY_RLF_MELEE_ATTACK_RANG</item>
-			<item>ABILITY_RLF_INTERVAL_DURATION_EGM2 </item>
+			<item>ABILITY_RLF_AIR_UNIT_LOWER_DURATION</item>
+			<item>ABILITY_RLF_AIR_UNIT_HEIGHT</item>
+			<item>ABILITY_RLF_MELEE_ATTACK_RANGE</item>
+			<item>ABILITY_RLF_INTERVAL_DURATION_EGM2</item>
 			<item>ABILITY_RLF_EFFECT_DELAY_FLA2</item>
-			<item>ABILITY_RLF_MINING_DURATIO</item>
-			<item>ABILITY_RLF_RADIUS_OF_GRAVESTONE</item>
-			<item>ABILITY_RLF_RADIUS_OF_CORPSE</item>
+			<item>ABILITY_RLF_MINING_DURATION</item>
+			<item>ABILITY_RLF_RADIUS_OF_GRAVESTONES</item>
+			<item>ABILITY_RLF_RADIUS_OF_CORPSES</item>
 			<item>ABILITY_RLF_HIT_POINTS_GAINED_HEA1</item>
 			<item>ABILITY_RLF_DAMAGE_INCREASE_PERCENT_INF1</item>
-			<item>ABILITY_RLF_AUTOCAST_RANG</item>
-			<item>ABILITY_RLF_LIFE_REGEN_RAT</item>
+			<item>ABILITY_RLF_AUTOCAST_RANGE</item>
+			<item>ABILITY_RLF_LIFE_REGEN_RATE</item>
 			<item>ABILITY_RLF_GRAPHIC_DELAY_LIT1</item>
 			<item>ABILITY_RLF_GRAPHIC_DURATION_LIT2</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_LSH1</item>
-			<item>ABILITY_RLF_MANA_GAINE</item>
+			<item>ABILITY_RLF_MANA_GAINED</item>
 			<item>ABILITY_RLF_HIT_POINTS_GAINED_MBT2</item>
-			<item>ABILITY_RLF_AUTOCAST_REQUIREMEN</item>
-			<item>ABILITY_RLF_WATER_HEIGH</item>
+			<item>ABILITY_RLF_AUTOCAST_REQUIREMENT</item>
+			<item>ABILITY_RLF_WATER_HEIGHT</item>
 			<item>ABILITY_RLF_ACTIVATION_DELAY_MIN1</item>
-			<item>ABILITY_RLF_INVISIBILITY_TRANSITION_TIM</item>
-			<item>ABILITY_RLF_ACTIVATION_RADIU</item>
-			<item>ABILITY_RLF_AMOUNT_REGENERATE</item>
+			<item>ABILITY_RLF_INVISIBILITY_TRANSITION_TIME</item>
+			<item>ABILITY_RLF_ACTIVATION_RADIUS</item>
+			<item>ABILITY_RLF_AMOUNT_REGENERATED</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_POI1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_POI2</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_FACTOR_POI3</item>
@@ -4147,35 +4137,35 @@
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_POA2</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_POA3</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_FACTOR_POA4</item>
-			<item>ABILITY_RLF_DAMAGE_AMPLIFICATIO</item>
-			<item>ABILITY_RLF_CHANCE_TO_STOMP_PERCEN</item>
+			<item>ABILITY_RLF_DAMAGE_AMPLIFICATION</item>
+			<item>ABILITY_RLF_CHANCE_TO_STOMP_PERCENT</item>
 			<item>ABILITY_RLF_DAMAGE_DEALT_WAR2</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_RADIUS_WAR3</item>
 			<item>ABILITY_RLF_HALF_DAMAGE_RADIUS_WAR4</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DAMAGE_PRG3</item>
-			<item>ABILITY_RLF_UNIT_PAUSE_DURATIO</item>
-			<item>ABILITY_RLF_HERO_PAUSE_DURATIO</item>
+			<item>ABILITY_RLF_UNIT_PAUSE_DURATION</item>
+			<item>ABILITY_RLF_HERO_PAUSE_DURATION</item>
 			<item>ABILITY_RLF_HIT_POINTS_GAINED_REJ1</item>
 			<item>ABILITY_RLF_MANA_POINTS_GAINED_REJ2</item>
-			<item>ABILITY_RLF_MINIMUM_LIFE_REQUIRE</item>
-			<item>ABILITY_RLF_MINIMUM_MANA_REQUIRE</item>
-			<item>ABILITY_RLF_REPAIR_COST_RATI</item>
-			<item>ABILITY_RLF_REPAIR_TIME_RATI</item>
-			<item>ABILITY_RLF_POWERBUILD_COS</item>
-			<item>ABILITY_RLF_POWERBUILD_RAT</item>
-			<item>ABILITY_RLF_NAVAL_RANGE_BONU</item>
+			<item>ABILITY_RLF_MINIMUM_LIFE_REQUIRED</item>
+			<item>ABILITY_RLF_MINIMUM_MANA_REQUIRED</item>
+			<item>ABILITY_RLF_REPAIR_COST_RATIO</item>
+			<item>ABILITY_RLF_REPAIR_TIME_RATIO</item>
+			<item>ABILITY_RLF_POWERBUILD_COST</item>
+			<item>ABILITY_RLF_POWERBUILD_RATE</item>
+			<item>ABILITY_RLF_NAVAL_RANGE_BONUS</item>
 			<item>ABILITY_RLF_DAMAGE_INCREASE_PERCENT_ROA1</item>
-			<item>ABILITY_RLF_LIFE_REGENERATION_RAT</item>
-			<item>ABILITY_RLF_MANA_REGE</item>
-			<item>ABILITY_RLF_DAMAGE_INCREAS</item>
-			<item>ABILITY_RLF_SALVAGE_COST_RATI</item>
-			<item>ABILITY_RLF_IN_FLIGHT_SIGHT_RADIU</item>
-			<item>ABILITY_RLF_HOVERING_SIGHT_RADIU</item>
-			<item>ABILITY_RLF_HOVERING_HEIGH</item>
-			<item>ABILITY_RLF_DURATION_OF_OWL</item>
-			<item>ABILITY_RLF_FADE_DURATIO</item>
-			<item>ABILITY_RLF_DAY_NIGHT_DURATIO</item>
-			<item>ABILITY_RLF_ACTION_DURATIO</item>
+			<item>ABILITY_RLF_LIFE_REGENERATION_RATE</item>
+			<item>ABILITY_RLF_MANA_REGEN</item>
+			<item>ABILITY_RLF_DAMAGE_INCREASE</item>
+			<item>ABILITY_RLF_SALVAGE_COST_RATIO</item>
+			<item>ABILITY_RLF_IN_FLIGHT_SIGHT_RADIUS</item>
+			<item>ABILITY_RLF_HOVERING_SIGHT_RADIUS</item>
+			<item>ABILITY_RLF_HOVERING_HEIGHT</item>
+			<item>ABILITY_RLF_DURATION_OF_OWLS</item>
+			<item>ABILITY_RLF_FADE_DURATION</item>
+			<item>ABILITY_RLF_DAY_NIGHT_DURATION</item>
+			<item>ABILITY_RLF_ACTION_DURATION</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_FACTOR_SLO1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_SLO2</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_SPO1</item>
@@ -4183,309 +4173,309 @@
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_SPO3</item>
 			<item>ABILITY_RLF_ACTIVATION_DELAY_STA1</item>
 			<item>ABILITY_RLF_DETECTION_RADIUS_STA2</item>
-			<item>ABILITY_RLF_DETONATION_RADIU</item>
+			<item>ABILITY_RLF_DETONATION_RADIUS</item>
 			<item>ABILITY_RLF_STUN_DURATION_STA4</item>
-			<item>ABILITY_RLF_ATTACK_SPEED_BONUS_PERCEN</item>
+			<item>ABILITY_RLF_ATTACK_SPEED_BONUS_PERCENT</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_UHF2</item>
-			<item>ABILITY_RLF_LUMBER_PER_INTERVA</item>
-			<item>ABILITY_RLF_ART_ATTACHMENT_HEIGH</item>
-			<item>ABILITY_RLF_TELEPORT_AREA_WIDT</item>
-			<item>ABILITY_RLF_TELEPORT_AREA_HEIGH</item>
-			<item>ABILITY_RLF_LIFE_STOLEN_PER_ATTAC</item>
-			<item>ABILITY_RLF_DAMAGE_BONUS_IDA</item>
-			<item>ABILITY_RLF_CHANCE_TO_HIT_UNITS_PERCEN</item>
-			<item>ABILITY_RLF_CHANCE_TO_HIT_HEROS_PERCEN</item>
-			<item>ABILITY_RLF_CHANCE_TO_HIT_SUMMONS_PERCEN</item>
-			<item>ABILITY_RLF_DELAY_FOR_TARGET_EFFEC</item>
-			<item>ABILITY_RLF_DAMAGE_DEALT_PERCENT_OF_NORMA</item>
-			<item>ABILITY_RLF_DAMAGE_RECEIVED_MULTIPLIE</item>
-			<item>ABILITY_RLF_MANA_REGENERATION_BONUS_AS_FRACTION_OF_NORMA</item>
-			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_ISP</item>
-			<item>ABILITY_RLF_DAMAGE_PER_SECOND_IDP</item>
+			<item>ABILITY_RLF_LUMBER_PER_INTERVAL</item>
+			<item>ABILITY_RLF_ART_ATTACHMENT_HEIGHT</item>
+			<item>ABILITY_RLF_TELEPORT_AREA_WIDTH</item>
+			<item>ABILITY_RLF_TELEPORT_AREA_HEIGHT</item>
+			<item>ABILITY_RLF_LIFE_STOLEN_PER_ATTACK</item>
+			<item>ABILITY_RLF_DAMAGE_BONUS_IDAM</item>
+			<item>ABILITY_RLF_CHANCE_TO_HIT_UNITS_PERCENT</item>
+			<item>ABILITY_RLF_CHANCE_TO_HIT_HEROS_PERCENT</item>
+			<item>ABILITY_RLF_CHANCE_TO_HIT_SUMMONS_PERCENT</item>
+			<item>ABILITY_RLF_DELAY_FOR_TARGET_EFFECT</item>
+			<item>ABILITY_RLF_DAMAGE_DEALT_PERCENT_OF_NORMAL</item>
+			<item>ABILITY_RLF_DAMAGE_RECEIVED_MULTIPLIER</item>
+			<item>ABILITY_RLF_MANA_REGENERATION_BONUS_AS_FRACTION_OF_NORMAL</item>
+			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_ISPI</item>
+			<item>ABILITY_RLF_DAMAGE_PER_SECOND_IDPS</item>
 			<item>ABILITY_RLF_ATTACK_DAMAGE_INCREASE_CAC1</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_COR1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_INCREASE_ISX1</item>
 			<item>ABILITY_RLF_DAMAGE_WRS1</item>
-			<item>ABILITY_RLF_TERRAIN_DEFORMATION_AMPLITUD</item>
+			<item>ABILITY_RLF_TERRAIN_DEFORMATION_AMPLITUDE</item>
 			<item>ABILITY_RLF_DAMAGE_CTC1</item>
-			<item>ABILITY_RLF_EXTRA_DAMAGE_TO_TARGE</item>
+			<item>ABILITY_RLF_EXTRA_DAMAGE_TO_TARGET</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_CTC3</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_CTC4</item>
 			<item>ABILITY_RLF_DAMAGE_CTB1</item>
-			<item>ABILITY_RLF_CASTING_DELAY_SECOND</item>
+			<item>ABILITY_RLF_CASTING_DELAY_SECONDS</item>
 			<item>ABILITY_RLF_MANA_LOSS_PER_UNIT_DTN1</item>
 			<item>ABILITY_RLF_DAMAGE_TO_SUMMONED_UNITS_DTN2</item>
-			<item>ABILITY_RLF_TRANSITION_TIME_SECOND</item>
+			<item>ABILITY_RLF_TRANSITION_TIME_SECONDS</item>
 			<item>ABILITY_RLF_MANA_DRAINED_PER_SECOND_NMR1</item>
-			<item>ABILITY_RLF_CHANCE_TO_REDUCE_DAMAGE_PERCEN</item>
-			<item>ABILITY_RLF_MINIMUM_DAMAG</item>
-			<item>ABILITY_RLF_IGNORED_DAMAG</item>
-			<item>ABILITY_RLF_FULL_DAMAGE_DEAL</item>
-			<item>ABILITY_RLF_FULL_DAMAGE_INTERVA</item>
-			<item>ABILITY_RLF_HALF_DAMAGE_DEAL</item>
-			<item>ABILITY_RLF_HALF_DAMAGE_INTERVA</item>
+			<item>ABILITY_RLF_CHANCE_TO_REDUCE_DAMAGE_PERCENT</item>
+			<item>ABILITY_RLF_MINIMUM_DAMAGE</item>
+			<item>ABILITY_RLF_IGNORED_DAMAGE</item>
+			<item>ABILITY_RLF_FULL_DAMAGE_DEALT</item>
+			<item>ABILITY_RLF_FULL_DAMAGE_INTERVAL</item>
+			<item>ABILITY_RLF_HALF_DAMAGE_DEALT</item>
+			<item>ABILITY_RLF_HALF_DAMAGE_INTERVAL</item>
 			<item>ABILITY_RLF_BUILDING_REDUCTION_HFS5</item>
 			<item>ABILITY_RLF_MAXIMUM_DAMAGE_HFS6</item>
-			<item>ABILITY_RLF_MANA_PER_HIT_POIN</item>
-			<item>ABILITY_RLF_DAMAGE_ABSORBED_PERCEN</item>
-			<item>ABILITY_RLF_WAVE_DISTANC</item>
-			<item>ABILITY_RLF_WAVE_TIME_SECOND</item>
+			<item>ABILITY_RLF_MANA_PER_HIT_POINT</item>
+			<item>ABILITY_RLF_DAMAGE_ABSORBED_PERCENT</item>
+			<item>ABILITY_RLF_WAVE_DISTANCE</item>
+			<item>ABILITY_RLF_WAVE_TIME_SECONDS</item>
 			<item>ABILITY_RLF_DAMAGE_DEALT_UIM3</item>
 			<item>ABILITY_RLF_AIR_TIME_SECONDS_UIM4</item>
-			<item>ABILITY_RLF_UNIT_RELEASE_INTERVAL_SECOND</item>
-			<item>ABILITY_RLF_DAMAGE_RETURN_FACTO</item>
-			<item>ABILITY_RLF_DAMAGE_RETURN_THRESHOL</item>
-			<item>ABILITY_RLF_RETURNED_DAMAGE_FACTO</item>
-			<item>ABILITY_RLF_RECEIVED_DAMAGE_FACTO</item>
+			<item>ABILITY_RLF_UNIT_RELEASE_INTERVAL_SECONDS</item>
+			<item>ABILITY_RLF_DAMAGE_RETURN_FACTOR</item>
+			<item>ABILITY_RLF_DAMAGE_RETURN_THRESHOLD</item>
+			<item>ABILITY_RLF_RETURNED_DAMAGE_FACTOR</item>
+			<item>ABILITY_RLF_RECEIVED_DAMAGE_FACTOR</item>
 			<item>ABILITY_RLF_DEFENSE_BONUS_UTS3</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_NBA1</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DURATION_SECONDS_NBA3</item>
-			<item>ABILITY_RLF_MANA_PER_SUMMONED_HITPOIN</item>
-			<item>ABILITY_RLF_CHARGE_FOR_CURRENT_LIF</item>
-			<item>ABILITY_RLF_HIT_POINTS_DRAINE</item>
-			<item>ABILITY_RLF_MANA_POINTS_DRAINE</item>
-			<item>ABILITY_RLF_DRAIN_INTERVAL_SECOND</item>
-			<item>ABILITY_RLF_LIFE_TRANSFERRED_PER_SECON</item>
-			<item>ABILITY_RLF_MANA_TRANSFERRED_PER_SECON</item>
-			<item>ABILITY_RLF_BONUS_LIFE_FACTO</item>
-			<item>ABILITY_RLF_BONUS_LIFE_DECA</item>
-			<item>ABILITY_RLF_BONUS_MANA_FACTO</item>
-			<item>ABILITY_RLF_BONUS_MANA_DECA</item>
-			<item>ABILITY_RLF_CHANCE_TO_MISS_PERCEN</item>
-			<item>ABILITY_RLF_MOVEMENT_SPEED_MODIFIE</item>
-			<item>ABILITY_RLF_ATTACK_SPEED_MODIFIE</item>
+			<item>ABILITY_RLF_MANA_PER_SUMMONED_HITPOINT</item>
+			<item>ABILITY_RLF_CHARGE_FOR_CURRENT_LIFE</item>
+			<item>ABILITY_RLF_HIT_POINTS_DRAINED</item>
+			<item>ABILITY_RLF_MANA_POINTS_DRAINED</item>
+			<item>ABILITY_RLF_DRAIN_INTERVAL_SECONDS</item>
+			<item>ABILITY_RLF_LIFE_TRANSFERRED_PER_SECOND</item>
+			<item>ABILITY_RLF_MANA_TRANSFERRED_PER_SECOND</item>
+			<item>ABILITY_RLF_BONUS_LIFE_FACTOR</item>
+			<item>ABILITY_RLF_BONUS_LIFE_DECAY</item>
+			<item>ABILITY_RLF_BONUS_MANA_FACTOR</item>
+			<item>ABILITY_RLF_BONUS_MANA_DECAY</item>
+			<item>ABILITY_RLF_CHANCE_TO_MISS_PERCENT</item>
+			<item>ABILITY_RLF_MOVEMENT_SPEED_MODIFIER</item>
+			<item>ABILITY_RLF_ATTACK_SPEED_MODIFIER</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_TDG1</item>
 			<item>ABILITY_RLF_MEDIUM_DAMAGE_RADIUS_TDG2</item>
-			<item>ABILITY_RLF_MEDIUM_DAMAGE_PER_SECON</item>
+			<item>ABILITY_RLF_MEDIUM_DAMAGE_PER_SECOND</item>
 			<item>ABILITY_RLF_SMALL_DAMAGE_RADIUS_TDG4</item>
-			<item>ABILITY_RLF_SMALL_DAMAGE_PER_SECON</item>
+			<item>ABILITY_RLF_SMALL_DAMAGE_PER_SECOND</item>
 			<item>ABILITY_RLF_AIR_TIME_SECONDS_TSP1</item>
-			<item>ABILITY_RLF_MINIMUM_HIT_INTERVAL_SECOND</item>
+			<item>ABILITY_RLF_MINIMUM_HIT_INTERVAL_SECONDS</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_NBF5</item>
-			<item>ABILITY_RLF_MAXIMUM_RANG</item>
-			<item>ABILITY_RLF_MINIMUM_RANG</item>
+			<item>ABILITY_RLF_MAXIMUM_RANGE</item>
+			<item>ABILITY_RLF_MINIMUM_RANGE</item>
 			<item>ABILITY_RLF_DAMAGE_PER_TARGET_EFK1</item>
-			<item>ABILITY_RLF_MAXIMUM_TOTAL_DAMAG</item>
-			<item>ABILITY_RLF_MAXIMUM_SPEED_ADJUSTMEN</item>
-			<item>ABILITY_RLF_DECAYING_DAMAG</item>
+			<item>ABILITY_RLF_MAXIMUM_TOTAL_DAMAGE</item>
+			<item>ABILITY_RLF_MAXIMUM_SPEED_ADJUSTMENT</item>
+			<item>ABILITY_RLF_DECAYING_DAMAGE</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_FACTOR_ESH2</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_FACTOR_ESH3</item>
-			<item>ABILITY_RLF_DECAY_POWE</item>
+			<item>ABILITY_RLF_DECAY_POWER</item>
 			<item>ABILITY_RLF_INITIAL_DAMAGE_ESH5</item>
-			<item>ABILITY_RLF_MAXIMUM_LIFE_ABSORBE</item>
-			<item>ABILITY_RLF_MAXIMUM_MANA_ABSORBE</item>
+			<item>ABILITY_RLF_MAXIMUM_LIFE_ABSORBED</item>
+			<item>ABILITY_RLF_MAXIMUM_MANA_ABSORBED</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_INCREASE_BSK1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_INCREASE_BSK2</item>
-			<item>ABILITY_RLF_DAMAGE_TAKEN_INCREAS</item>
-			<item>ABILITY_RLF_LIFE_PER_UNI</item>
-			<item>ABILITY_RLF_MANA_PER_UNI</item>
-			<item>ABILITY_RLF_LIFE_PER_BUF</item>
-			<item>ABILITY_RLF_MANA_PER_BUF</item>
+			<item>ABILITY_RLF_DAMAGE_TAKEN_INCREASE</item>
+			<item>ABILITY_RLF_LIFE_PER_UNIT</item>
+			<item>ABILITY_RLF_MANA_PER_UNIT</item>
+			<item>ABILITY_RLF_LIFE_PER_BUFF</item>
+			<item>ABILITY_RLF_MANA_PER_BUFF</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DAMAGE_DVM5</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_FAK1</item>
 			<item>ABILITY_RLF_MEDIUM_DAMAGE_FACTOR_FAK2</item>
 			<item>ABILITY_RLF_SMALL_DAMAGE_FACTOR_FAK3</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_RADIUS_FAK4</item>
 			<item>ABILITY_RLF_HALF_DAMAGE_RADIUS_FAK5</item>
-			<item>ABILITY_RLF_EXTRA_DAMAGE_PER_SECON</item>
+			<item>ABILITY_RLF_EXTRA_DAMAGE_PER_SECOND</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_LIQ2</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_LIQ3</item>
-			<item>ABILITY_RLF_MAGIC_DAMAGE_FACTO</item>
-			<item>ABILITY_RLF_UNIT_DAMAGE_PER_MANA_POIN</item>
-			<item>ABILITY_RLF_HERO_DAMAGE_PER_MANA_POIN</item>
-			<item>ABILITY_RLF_UNIT_MAXIMUM_DAMAG</item>
-			<item>ABILITY_RLF_HERO_MAXIMUM_DAMAG</item>
-			<item>ABILITY_RLF_DAMAGE_COOLDOW</item>
+			<item>ABILITY_RLF_MAGIC_DAMAGE_FACTOR</item>
+			<item>ABILITY_RLF_UNIT_DAMAGE_PER_MANA_POINT</item>
+			<item>ABILITY_RLF_HERO_DAMAGE_PER_MANA_POINT</item>
+			<item>ABILITY_RLF_UNIT_MAXIMUM_DAMAGE</item>
+			<item>ABILITY_RLF_HERO_MAXIMUM_DAMAGE</item>
+			<item>ABILITY_RLF_DAMAGE_COOLDOWN</item>
 			<item>ABILITY_RLF_DISTRIBUTED_DAMAGE_FACTOR_SPL1</item>
-			<item>ABILITY_RLF_LIFE_REGENERATE</item>
-			<item>ABILITY_RLF_MANA_REGENERATE</item>
+			<item>ABILITY_RLF_LIFE_REGENERATED</item>
+			<item>ABILITY_RLF_MANA_REGENERATED</item>
 			<item>ABILITY_RLF_MANA_LOSS_PER_UNIT_IDC1</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DAMAGE_IDC2</item>
 			<item>ABILITY_RLF_ACTIVATION_DELAY_IMO2</item>
-			<item>ABILITY_RLF_LURE_INTERVAL_SECOND</item>
+			<item>ABILITY_RLF_LURE_INTERVAL_SECONDS</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_ISR1</item>
 			<item>ABILITY_RLF_DAMAGE_REDUCTION_ISR2</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_IPV1</item>
-			<item>ABILITY_RLF_LIFE_STEAL_AMOUN</item>
-			<item>ABILITY_RLF_LIFE_RESTORED_FACTO</item>
-			<item>ABILITY_RLF_MANA_RESTORED_FACTO</item>
-			<item>ABILITY_RLF_ATTACH_DELA</item>
-			<item>ABILITY_RLF_REMOVE_DELA</item>
-			<item>ABILITY_RLF_HERO_REGENERATION_DELA</item>
-			<item>ABILITY_RLF_UNIT_REGENERATION_DELA</item>
+			<item>ABILITY_RLF_LIFE_STEAL_AMOUNT</item>
+			<item>ABILITY_RLF_LIFE_RESTORED_FACTOR</item>
+			<item>ABILITY_RLF_MANA_RESTORED_FACTOR</item>
+			<item>ABILITY_RLF_ATTACH_DELAY</item>
+			<item>ABILITY_RLF_REMOVE_DELAY</item>
+			<item>ABILITY_RLF_HERO_REGENERATION_DELAY</item>
+			<item>ABILITY_RLF_UNIT_REGENERATION_DELAY</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_NSA4</item>
 			<item>ABILITY_RLF_HIT_POINTS_PER_SECOND_NSA5</item>
 			<item>ABILITY_RLF_DAMAGE_TO_SUMMONED_UNITS_IXS1</item>
 			<item>ABILITY_RLF_MAGIC_DAMAGE_REDUCTION_IXS2</item>
-			<item>ABILITY_RLF_SUMMONED_UNIT_DURATIO</item>
-			<item>ABILITY_RLF_SHIELD_COOLDOWN_TIM</item>
+			<item>ABILITY_RLF_SUMMONED_UNIT_DURATION</item>
+			<item>ABILITY_RLF_SHIELD_COOLDOWN_TIME</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_NDO1</item>
 			<item>ABILITY_RLF_SUMMONED_UNIT_DURATION_SECONDS_NDO3</item>
 			<item>ABILITY_RLF_MEDIUM_DAMAGE_RADIUS_FLK1</item>
 			<item>ABILITY_RLF_SMALL_DAMAGE_RADIUS_FLK2</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_AMOUNT_FLK3</item>
-			<item>ABILITY_RLF_MEDIUM_DAMAGE_AMOUN</item>
-			<item>ABILITY_RLF_SMALL_DAMAGE_AMOUN</item>
+			<item>ABILITY_RLF_MEDIUM_DAMAGE_AMOUNT</item>
+			<item>ABILITY_RLF_SMALL_DAMAGE_AMOUNT</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_PERCENT_HBN1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_PERCENT_HBN2</item>
-			<item>ABILITY_RLF_MAX_MANA_DRAINED_UNIT</item>
-			<item>ABILITY_RLF_DAMAGE_RATIO_UNITS_PERCEN</item>
-			<item>ABILITY_RLF_MAX_MANA_DRAINED_HERO</item>
-			<item>ABILITY_RLF_DAMAGE_RATIO_HEROS_PERCEN</item>
-			<item>ABILITY_RLF_SUMMONED_DAMAG</item>
+			<item>ABILITY_RLF_MAX_MANA_DRAINED_UNITS</item>
+			<item>ABILITY_RLF_DAMAGE_RATIO_UNITS_PERCENT</item>
+			<item>ABILITY_RLF_MAX_MANA_DRAINED_HEROS</item>
+			<item>ABILITY_RLF_DAMAGE_RATIO_HEROS_PERCENT</item>
+			<item>ABILITY_RLF_SUMMONED_DAMAGE</item>
 			<item>ABILITY_RLF_DISTRIBUTED_DAMAGE_FACTOR_NCA1</item>
 			<item>ABILITY_RLF_INITIAL_DAMAGE_PXF1</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_PXF2</item>
 			<item>ABILITY_RLF_DAMAGE_PER_SECOND_MLS1</item>
-			<item>ABILITY_RLF_BEAST_COLLISION_RADIU</item>
+			<item>ABILITY_RLF_BEAST_COLLISION_RADIUS</item>
 			<item>ABILITY_RLF_DAMAGE_AMOUNT_NST3</item>
-			<item>ABILITY_RLF_DAMAGE_RADIU</item>
-			<item>ABILITY_RLF_DAMAGE_DELA</item>
-			<item>ABILITY_RLF_FOLLOW_THROUGH_TIM</item>
-			<item>ABILITY_RLF_ART_DURATIO</item>
+			<item>ABILITY_RLF_DAMAGE_RADIUS</item>
+			<item>ABILITY_RLF_DAMAGE_DELAY</item>
+			<item>ABILITY_RLF_FOLLOW_THROUGH_TIME</item>
+			<item>ABILITY_RLF_ART_DURATION</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_PERCENT_NAB1</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_PERCENT_NAB2</item>
-			<item>ABILITY_RLF_PRIMARY_DAMAG</item>
-			<item>ABILITY_RLF_SECONDARY_DAMAG</item>
+			<item>ABILITY_RLF_PRIMARY_DAMAGE</item>
+			<item>ABILITY_RLF_SECONDARY_DAMAGE</item>
 			<item>ABILITY_RLF_DAMAGE_INTERVAL_NAB6</item>
-			<item>ABILITY_RLF_GOLD_COST_FACTO</item>
-			<item>ABILITY_RLF_LUMBER_COST_FACTO</item>
+			<item>ABILITY_RLF_GOLD_COST_FACTOR</item>
+			<item>ABILITY_RLF_LUMBER_COST_FACTOR</item>
 			<item>ABILITY_RLF_MOVE_SPEED_BONUS_NEG1</item>
 			<item>ABILITY_RLF_DAMAGE_BONUS_NEG2</item>
 			<item>ABILITY_RLF_DAMAGE_AMOUNT_NCS1</item>
 			<item>ABILITY_RLF_DAMAGE_INTERVAL_NCS2</item>
 			<item>ABILITY_RLF_MAX_DAMAGE_NCS4</item>
 			<item>ABILITY_RLF_BUILDING_DAMAGE_FACTOR_NCS5</item>
-			<item>ABILITY_RLF_EFFECT_DURATIO</item>
+			<item>ABILITY_RLF_EFFECT_DURATION</item>
 			<item>ABILITY_RLF_SPAWN_INTERVAL_NSY1</item>
-			<item>ABILITY_RLF_SPAWN_UNIT_DURATIO</item>
-			<item>ABILITY_RLF_SPAWN_UNIT_OFFSE</item>
+			<item>ABILITY_RLF_SPAWN_UNIT_DURATION</item>
+			<item>ABILITY_RLF_SPAWN_UNIT_OFFSET</item>
 			<item>ABILITY_RLF_LEASH_RANGE_NSY5</item>
 			<item>ABILITY_RLF_SPAWN_INTERVAL_NFY1</item>
 			<item>ABILITY_RLF_LEASH_RANGE_NFY2</item>
-			<item>ABILITY_RLF_CHANCE_TO_DEMOLIS</item>
-			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_BUILDING</item>
-			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_UNIT</item>
-			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_HEROE</item>
-			<item>ABILITY_RLF_BONUS_DAMAGE_MULTIPLIE</item>
-			<item>ABILITY_RLF_DEATH_DAMAGE_FULL_AMOUN</item>
-			<item>ABILITY_RLF_DEATH_DAMAGE_FULL_ARE</item>
-			<item>ABILITY_RLF_DEATH_DAMAGE_HALF_AMOUN</item>
-			<item>ABILITY_RLF_DEATH_DAMAGE_HALF_ARE</item>
-			<item>ABILITY_RLF_DEATH_DAMAGE_DELA</item>
+			<item>ABILITY_RLF_CHANCE_TO_DEMOLISH</item>
+			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_BUILDINGS</item>
+			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_UNITS</item>
+			<item>ABILITY_RLF_DAMAGE_MULTIPLIER_HEROES</item>
+			<item>ABILITY_RLF_BONUS_DAMAGE_MULTIPLIER</item>
+			<item>ABILITY_RLF_DEATH_DAMAGE_FULL_AMOUNT</item>
+			<item>ABILITY_RLF_DEATH_DAMAGE_FULL_AREA</item>
+			<item>ABILITY_RLF_DEATH_DAMAGE_HALF_AMOUNT</item>
+			<item>ABILITY_RLF_DEATH_DAMAGE_HALF_AREA</item>
+			<item>ABILITY_RLF_DEATH_DAMAGE_DELAY</item>
 			<item>ABILITY_RLF_DAMAGE_AMOUNT_NSO1</item>
-			<item>ABILITY_RLF_DAMAGE_PERIO</item>
-			<item>ABILITY_RLF_DAMAGE_PENALT</item>
+			<item>ABILITY_RLF_DAMAGE_PERIOD</item>
+			<item>ABILITY_RLF_DAMAGE_PENALTY</item>
 			<item>ABILITY_RLF_MOVEMENT_SPEED_REDUCTION_PERCENT_NSO4</item>
 			<item>ABILITY_RLF_ATTACK_SPEED_REDUCTION_PERCENT_NSO5</item>
-			<item>ABILITY_RLF_SPLIT_DELA</item>
-			<item>ABILITY_RLF_MAX_HITPOINT_FACTO</item>
-			<item>ABILITY_RLF_LIFE_DURATION_SPLIT_BONU</item>
-			<item>ABILITY_RLF_WAVE_INTERVA</item>
+			<item>ABILITY_RLF_SPLIT_DELAY</item>
+			<item>ABILITY_RLF_MAX_HITPOINT_FACTOR</item>
+			<item>ABILITY_RLF_LIFE_DURATION_SPLIT_BONUS</item>
+			<item>ABILITY_RLF_WAVE_INTERVAL</item>
 			<item>ABILITY_RLF_BUILDING_DAMAGE_FACTOR_NVC4</item>
 			<item>ABILITY_RLF_FULL_DAMAGE_AMOUNT_NVC5</item>
-			<item>ABILITY_RLF_HALF_DAMAGE_FACTO</item>
-			<item>ABILITY_RLF_INTERVAL_BETWEEN_PULSE</item>
+			<item>ABILITY_RLF_HALF_DAMAGE_FACTOR</item>
+			<item>ABILITY_RLF_INTERVAL_BETWEEN_PULSES</item>
 			<item>ABILITY_BLF_PERCENT_BONUS_HAB2</item>
 			<item>ABILITY_BLF_USE_TELEPORT_CLUSTERING_HMT3</item>
 			<item>ABILITY_BLF_NEVER_MISS_OCR5</item>
-			<item>ABILITY_BLF_EXCLUDE_ITEM_DAMAG</item>
-			<item>ABILITY_BLF_BACKSTAB_DAMAG</item>
+			<item>ABILITY_BLF_EXCLUDE_ITEM_DAMAGE</item>
+			<item>ABILITY_BLF_BACKSTAB_DAMAGE</item>
 			<item>ABILITY_BLF_INHERIT_UPGRADES_UAN3</item>
-			<item>ABILITY_BLF_MANA_CONVERSION_AS_PERCEN</item>
-			<item>ABILITY_BLF_LIFE_CONVERSION_AS_PERCEN</item>
-			<item>ABILITY_BLF_LEAVE_TARGET_ALIV</item>
+			<item>ABILITY_BLF_MANA_CONVERSION_AS_PERCENT</item>
+			<item>ABILITY_BLF_LIFE_CONVERSION_AS_PERCENT</item>
+			<item>ABILITY_BLF_LEAVE_TARGET_ALIVE</item>
 			<item>ABILITY_BLF_PERCENT_BONUS_UAU3</item>
-			<item>ABILITY_BLF_DAMAGE_IS_PERCENT_RECEIVE</item>
-			<item>ABILITY_BLF_MELEE_BONU</item>
-			<item>ABILITY_BLF_RANGED_BONU</item>
-			<item>ABILITY_BLF_FLAT_BONU</item>
+			<item>ABILITY_BLF_DAMAGE_IS_PERCENT_RECEIVED</item>
+			<item>ABILITY_BLF_MELEE_BONUS</item>
+			<item>ABILITY_BLF_RANGED_BONUS</item>
+			<item>ABILITY_BLF_FLAT_BONUS</item>
 			<item>ABILITY_BLF_NEVER_MISS_HBH5</item>
 			<item>ABILITY_BLF_PERCENT_BONUS_HAD2</item>
-			<item>ABILITY_BLF_CAN_DEACTIVAT</item>
-			<item>ABILITY_BLF_RAISED_UNITS_ARE_INVULNERABL</item>
+			<item>ABILITY_BLF_CAN_DEACTIVATE</item>
+			<item>ABILITY_BLF_RAISED_UNITS_ARE_INVULNERABLE</item>
 			<item>ABILITY_BLF_PERCENTAGE_OAR2</item>
-			<item>ABILITY_BLF_SUMMON_BUSY_UNIT</item>
-			<item>ABILITY_BLF_CREATES_BLIGH</item>
-			<item>ABILITY_BLF_EXPLODES_ON_DEAT</item>
+			<item>ABILITY_BLF_SUMMON_BUSY_UNITS</item>
+			<item>ABILITY_BLF_CREATES_BLIGHT</item>
+			<item>ABILITY_BLF_EXPLODES_ON_DEATH</item>
 			<item>ABILITY_BLF_ALWAYS_AUTOCAST_FAE2</item>
-			<item>ABILITY_BLF_REGENERATE_ONLY_AT_NIGH</item>
-			<item>ABILITY_BLF_SHOW_SELECT_UNIT_BUTTO</item>
-			<item>ABILITY_BLF_SHOW_UNIT_INDICATO</item>
-			<item>ABILITY_BLF_CHARGE_OWNING_PLAYE</item>
+			<item>ABILITY_BLF_REGENERATE_ONLY_AT_NIGHT</item>
+			<item>ABILITY_BLF_SHOW_SELECT_UNIT_BUTTON</item>
+			<item>ABILITY_BLF_SHOW_UNIT_INDICATOR</item>
+			<item>ABILITY_BLF_CHARGE_OWNING_PLAYER</item>
 			<item>ABILITY_BLF_PERCENTAGE_ARM2</item>
-			<item>ABILITY_BLF_TARGET_IS_INVULNERABL</item>
-			<item>ABILITY_BLF_TARGET_IS_MAGIC_IMMUN</item>
-			<item>ABILITY_BLF_KILL_ON_CASTER_DEAT</item>
+			<item>ABILITY_BLF_TARGET_IS_INVULNERABLE</item>
+			<item>ABILITY_BLF_TARGET_IS_MAGIC_IMMUNE</item>
+			<item>ABILITY_BLF_KILL_ON_CASTER_DEATH</item>
 			<item>ABILITY_BLF_NO_TARGET_REQUIRED_REJ4</item>
-			<item>ABILITY_BLF_ACCEPTS_GOL</item>
-			<item>ABILITY_BLF_ACCEPTS_LUMBE</item>
+			<item>ABILITY_BLF_ACCEPTS_GOLD</item>
+			<item>ABILITY_BLF_ACCEPTS_LUMBER</item>
 			<item>ABILITY_BLF_PREFER_HOSTILES_ROA5</item>
 			<item>ABILITY_BLF_PREFER_FRIENDLIES_ROA6</item>
-			<item>ABILITY_BLF_ROOTED_TURNIN</item>
+			<item>ABILITY_BLF_ROOTED_TURNING</item>
 			<item>ABILITY_BLF_ALWAYS_AUTOCAST_SLO3</item>
-			<item>ABILITY_BLF_HIDE_BUTTO</item>
+			<item>ABILITY_BLF_HIDE_BUTTON</item>
 			<item>ABILITY_BLF_USE_TELEPORT_CLUSTERING_ITP2</item>
-			<item>ABILITY_BLF_IMMUNE_TO_MORPH_EFFECT</item>
-			<item>ABILITY_BLF_DOES_NOT_BLOCK_BUILDING</item>
-			<item>ABILITY_BLF_AUTO_ACQUIRE_ATTACK_TARGET</item>
+			<item>ABILITY_BLF_IMMUNE_TO_MORPH_EFFECTS</item>
+			<item>ABILITY_BLF_DOES_NOT_BLOCK_BUILDINGS</item>
+			<item>ABILITY_BLF_AUTO_ACQUIRE_ATTACK_TARGETS</item>
 			<item>ABILITY_BLF_IMMUNE_TO_MORPH_EFFECTS_GHO2</item>
-			<item>ABILITY_BLF_DO_NOT_BLOCK_BUILDING</item>
-			<item>ABILITY_BLF_INCLUDE_RANGED_DAMAG</item>
-			<item>ABILITY_BLF_INCLUDE_MELEE_DAMAG</item>
-			<item>ABILITY_BLF_MOVE_TO_PARTNE</item>
-			<item>ABILITY_BLF_CAN_BE_DISPELLE</item>
-			<item>ABILITY_BLF_IGNORE_FRIENDLY_BUFF</item>
-			<item>ABILITY_BLF_DROP_ITEMS_ON_DEAT</item>
-			<item>ABILITY_BLF_CAN_USE_ITEM</item>
-			<item>ABILITY_BLF_CAN_GET_ITEM</item>
-			<item>ABILITY_BLF_CAN_DROP_ITEM</item>
-			<item>ABILITY_BLF_REPAIRS_ALLOWE</item>
-			<item>ABILITY_BLF_CASTER_ONLY_SPLAS</item>
+			<item>ABILITY_BLF_DO_NOT_BLOCK_BUILDINGS</item>
+			<item>ABILITY_BLF_INCLUDE_RANGED_DAMAGE</item>
+			<item>ABILITY_BLF_INCLUDE_MELEE_DAMAGE</item>
+			<item>ABILITY_BLF_MOVE_TO_PARTNER</item>
+			<item>ABILITY_BLF_CAN_BE_DISPELLED</item>
+			<item>ABILITY_BLF_IGNORE_FRIENDLY_BUFFS</item>
+			<item>ABILITY_BLF_DROP_ITEMS_ON_DEATH</item>
+			<item>ABILITY_BLF_CAN_USE_ITEMS</item>
+			<item>ABILITY_BLF_CAN_GET_ITEMS</item>
+			<item>ABILITY_BLF_CAN_DROP_ITEMS</item>
+			<item>ABILITY_BLF_REPAIRS_ALLOWED</item>
+			<item>ABILITY_BLF_CASTER_ONLY_SPLASH</item>
 			<item>ABILITY_BLF_NO_TARGET_REQUIRED_IRL4</item>
-			<item>ABILITY_BLF_DISPEL_ON_ATTAC</item>
-			<item>ABILITY_BLF_AMOUNT_IS_RAW_VALU</item>
-			<item>ABILITY_BLF_SHARED_SPELL_COOLDOW</item>
-			<item>ABILITY_BLF_SLEEP_ONC</item>
-			<item>ABILITY_BLF_ALLOW_ON_ANY_PLAYER_SLO</item>
-			<item>ABILITY_BLF_DISABLE_OTHER_ABILITIE</item>
-			<item>ABILITY_BLF_ALLOW_BOUNT</item>
-			<item>ABILITY_SLF_ICON_NORMA</item>
-			<item>ABILITY_SLF_CASTE</item>
-			<item>ABILITY_SLF_TARGE</item>
-			<item>ABILITY_SLF_SPECIA</item>
-			<item>ABILITY_SLF_EFFEC</item>
-			<item>ABILITY_SLF_AREA_EFFEC</item>
-			<item>ABILITY_SLF_LIGHTNING_EFFECT</item>
-			<item>ABILITY_SLF_MISSILE_AR</item>
-			<item>ABILITY_SLF_TOOLTIP_LEAR</item>
-			<item>ABILITY_SLF_TOOLTIP_LEARN_EXTENDE</item>
-			<item>ABILITY_SLF_TOOLTIP_NORMA</item>
-			<item>ABILITY_SLF_TOOLTIP_TURN_OF</item>
-			<item>ABILITY_SLF_TOOLTIP_NORMAL_EXTENDE</item>
-			<item>ABILITY_SLF_TOOLTIP_TURN_OFF_EXTENDE</item>
+			<item>ABILITY_BLF_DISPEL_ON_ATTACK</item>
+			<item>ABILITY_BLF_AMOUNT_IS_RAW_VALUE</item>
+			<item>ABILITY_BLF_SHARED_SPELL_COOLDOWN</item>
+			<item>ABILITY_BLF_SLEEP_ONCE</item>
+			<item>ABILITY_BLF_ALLOW_ON_ANY_PLAYER_SLOT</item>
+			<item>ABILITY_BLF_DISABLE_OTHER_ABILITIES</item>
+			<item>ABILITY_BLF_ALLOW_BOUNTY</item>
+			<item>ABILITY_SLF_ICON_NORMAL</item>
+			<item>ABILITY_SLF_CASTER</item>
+			<item>ABILITY_SLF_TARGET</item>
+			<item>ABILITY_SLF_SPECIAL</item>
+			<item>ABILITY_SLF_EFFECT</item>
+			<item>ABILITY_SLF_AREA_EFFECT</item>
+			<item>ABILITY_SLF_LIGHTNING_EFFECTS</item>
+			<item>ABILITY_SLF_MISSILE_ART</item>
+			<item>ABILITY_SLF_TOOLTIP_LEARN</item>
+			<item>ABILITY_SLF_TOOLTIP_LEARN_EXTENDED</item>
+			<item>ABILITY_SLF_TOOLTIP_NORMAL</item>
+			<item>ABILITY_SLF_TOOLTIP_TURN_OFF</item>
+			<item>ABILITY_SLF_TOOLTIP_NORMAL_EXTENDED</item>
+			<item>ABILITY_SLF_TOOLTIP_TURN_OFF_EXTENDED</item>
 			<item>ABILITY_SLF_NORMAL_FORM_UNIT_EME1</item>
-			<item>ABILITY_SLF_SPAWNED_UNIT</item>
-			<item>ABILITY_SLF_ABILITY_FOR_UNIT_CREATIO</item>
+			<item>ABILITY_SLF_SPAWNED_UNITS</item>
+			<item>ABILITY_SLF_ABILITY_FOR_UNIT_CREATION</item>
 			<item>ABILITY_SLF_NORMAL_FORM_UNIT_MIL1</item>
 			<item>ABILITY_SLF_ALTERNATE_FORM_UNIT_MIL2</item>
 			<item>ABILITY_SLF_BASE_ORDER_ID_ANS5</item>
-			<item>ABILITY_SLF_MORPH_UNITS_GROUN</item>
-			<item>ABILITY_SLF_MORPH_UNITS_AI</item>
-			<item>ABILITY_SLF_MORPH_UNITS_AMPHIBIOU</item>
-			<item>ABILITY_SLF_MORPH_UNITS_WATE</item>
-			<item>ABILITY_SLF_UNIT_TYPE_ON</item>
-			<item>ABILITY_SLF_UNIT_TYPE_TW</item>
+			<item>ABILITY_SLF_MORPH_UNITS_GROUND</item>
+			<item>ABILITY_SLF_MORPH_UNITS_AIR</item>
+			<item>ABILITY_SLF_MORPH_UNITS_AMPHIBIOUS</item>
+			<item>ABILITY_SLF_MORPH_UNITS_WATER</item>
+			<item>ABILITY_SLF_UNIT_TYPE_ONE</item>
+			<item>ABILITY_SLF_UNIT_TYPE_TWO</item>
 			<item>ABILITY_SLF_UNIT_TYPE_SOD2</item>
-			<item>ABILITY_SLF_SUMMON_1_UNIT_TYP</item>
-			<item>ABILITY_SLF_SUMMON_2_UNIT_TYP</item>
-			<item>ABILITY_SLF_RACE_TO_CONVER</item>
-			<item>ABILITY_SLF_PARTNER_UNIT_TYP</item>
-			<item>ABILITY_SLF_PARTNER_UNIT_TYPE_ON</item>
-			<item>ABILITY_SLF_PARTNER_UNIT_TYPE_TW</item>
-			<item>ABILITY_SLF_REQUIRED_UNIT_TYP</item>
-			<item>ABILITY_SLF_CONVERTED_UNIT_TYP</item>
-			<item>ABILITY_SLF_SPELL_LIS</item>
+			<item>ABILITY_SLF_SUMMON_1_UNIT_TYPE</item>
+			<item>ABILITY_SLF_SUMMON_2_UNIT_TYPE</item>
+			<item>ABILITY_SLF_RACE_TO_CONVERT</item>
+			<item>ABILITY_SLF_PARTNER_UNIT_TYPE</item>
+			<item>ABILITY_SLF_PARTNER_UNIT_TYPE_ONE</item>
+			<item>ABILITY_SLF_PARTNER_UNIT_TYPE_TWO</item>
+			<item>ABILITY_SLF_REQUIRED_UNIT_TYPE</item>
+			<item>ABILITY_SLF_CONVERTED_UNIT_TYPE</item>
+			<item>ABILITY_SLF_SPELL_LIST</item>
 			<item>ABILITY_SLF_BASE_ORDER_ID_SPB5</item>
 			<item>ABILITY_SLF_BASE_ORDER_ID_NCL6</item>
 			<item>ABILITY_SLF_ABILITY_UPGRADE_1</item>
@@ -4493,194 +4483,194 @@
 			<item>ABILITY_SLF_ABILITY_UPGRADE_3</item>
 			<item>ABILITY_SLF_ABILITY_UPGRADE_4</item>
 			<item>ABILITY_SLF_SPAWN_UNIT_ID_NSY2</item>
-			<item>ITEM_IF_LEVE</item>
-			<item>ITEM_IF_NUMBER_OF_CHARGE</item>
-			<item>ITEM_IF_COOLDOWN_GROU</item>
-			<item>ITEM_IF_MAX_HIT_POINT</item>
-			<item>ITEM_IF_HIT_POINT</item>
-			<item>ITEM_IF_PRIORIT</item>
-			<item>ITEM_IF_ARMOR_TYP</item>
-			<item>ITEM_IF_TINTING_COLOR_RE</item>
-			<item>ITEM_IF_TINTING_COLOR_GREE</item>
-			<item>ITEM_IF_TINTING_COLOR_BLU</item>
-			<item>ITEM_IF_TINTING_COLOR_ALPH</item>
-			<item>ITEM_RF_SCALING_VALU</item>
-			<item>ITEM_BF_DROPPED_WHEN_CARRIER_DIE</item>
-			<item>ITEM_BF_CAN_BE_DROPPE</item>
-			<item>ITEM_BF_PERISHABL</item>
-			<item>ITEM_BF_INCLUDE_AS_RANDOM_CHOIC</item>
-			<item>ITEM_BF_USE_AUTOMATICALLY_WHEN_ACQUIRE</item>
-			<item>ITEM_BF_CAN_BE_SOLD_TO_MERCHANT</item>
-			<item>ITEM_BF_ACTIVELY_USE</item>
-			<item>ITEM_SF_MODEL_USE</item>
-			<item>UNIT_IF_DEFENSE_TYP</item>
-			<item>UNIT_IF_ARMOR_TYP</item>
-			<item>UNIT_IF_LOOPING_FADE_IN_RAT</item>
-			<item>UNIT_IF_LOOPING_FADE_OUT_RAT</item>
-			<item>UNIT_IF_AGILIT</item>
-			<item>UNIT_IF_INTELLIGENC</item>
-			<item>UNIT_IF_STRENGT</item>
-			<item>UNIT_IF_AGILITY_PERMANEN</item>
-			<item>UNIT_IF_INTELLIGENCE_PERMANEN</item>
-			<item>UNIT_IF_STRENGTH_PERMANEN</item>
-			<item>UNIT_IF_AGILITY_WITH_BONU</item>
-			<item>UNIT_IF_INTELLIGENCE_WITH_BONU</item>
-			<item>UNIT_IF_STRENGTH_WITH_BONU</item>
-			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DIC</item>
-			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_BAS</item>
-			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DI</item>
-			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_NUMBER_OF_DIC</item>
-			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_BAS</item>
-			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_SIDES_PER_DI</item>
-			<item>UNIT_IF_LEVE</item>
-			<item>UNIT_IF_FORMATION_RAN</item>
-			<item>UNIT_IF_ORIENTATION_INTERPOLATIO</item>
-			<item>UNIT_IF_ELEVATION_SAMPLE_POINT</item>
-			<item>UNIT_IF_TINTING_COLOR_RE</item>
-			<item>UNIT_IF_TINTING_COLOR_GREE</item>
-			<item>UNIT_IF_TINTING_COLOR_BLU</item>
-			<item>UNIT_IF_TINTING_COLOR_ALPH</item>
-			<item>UNIT_IF_MOVE_TYP</item>
-			<item>UNIT_IF_TARGETED_A</item>
-			<item>UNIT_IF_UNIT_CLASSIFICATIO</item>
-			<item>UNIT_IF_HIT_POINTS_REGENERATION_TYP</item>
-			<item>UNIT_IF_PLACEMENT_PREVENTED_B</item>
-			<item>UNIT_IF_PRIMARY_ATTRIBUT</item>
-			<item>UNIT_RF_STRENGTH_PER_LEVE</item>
-			<item>UNIT_RF_AGILITY_PER_LEVE</item>
-			<item>UNIT_RF_INTELLIGENCE_PER_LEVE</item>
-			<item>UNIT_RF_HIT_POINTS_REGENERATION_RAT</item>
-			<item>UNIT_RF_MANA_REGENERATIO</item>
-			<item>UNIT_RF_DEATH_TIM</item>
-			<item>UNIT_RF_FLY_HEIGH</item>
-			<item>UNIT_RF_TURN_RAT</item>
-			<item>UNIT_RF_ELEVATION_SAMPLE_RADIU</item>
-			<item>UNIT_RF_FOG_OF_WAR_SAMPLE_RADIU</item>
-			<item>UNIT_RF_MAXIMUM_PITCH_ANGLE_DEGREE</item>
-			<item>UNIT_RF_MAXIMUM_ROLL_ANGLE_DEGREE</item>
-			<item>UNIT_RF_SCALING_VALU</item>
-			<item>UNIT_RF_ANIMATION_RUN_SPEE</item>
-			<item>UNIT_RF_SELECTION_SCAL</item>
-			<item>UNIT_RF_SELECTION_CIRCLE_HEIGH</item>
-			<item>UNIT_RF_SHADOW_IMAGE_HEIGH</item>
-			<item>UNIT_RF_SHADOW_IMAGE_WIDT</item>
-			<item>UNIT_RF_SHADOW_IMAGE_CENTER_</item>
-			<item>UNIT_RF_SHADOW_IMAGE_CENTER_</item>
-			<item>UNIT_RF_ANIMATION_WALK_SPEE</item>
-			<item>UNIT_RF_DEFENS</item>
-			<item>UNIT_RF_SIGHT_RADIU</item>
-			<item>UNIT_RF_PRIORIT</item>
-			<item>UNIT_RF_SPEE</item>
-			<item>UNIT_RF_OCCLUDER_HEIGH</item>
-			<item>UNIT_RF_H</item>
-			<item>UNIT_RF_MAN</item>
-			<item>UNIT_RF_ACQUISITION_RANG</item>
-			<item>UNIT_RF_CAST_BACK_SWIN</item>
-			<item>UNIT_RF_CAST_POIN</item>
-			<item>UNIT_RF_MINIMUM_ATTACK_RANG</item>
-			<item>UNIT_BF_RAISABL</item>
-			<item>UNIT_BF_DECAYABL</item>
-			<item>UNIT_BF_IS_A_BUILDIN</item>
-			<item>UNIT_BF_USE_EXTENDED_LINE_OF_SIGH</item>
-			<item>UNIT_BF_NEUTRAL_BUILDING_SHOWS_MINIMAP_ICO</item>
-			<item>UNIT_BF_HERO_HIDE_HERO_INTERFACE_ICO</item>
-			<item>UNIT_BF_HERO_HIDE_HERO_MINIMAP_DISPLA</item>
-			<item>UNIT_BF_HERO_HIDE_HERO_DEATH_MESSAG</item>
-			<item>UNIT_BF_HIDE_MINIMAP_DISPLA</item>
-			<item>UNIT_BF_SCALE_PROJECTILE</item>
-			<item>UNIT_BF_SELECTION_CIRCLE_ON_WATE</item>
-			<item>UNIT_BF_HAS_WATER_SHADO</item>
-			<item>UNIT_SF_NAM</item>
-			<item>UNIT_SF_PROPER_NAME</item>
-			<item>UNIT_SF_GROUND_TEXTUR</item>
-			<item>UNIT_SF_SHADOW_IMAGE_UNI</item>
-			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_NUMBER_OF_DIC</item>
-			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_BAS</item>
-			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_SIDES_PER_DI</item>
-			<item>UNIT_WEAPON_IF_ATTACK_MAXIMUM_NUMBER_OF_TARGET</item>
-			<item>UNIT_WEAPON_IF_ATTACK_ATTACK_TYP</item>
-			<item>UNIT_WEAPON_IF_ATTACK_WEAPON_SOUN</item>
-			<item>UNIT_WEAPON_IF_ATTACK_AREA_OF_EFFECT_TARGET</item>
-			<item>UNIT_WEAPON_IF_ATTACK_TARGETS_ALLOWE</item>
-			<item>UNIT_WEAPON_RF_ATTACK_BACKSWING_POIN</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_POIN</item>
-			<item>UNIT_WEAPON_RF_ATTACK_BASE_COOLDOW</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_LOSS_FACTO</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_FACTOR_MEDIU</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_FACTOR_SMAL</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_SPILL_DISTANC</item>
-			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_SPILL_RADIU</item>
-			<item>UNIT_WEAPON_RF_ATTACK_PROJECTILE_SPEE</item>
-			<item>UNIT_WEAPON_RF_ATTACK_PROJECTILE_AR</item>
-			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_FULL_DAMAG</item>
-			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_MEDIUM_DAMAG</item>
-			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_SMALL_DAMAG</item>
-			<item>UNIT_WEAPON_RF_ATTACK_RANG</item>
-			<item>UNIT_WEAPON_BF_ATTACK_SHOW_U</item>
-			<item>UNIT_WEAPON_BF_ATTACKS_ENABLE</item>
-			<item>UNIT_WEAPON_BF_ATTACK_PROJECTILE_HOMING_ENABLE</item>
-			<item>UNIT_WEAPON_SF_ATTACK_PROJECTILE_AR</item>
-			<item>MOVE_TYPE_UNKNOW</item>
-			<item>MOVE_TYPE_FOO</item>
-			<item>MOVE_TYPE_FL</item>
-			<item>MOVE_TYPE_HORS</item>
-			<item>MOVE_TYPE_HOVE</item>
-			<item>MOVE_TYPE_FLOA</item>
-			<item>MOVE_TYPE_AMPHIBIOU</item>
-			<item>MOVE_TYPE_UNBUILDABL</item>
-			<item>TARGET_FLAG_NON</item>
-			<item>TARGET_FLAG_GROUN</item>
-			<item>TARGET_FLAG_AI</item>
-			<item>TARGET_FLAG_STRUCTUR</item>
-			<item>TARGET_FLAG_WAR</item>
-			<item>TARGET_FLAG_ITE</item>
-			<item>TARGET_FLAG_TRE</item>
-			<item>TARGET_FLAG_WAL</item>
-			<item>TARGET_FLAG_DEBRI</item>
-			<item>TARGET_FLAG_DECORATIO</item>
-			<item>TARGET_FLAG_BRIDG</item>
-			<item>DEFENSE_TYPE_LIGH</item>
-			<item>DEFENSE_TYPE_MEDIU</item>
-			<item>DEFENSE_TYPE_LARG</item>
-			<item>DEFENSE_TYPE_FOR</item>
-			<item>DEFENSE_TYPE_NORMA</item>
-			<item>DEFENSE_TYPE_HER</item>
-			<item>DEFENSE_TYPE_DIVIN</item>
-			<item>DEFENSE_TYPE_NON</item>
-			<item>HERO_ATTRIBUTE_ST</item>
-			<item>HERO_ATTRIBUTE_IN</item>
-			<item>HERO_ATTRIBUTE_AG</item>
-			<item>ARMOR_TYPE_WHOKNOW</item>
-			<item>ARMOR_TYPE_FLES</item>
-			<item>ARMOR_TYPE_META</item>
-			<item>ARMOR_TYPE_WOO</item>
-			<item>ARMOR_TYPE_ETHREA</item>
-			<item>ARMOR_TYPE_STON</item>
-			<item>REGENERATION_TYPE_NON</item>
-			<item>REGENERATION_TYPE_ALWAY</item>
-			<item>REGENERATION_TYPE_BLIGH</item>
-			<item>REGENERATION_TYPE_DA</item>
-			<item>REGENERATION_TYPE_NIGH</item>
-			<item>UNIT_CATEGORY_GIAN</item>
-			<item>UNIT_CATEGORY_UNDEA</item>
-			<item>UNIT_CATEGORY_SUMMONE</item>
-			<item>UNIT_CATEGORY_MECHANICA</item>
-			<item>UNIT_CATEGORY_PEO</item>
-			<item>UNIT_CATEGORY_SAPPE</item>
-			<item>UNIT_CATEGORY_TOWNHAL</item>
-			<item>UNIT_CATEGORY_ANCIEN</item>
-			<item>UNIT_CATEGORY_NEUTRA</item>
-			<item>UNIT_CATEGORY_WAR</item>
-			<item>UNIT_CATEGORY_STANDO</item>
-			<item>UNIT_CATEGORY_TAURE</item>
-			<item>PATHING_FLAG_UNWALKABL</item>
-			<item>PATHING_FLAG_UNFLYABL</item>
-			<item>PATHING_FLAG_UNBUILDABL</item>
-			<item>PATHING_FLAG_UNPEONHARVES</item>
-			<item>PATHING_FLAG_BLIGHTE</item>
-			<item>PATHING_FLAG_UNFLOATABL</item>
-			<item>PATHING_FLAG_UNAMPHIBIOU</item>
-			<item>PATHING_FLAG_UNITEMPLACABL</item>
+			<item>ITEM_IF_LEVEL</item>
+			<item>ITEM_IF_NUMBER_OF_CHARGES</item>
+			<item>ITEM_IF_COOLDOWN_GROUP</item>
+			<item>ITEM_IF_MAX_HIT_POINTS</item>
+			<item>ITEM_IF_HIT_POINTS</item>
+			<item>ITEM_IF_PRIORITY</item>
+			<item>ITEM_IF_ARMOR_TYPE</item>
+			<item>ITEM_IF_TINTING_COLOR_RED</item>
+			<item>ITEM_IF_TINTING_COLOR_GREEN</item>
+			<item>ITEM_IF_TINTING_COLOR_BLUE</item>
+			<item>ITEM_IF_TINTING_COLOR_ALPHA</item>
+			<item>ITEM_RF_SCALING_VALUE</item>
+			<item>ITEM_BF_DROPPED_WHEN_CARRIER_DIES</item>
+			<item>ITEM_BF_CAN_BE_DROPPED</item>
+			<item>ITEM_BF_PERISHABLE</item>
+			<item>ITEM_BF_INCLUDE_AS_RANDOM_CHOICE</item>
+			<item>ITEM_BF_USE_AUTOMATICALLY_WHEN_ACQUIRED</item>
+			<item>ITEM_BF_CAN_BE_SOLD_TO_MERCHANTS</item>
+			<item>ITEM_BF_ACTIVELY_USED</item>
+			<item>ITEM_SF_MODEL_USED</item>
+			<item>UNIT_IF_DEFENSE_TYPE</item>
+			<item>UNIT_IF_ARMOR_TYPE</item>
+			<item>UNIT_IF_LOOPING_FADE_IN_RATE</item>
+			<item>UNIT_IF_LOOPING_FADE_OUT_RATE</item>
+			<item>UNIT_IF_AGILITY</item>
+			<item>UNIT_IF_INTELLIGENCE</item>
+			<item>UNIT_IF_STRENGTH</item>
+			<item>UNIT_IF_AGILITY_PERMANENT</item>
+			<item>UNIT_IF_INTELLIGENCE_PERMANENT</item>
+			<item>UNIT_IF_STRENGTH_PERMANENT</item>
+			<item>UNIT_IF_AGILITY_WITH_BONUS</item>
+			<item>UNIT_IF_INTELLIGENCE_WITH_BONUS</item>
+			<item>UNIT_IF_STRENGTH_WITH_BONUS</item>
+			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_NUMBER_OF_DICE</item>
+			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_BASE</item>
+			<item>UNIT_IF_GOLD_BOUNTY_AWARDED_SIDES_PER_DIE</item>
+			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_NUMBER_OF_DICE</item>
+			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_BASE</item>
+			<item>UNIT_IF_LUMBER_BOUNTY_AWARDED_SIDES_PER_DIE</item>
+			<item>UNIT_IF_LEVEL</item>
+			<item>UNIT_IF_FORMATION_RANK</item>
+			<item>UNIT_IF_ORIENTATION_INTERPOLATION</item>
+			<item>UNIT_IF_ELEVATION_SAMPLE_POINTS</item>
+			<item>UNIT_IF_TINTING_COLOR_RED</item>
+			<item>UNIT_IF_TINTING_COLOR_GREEN</item>
+			<item>UNIT_IF_TINTING_COLOR_BLUE</item>
+			<item>UNIT_IF_TINTING_COLOR_ALPHA</item>
+			<item>UNIT_IF_MOVE_TYPE</item>
+			<item>UNIT_IF_TARGETED_AS</item>
+			<item>UNIT_IF_UNIT_CLASSIFICATION</item>
+			<item>UNIT_IF_HIT_POINTS_REGENERATION_TYPE</item>
+			<item>UNIT_IF_PLACEMENT_PREVENTED_BY</item>
+			<item>UNIT_IF_PRIMARY_ATTRIBUTE</item>
+			<item>UNIT_RF_STRENGTH_PER_LEVEL</item>
+			<item>UNIT_RF_AGILITY_PER_LEVEL</item>
+			<item>UNIT_RF_INTELLIGENCE_PER_LEVEL</item>
+			<item>UNIT_RF_HIT_POINTS_REGENERATION_RATE</item>
+			<item>UNIT_RF_MANA_REGENERATION</item>
+			<item>UNIT_RF_DEATH_TIME</item>
+			<item>UNIT_RF_FLY_HEIGHT</item>
+			<item>UNIT_RF_TURN_RATE</item>
+			<item>UNIT_RF_ELEVATION_SAMPLE_RADIUS</item>
+			<item>UNIT_RF_FOG_OF_WAR_SAMPLE_RADIUS</item>
+			<item>UNIT_RF_MAXIMUM_PITCH_ANGLE_DEGREES</item>
+			<item>UNIT_RF_MAXIMUM_ROLL_ANGLE_DEGREES</item>
+			<item>UNIT_RF_SCALING_VALUE</item>
+			<item>UNIT_RF_ANIMATION_RUN_SPEED</item>
+			<item>UNIT_RF_SELECTION_SCALE</item>
+			<item>UNIT_RF_SELECTION_CIRCLE_HEIGHT</item>
+			<item>UNIT_RF_SHADOW_IMAGE_HEIGHT</item>
+			<item>UNIT_RF_SHADOW_IMAGE_WIDTH</item>
+			<item>UNIT_RF_SHADOW_IMAGE_CENTER_X</item>
+			<item>UNIT_RF_SHADOW_IMAGE_CENTER_Y</item>
+			<item>UNIT_RF_ANIMATION_WALK_SPEED</item>
+			<item>UNIT_RF_DEFENSE</item>
+			<item>UNIT_RF_SIGHT_RADIUS</item>
+			<item>UNIT_RF_PRIORITY</item>
+			<item>UNIT_RF_SPEED</item>
+			<item>UNIT_RF_OCCLUDER_HEIGHT</item>
+			<item>UNIT_RF_HP</item>
+			<item>UNIT_RF_MANA</item>
+			<item>UNIT_RF_ACQUISITION_RANGE</item>
+			<item>UNIT_RF_CAST_BACK_SWING</item>
+			<item>UNIT_RF_CAST_POINT</item>
+			<item>UNIT_RF_MINIMUM_ATTACK_RANGE</item>
+			<item>UNIT_BF_RAISABLE</item>
+			<item>UNIT_BF_DECAYABLE</item>
+			<item>UNIT_BF_IS_A_BUILDING</item>
+			<item>UNIT_BF_USE_EXTENDED_LINE_OF_SIGHT</item>
+			<item>UNIT_BF_NEUTRAL_BUILDING_SHOWS_MINIMAP_ICON</item>
+			<item>UNIT_BF_HERO_HIDE_HERO_INTERFACE_ICON</item>
+			<item>UNIT_BF_HERO_HIDE_HERO_MINIMAP_DISPLAY</item>
+			<item>UNIT_BF_HERO_HIDE_HERO_DEATH_MESSAGE</item>
+			<item>UNIT_BF_HIDE_MINIMAP_DISPLAY</item>
+			<item>UNIT_BF_SCALE_PROJECTILES</item>
+			<item>UNIT_BF_SELECTION_CIRCLE_ON_WATER</item>
+			<item>UNIT_BF_HAS_WATER_SHADOW</item>
+			<item>UNIT_SF_NAME</item>
+			<item>UNIT_SF_PROPER_NAMES</item>
+			<item>UNIT_SF_GROUND_TEXTURE</item>
+			<item>UNIT_SF_SHADOW_IMAGE_UNIT</item>
+			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_NUMBER_OF_DICE</item>
+			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_BASE</item>
+			<item>UNIT_WEAPON_IF_ATTACK_DAMAGE_SIDES_PER_DIE</item>
+			<item>UNIT_WEAPON_IF_ATTACK_MAXIMUM_NUMBER_OF_TARGETS</item>
+			<item>UNIT_WEAPON_IF_ATTACK_ATTACK_TYPE</item>
+			<item>UNIT_WEAPON_IF_ATTACK_WEAPON_SOUND</item>
+			<item>UNIT_WEAPON_IF_ATTACK_AREA_OF_EFFECT_TARGETS</item>
+			<item>UNIT_WEAPON_IF_ATTACK_TARGETS_ALLOWED</item>
+			<item>UNIT_WEAPON_RF_ATTACK_BACKSWING_POINT</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_POINT</item>
+			<item>UNIT_WEAPON_RF_ATTACK_BASE_COOLDOWN</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_LOSS_FACTOR</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_FACTOR_MEDIUM</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_FACTOR_SMALL</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_SPILL_DISTANCE</item>
+			<item>UNIT_WEAPON_RF_ATTACK_DAMAGE_SPILL_RADIUS</item>
+			<item>UNIT_WEAPON_RF_ATTACK_PROJECTILE_SPEED</item>
+			<item>UNIT_WEAPON_RF_ATTACK_PROJECTILE_ARC</item>
+			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_FULL_DAMAGE</item>
+			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_MEDIUM_DAMAGE</item>
+			<item>UNIT_WEAPON_RF_ATTACK_AREA_OF_EFFECT_SMALL_DAMAGE</item>
+			<item>UNIT_WEAPON_RF_ATTACK_RANGE</item>
+			<item>UNIT_WEAPON_BF_ATTACK_SHOW_UI</item>
+			<item>UNIT_WEAPON_BF_ATTACKS_ENABLED</item>
+			<item>UNIT_WEAPON_BF_ATTACK_PROJECTILE_HOMING_ENABLED</item>
+			<item>UNIT_WEAPON_SF_ATTACK_PROJECTILE_ART</item>
+			<item>MOVE_TYPE_UNKNOWN</item>
+			<item>MOVE_TYPE_FOOT</item>
+			<item>MOVE_TYPE_FLY</item>
+			<item>MOVE_TYPE_HORSE</item>
+			<item>MOVE_TYPE_HOVER</item>
+			<item>MOVE_TYPE_FLOAT</item>
+			<item>MOVE_TYPE_AMPHIBIOUS</item>
+			<item>MOVE_TYPE_UNBUILDABLE</item>
+			<item>TARGET_FLAG_NONE</item>
+			<item>TARGET_FLAG_GROUND</item>
+			<item>TARGET_FLAG_AIR</item>
+			<item>TARGET_FLAG_STRUCTURE</item>
+			<item>TARGET_FLAG_WARD</item>
+			<item>TARGET_FLAG_ITEM</item>
+			<item>TARGET_FLAG_TREE</item>
+			<item>TARGET_FLAG_WALL</item>
+			<item>TARGET_FLAG_DEBRIS</item>
+			<item>TARGET_FLAG_DECORATION</item>
+			<item>TARGET_FLAG_BRIDGE</item>
+			<item>DEFENSE_TYPE_LIGHT</item>
+			<item>DEFENSE_TYPE_MEDIUM</item>
+			<item>DEFENSE_TYPE_LARGE</item>
+			<item>DEFENSE_TYPE_FORT</item>
+			<item>DEFENSE_TYPE_NORMAL</item>
+			<item>DEFENSE_TYPE_HERO</item>
+			<item>DEFENSE_TYPE_DIVINE</item>
+			<item>DEFENSE_TYPE_NONE</item>
+			<item>HERO_ATTRIBUTE_STR</item>
+			<item>HERO_ATTRIBUTE_INT</item>
+			<item>HERO_ATTRIBUTE_AGI</item>
+			<item>ARMOR_TYPE_WHOKNOWS</item>
+			<item>ARMOR_TYPE_FLESH</item>
+			<item>ARMOR_TYPE_METAL</item>
+			<item>ARMOR_TYPE_WOOD</item>
+			<item>ARMOR_TYPE_ETHREAL</item>
+			<item>ARMOR_TYPE_STONE</item>
+			<item>REGENERATION_TYPE_NONE</item>
+			<item>REGENERATION_TYPE_ALWAYS</item>
+			<item>REGENERATION_TYPE_BLIGHT</item>
+			<item>REGENERATION_TYPE_DAY</item>
+			<item>REGENERATION_TYPE_NIGHT</item>
+			<item>UNIT_CATEGORY_GIANT</item>
+			<item>UNIT_CATEGORY_UNDEAD</item>
+			<item>UNIT_CATEGORY_SUMMONED</item>
+			<item>UNIT_CATEGORY_MECHANICAL</item>
+			<item>UNIT_CATEGORY_PEON</item>
+			<item>UNIT_CATEGORY_SAPPER</item>
+			<item>UNIT_CATEGORY_TOWNHALL</item>
+			<item>UNIT_CATEGORY_ANCIENT</item>
+			<item>UNIT_CATEGORY_NEUTRAL</item>
+			<item>UNIT_CATEGORY_WARD</item>
+			<item>UNIT_CATEGORY_STANDON</item>
+			<item>UNIT_CATEGORY_TAUREN</item>
+			<item>PATHING_FLAG_UNWALKABLE</item>
+			<item>PATHING_FLAG_UNFLYABLE</item>
+			<item>PATHING_FLAG_UNBUILDABLE</item>
+			<item>PATHING_FLAG_UNPEONHARVEST</item>
+			<item>PATHING_FLAG_BLIGHTED</item>
+			<item>PATHING_FLAG_UNFLOATABLE</item>
+			<item>PATHING_FLAG_UNAMPHIBIOUS</item>
+			<item>PATHING_FLAG_UNITEMPLACABLE</item>
 		</list>
 
 		<!--Engine constants-->
