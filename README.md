@@ -15,3 +15,7 @@ The Kate syntax highlighting XML files have to be placed into `$HOME/.local/shar
 ### Windows
 
 The Kate syntax highlighting XML files have to be placed into `%USERPROFILE%\AppData\Local\org.kde.syntax-highlighting\syntax\`.
+
+### Auto Completion
+
+Press Ctrl+Space to get auto completion suggestions in Kate. It even considers your already written line.
