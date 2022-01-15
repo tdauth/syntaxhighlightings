@@ -1500,6 +1500,8 @@
 			<item>BlzFrameGetWidth</item>
 			<item>BlzFrameSetFont</item>
 			<item>BlzFrameSetTextAlignment</item>
+			<item>BlzFrameGetChildrenCount</item>
+			<item>BlzFrameGetChild</item>
 			<item>BlzTriggerRegisterFrameEvent</item>
 			<item>BlzGetTriggerFrame</item>
 			<item>BlzGetTriggerFrameEvent</item>
@@ -3613,6 +3615,16 @@
 			<item>OSKEY_INSERT</item>
 			<item>OSKEY_DELETE</item>
 			<item>OSKEY_HELP</item>
+			<item>OSKEY_0</item>
+    			<item>OSKEY_1</item>
+    			<item>OSKEY_2</item>
+    			<item>OSKEY_3</item>
+    			<item>OSKEY_4</item>
+    			<item>OSKEY_5</item>
+    			<item>OSKEY_6</item>
+    			<item>OSKEY_7</item>
+    			<item>OSKEY_8</item>
+    			<item>OSKEY_9</item>
 			<item>OSKEY_A</item>
 			<item>OSKEY_B</item>
 			<item>OSKEY_C</item>
@@ -5061,9 +5073,6 @@
 			<item>bj_ELEVATOR_WALL_TYPE_NORTH</item>
 			<item>bj_ELEVATOR_WALL_TYPE_SOUTH</item>
 			<item>bj_ELEVATOR_WALL_TYPE_WEST</item>
-			<item>bj_FORCE_ALL_PLAYERS</item>
-			<item>bj_FORCE_PLAYER</item>
-			<item>bj_MELEE_MAX_TWINKED_HEROES</item>
 			<!-- Reforged -->
 			<item>bj_HANDICAP_NORMAL</item>
 			<item>bj_HANDICAPDAMAGE_EASY</item>
@@ -5520,6 +5529,9 @@
 		</list>
 
 		<list name="BlizzardJVariables">
+			<item>bj_FORCE_ALL_PLAYERS</item>
+			<item>bj_FORCE_PLAYER</item>
+			<item>bj_MELEE_MAX_TWINKED_HEROES</item>
 			<item>bj_mapInitialPlayableArea</item>
 			<item>bj_mapInitialCameraBounds</item>
 			<item>bj_forLoopAIndex</item>
@@ -5786,10 +5798,10 @@
 				<keyword attribute="Extension" context="#stay" String="extensions" />
 				<keyword attribute="Blizzard Constant" context="#stay" String="BlizzardJConstants"/>
 				<keyword attribute="Native Constant" context="#stay" String="CommonJConstants"/>
-				<keyword attribute="AI Constant" context="#stay" String="AIConstants"/>
+				<keyword attribute="Native AI Constant" context="#stay" String="AIConstants"/>
 				<keyword attribute="vJass Constant" context="#stay" String="VConstants" />
 				<keyword attribute="Blizzard Variable" context="#stay" String="BlizzardJVariables" />
-				<keyword attribute="AI Variable" context="#stay" String="AIVariables" />
+				<keyword attribute="Blizzard AI Variable" context="#stay" String="AIVariables" />
 
 				<HlCOct attribute="Octal" context="#stay"/>
 				<HlCHex attribute="Hex" context="#stay"/>
