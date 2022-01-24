@@ -1609,6 +1609,11 @@
 			<item>BlzCreateDeadDestructableWithSkin</item>
 			<item>BlzCreateDeadDestructableZWithSkin</item>
 			<item>BlzGetPlayerTownHallCount</item>
+			<item>MathRound</item>
+                        <item>GetPlayerHandicapReviveTime</item>
+			<item>GetPlayerHandicapDamage</item>
+			<item>SetPlayerHandicapReviveTime</item>
+			<item>SetPlayerHandicapDamage</item>
 		</list>
 
 		<!--BJ functions for vJass-->
