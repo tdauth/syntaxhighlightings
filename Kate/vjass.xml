@@ -4699,7 +4699,6 @@
 			<item>bj_UNIT_FACING</item>
 			<item>bj_RADTODEG</item>
 			<item>bj_DEGTORAD</item>
-			<item>bj_PI/180.0</item>
 			<item>bj_TEXT_DELAY_QUEST</item>
 			<item>bj_TEXT_DELAY_QUESTUPDATE</item>
 			<item>bj_TEXT_DELAY_QUESTDONE</item>
