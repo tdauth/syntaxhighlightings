@@ -12,7 +12,7 @@
 
 	 Creators Note:
 	  - This extension was created so KDE Linux users could have an easy and light way of programming in vJass. This extension is opensource and freeware, but please if you use it, credit me, because I lost many hours to make this work and to bring this to the world. Hoping it helps, Flame_Phoenix.-->
-<language name="vJass" version="1.30" kateversion="3.4.5" section="Scripts" extensions="*.j;*.J;*.ai;*.AI" author="Tamino Dauth" priority="9">
+<language name="vJass" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.j;*.J;*.ai;*.AI" author="Barade" priority="9">
 	<highlighting>
 		<!-- keywords of vJass-->
 		<list name="keywords">
@@ -68,6 +68,7 @@
 			<item>SCOPE_PREFIX</item>
 			<item>SCOPE_PRIVATE</item>
 			<item>name</item>
+			<item>readonly</item>
 			<!-- Zinc -->
 			<item>for</item>
 			<item>while</item>
@@ -1610,10 +1611,24 @@
 			<item>BlzCreateDeadDestructableZWithSkin</item>
 			<item>BlzGetPlayerTownHallCount</item>
 			<item>MathRound</item>
-                        <item>GetPlayerHandicapReviveTime</item>
+			<item>GetPlayerHandicapReviveTime</item>
 			<item>GetPlayerHandicapDamage</item>
 			<item>SetPlayerHandicapReviveTime</item>
 			<item>SetPlayerHandicapDamage</item>
+			<item>BlzQueueImmediateOrderById</item>
+			<item>BlzQueuePointOrderById</item>
+			<item>BlzQueueTargetOrderById</item>
+			<item>BlzQueueInstantPointOrderById</item>
+			<item>BlzQueueInstantTargetOrderById</item>
+			<item>BlzQueueBuildOrderById</item>
+			<item>BlzQueueNeutralImmediateOrderById</item>
+			<item>BlzQueueNeutralPointOrderById</item>
+			<item>BlzQueueNeutralTargetOrderById</item>
+			<item>BlzGetUnitOrderCount</item>
+			<item>BlzUnitClearOrders</item>
+			<item>BlzUnitForceStopOrder</item>
+			<item>StartSoundEx</item>
+			<item>BlzGetAbilityId</item>
 		</list>
 
 		<!--BJ functions for vJass-->
@@ -2446,6 +2461,7 @@
 			<item>WakePlayerUnitsEnum</item>
 			<item>WaygateActivateBJ</item>
 			<item>WaygateGetDestinationLocBJ</item>
+			<item>WaygateSetDestinationLocBJ</item>
 			<item>WaygateIsActiveBJ</item>
 			<item>WidgetDropItem</item>
 			<!-- New hashtable stuff -->
@@ -3621,15 +3637,15 @@
 			<item>OSKEY_DELETE</item>
 			<item>OSKEY_HELP</item>
 			<item>OSKEY_0</item>
-    			<item>OSKEY_1</item>
-    			<item>OSKEY_2</item>
-    			<item>OSKEY_3</item>
-    			<item>OSKEY_4</item>
-    			<item>OSKEY_5</item>
-    			<item>OSKEY_6</item>
-    			<item>OSKEY_7</item>
-    			<item>OSKEY_8</item>
-    			<item>OSKEY_9</item>
+			<item>OSKEY_1</item>
+			<item>OSKEY_2</item>
+			<item>OSKEY_3</item>
+			<item>OSKEY_4</item>
+			<item>OSKEY_5</item>
+			<item>OSKEY_6</item>
+			<item>OSKEY_7</item>
+			<item>OSKEY_8</item>
+			<item>OSKEY_9</item>
 			<item>OSKEY_A</item>
 			<item>OSKEY_B</item>
 			<item>OSKEY_C</item>
@@ -4688,6 +4704,13 @@
 			<item>PATHING_FLAG_UNFLOATABLE</item>
 			<item>PATHING_FLAG_UNAMPHIBIOUS</item>
 			<item>PATHING_FLAG_UNITEMPLACABLE</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_GENERAL</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_AMBIENT</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_MUSIC</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_DIALOGUE</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_SOUND_EFFECTS_1</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_SOUND_EFFECTS_2</item>
+			<item>SOUND_VOLUMEGROUP_CINEMATIC_SOUND_EFFECTS_3</item>
 		</list>
 
 		<!--Engine constants-->
