@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language name="vJass" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.fdf;*.FDF" author="Barade" priority="9">
+	<highlighting>
+		<!-- keywords of vJass-->
+		<list name="keywords">
+			<item>Frame</item>
+			<item>INHERITS</item>
+			<item>WITHCHILDREN</item>
+			<item>String</item>
+			<item>Texture</item>
+			<item>Layer</item>
+			<item>Width</item>
+			<item>Height</item>
+			<item>DecorateFileNames</item>
+			<item>Anchor</item>
+			<item>Font</item>
+			<item>File</item>
+			<item>TOPLEFT</item>
+			<item>AlphaMode</item>
+			<item>UseHighlight</item>
+			<item>BarTexture</item>
+			<item>FontColor</item>
+			<item>FontShadowColor</item>
+			<item>FontShadowOffset</item>
+			<item>DecorateFileNames</item>
+			<item>SetAllPoints</item>
+			<item>ControlStyle</item>
+			<item>ControlBackdrop</item>
+			<item>ControlDisabledBackdrop</item>
+			<item>HighlightType</item>
+			<item>HighlightAlphaFile</item>
+			<item>HighlightAlphaMode</item>
+			<item>StringList</item>
+			<item>IncludeFile</item>
+			<item>TabFocusPush</item>
+			<item>LayerStyle</item>
+			<item>SetPoint</item>
+			<item>TOP</item>
+			<item>BOTTOM</item>
+		</list>
+
+		<contexts>
+			<context attribute="Normal Text" lineEndContext="#pop" name="Normal Text" >
+				<DetectSpaces />
+
+				<keyword attribute="Keyword" context="#stay" String="keywords" />
+
+				<HlCOct attribute="Octal" context="#stay"/>
+				<HlCHex attribute="Hex" context="#stay"/>
+				<DetectChar attribute="Hex" context="HexOrTextMacroArgument" char="$" />
+
+				<DetectChar attribute="String" context="String" char="&quot;" />
+				<DetectChar attribute="Raw" context="raw" char="'" />
+
+				<!-- Less than Kate 3.5 - Otherwise use WordDetect -->
+				<RegExpr attribute="Keyword" String="\b{\b" beginRegion="blockRegion"/>
+				<RegExpr attribute="Keyword" String="\b}\b" endRegion="blockRegion"/>
+
+				<!--To make reals and integers colored-->
+				<Float attribute="Float" context="#stay">
+					<AnyChar String="fF" attribute="Float" context="#stay"/>
+				</Float>
+
+				<Int attribute="Decimal" context="#stay">
+					<StringDetect attribute="Decimal" context="#stay" String="ULL" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="LUL" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="LLU" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="UL" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="LU" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="LL" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="U" insensitive="TRUE"/>
+					<StringDetect attribute="Decimal" context="#stay" String="L" insensitive="TRUE"/>
+				</Int>
+			</context>
+
+			<context attribute="String" lineEndContext="#stay" name="String">
+				<LineContinue attribute="String" context="#stay"/>
+				<HlCStringChar attribute="String Char" context="#stay"/>
+				<DetectChar attribute="String" context="#pop" char="&quot;"/>
+				<RegExpr attribute="String Char" context="#stay" String="%(\d+\$)?(-|#|\+|\ |0|,|\()*\d*(\.\d+)?[a-hosxA-CEGHSX]" />
+				<RegExpr attribute="String Char" context="#stay" String="%(\d+\$)?(-|#|\+|\ |0|,|\()*\d*(t|T)(a|A|b|B|c|C|d|D|e|F|h|H|I|j|k|l|L|m|M|N|p|P|Q|r|R|s|S|T|y|Y|z|Z)"/>
+				<RegExpr attribute="String Char" context="#stay" String="%(%|n)" />
+			</context>
+
+			<context attribute="Hex" lineEndContext="#pop" name="HexOrTextMacroArgument">
+				<LineContinue attribute="Hex" context="#stay"/>
+				<DetectChar attribute="Hex" context="#pop" char=" "/>
+				<DetectChar attribute="Hex" context="#pop" char="$"/> <!-- is vJass text macro argument -> ends with $ -->
+			</context>
+
+			<context attribute="Raw" lineEndContext="#stay" name="raw" >
+				<DetectChar attribute="Raw" context="#pop" char="'" />
+			</context>
+
+			<context attribute="Normal Text" lineEndContext="#pop" name="FunctionContext">
+				<DetectSpaces />
+				<DetectIdentifier context="#pop" />
+				<!-- function identifier -> do not end region -->
+			</context>
+
+			<context attribute="Comment" lineEndContext="#pop" name="Commentar 1"/>
+			<context attribute="Comment" lineEndContext="#stay" name="Commentar 2">
+				<DetectSpaces />
+				<Detect2Chars attribute="Comment" context="#pop" char="*" char1="/" endRegion="Comment"/>
+				<DetectIdentifier />
+			</context>
+		</contexts>
+
+		<itemDatas>
+			<itemData name="Normal Text" 	defStyleNum="dsNormal" />
+			<itemData name="Keyword" 	defStyleNum="dsKeyword" />
+			<itemData name="DataType" 	defStyleNum="dsDataType" />
+			<itemData name="String" 	defStyleNum="dsString" />
+			<itemData name="String Char"  	defStyleNum="dsChar"/>
+			<itemData name="Float" 		defStyleNum="dsFloat"/>
+			<itemData name="Decimal" 	defStyleNum="dsDecVal"/>
+			<itemData name="Octal"        	defStyleNum="dsBaseN"/>
+			<itemData name="Hex"          	defStyleNum="dsBaseN"/>
+			<itemData name="Raw" 		defStyleNum="dsOthers" />
+			<itemData name="Comment"	defStyleNum="dsComment"/>
+
+
+			<itemData name="Native"   	defStyleNum="dsOthers"	color="#ba55d3" selColor="#ffffff" bold="1" italic="0"/>
+
+			<itemData name="AI Native"   	defStyleNum="dsOthers"	color="#218B21" selColor="#ffffff" bold="1" italic="0"/>
+
+			<itemData name="Blizzard Function"   	defStyleNum="dsOthers"	color="#ff0000" selColor="#ffffff" bold="1" italic="0"/>
+
+			<itemData name="AI Function"   	defStyleNum="dsOthers"	color="#00CD63" selColor="#ffffff" bold="1" italic="0"/>
+
+			<itemData name="Extension"   	defStyleNum="dsOthers"	color="#0095ff" selColor="#ffffff" bold="1" italic="0"/>
+
+			<itemData name="Native Constant"   	defStyleNum="dsOthers"	color="#ff7f50"	selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Blizzard Constant"   	defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Native AI Constant"  	defStyleNum="dsOthers"	color="#6b8e23" selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="vJass Constant"  	defStyleNum="dsOthers"	color="#ff7f50"	selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Blizzard Variable"  	defStyleNum="dsOthers"	color="#497c8b" selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Blizzard AI Variable"  	defStyleNum="dsOthers"	color="#5c8e6c" selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Preprocessor" defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="0" italic="1"/>
+
+			<itemData name="Preprocessor Statement" defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="1" italic="1"/>
+		</itemDatas>
+	</highlighting>
+
+	<general>
+		<comments>
+			<comment name="singleLine" start="//" />
+			<comment name="multiLine" start="/*" end="*/" region="Comment"/>
+		</comments>
+		<keywords casesensitive="1"/>
+	</general>
+</language>
