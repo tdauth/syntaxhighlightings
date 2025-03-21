@@ -38,6 +38,21 @@
 			<item>SetPoint</item>
 			<item>TOP</item>
 			<item>BOTTOM</item>
+			<item>ControlFocusHighlight</item>
+			<item>ControlMouseOverHighlight</item>
+			<item>BackgroundArt</item>
+			<item>Text</item>
+			<item>ControlShortcutKey</item>
+			<item>TabFocusDefault</item>
+			<item>TabFocusNext</item>
+			<item>ButtonText</item>
+			<item>ControlPushedBackdrop</item>
+			<item>BackdropBackgroundInsets</item>
+			<item>BackdropCornerSize</item>
+			<item>BackdropCornerFlags</item>
+			<item>BackdropBackground</item>
+			<item>BackdropEdgeFile</item>
+			<item>EditTextFrame</item>
 		</list>
 
 		<contexts>
@@ -119,33 +134,6 @@
 			<itemData name="Hex"          	defStyleNum="dsBaseN"/>
 			<itemData name="Raw" 		defStyleNum="dsOthers" />
 			<itemData name="Comment"	defStyleNum="dsComment"/>
-
-
-			<itemData name="Native"   	defStyleNum="dsOthers"	color="#ba55d3" selColor="#ffffff" bold="1" italic="0"/>
-
-			<itemData name="AI Native"   	defStyleNum="dsOthers"	color="#218B21" selColor="#ffffff" bold="1" italic="0"/>
-
-			<itemData name="Blizzard Function"   	defStyleNum="dsOthers"	color="#ff0000" selColor="#ffffff" bold="1" italic="0"/>
-
-			<itemData name="AI Function"   	defStyleNum="dsOthers"	color="#00CD63" selColor="#ffffff" bold="1" italic="0"/>
-
-			<itemData name="Extension"   	defStyleNum="dsOthers"	color="#0095ff" selColor="#ffffff" bold="1" italic="0"/>
-
-			<itemData name="Native Constant"   	defStyleNum="dsOthers"	color="#ff7f50"	selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Blizzard Constant"   	defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Native AI Constant"  	defStyleNum="dsOthers"	color="#6b8e23" selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="vJass Constant"  	defStyleNum="dsOthers"	color="#ff7f50"	selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Blizzard Variable"  	defStyleNum="dsOthers"	color="#497c8b" selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Blizzard AI Variable"  	defStyleNum="dsOthers"	color="#5c8e6c" selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Preprocessor" defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="0" italic="1"/>
-
-			<itemData name="Preprocessor Statement" defStyleNum="dsOthers"	color="#00008b"	selColor="#ffffff" bold="1" italic="1"/>
 		</itemDatas>
 	</highlighting>
 
