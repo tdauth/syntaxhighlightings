@@ -38,6 +38,14 @@
 			<item>SetPoint</item>
 			<item>TOP</item>
 			<item>BOTTOM</item>
+			<item>LEFT</item>
+			<item>RIGHT</item>
+			<item>BOTTOMLEFT</item>
+			<item>BOTTOMRIGHT</item>
+			<item>TOPRIGHT</item>
+			<item>JUSTIFYCENTER</item>
+			<item>JUSTIFYBOTTOM</item>
+			<item>BackdropBlendAll</item>
 			<item>ControlFocusHighlight</item>
 			<item>ControlMouseOverHighlight</item>
 			<item>BackgroundArt</item>
@@ -53,6 +61,19 @@
 			<item>BackdropBackground</item>
 			<item>BackdropEdgeFile</item>
 			<item>EditTextFrame</item>
+			<item>BackdropBackgroundSize</item>
+			<item>FontJustificationH</item>
+			<item>JUSTIFYLEFT</item>
+			<item>JUSTIFYTOP</item>
+			<item>FrameFont</item>
+			<item>TextAreaLineHeight</item>
+			<item>TextAreaLineGap</item>
+			<item>TextAreaInset</item>
+			<item>TextAreaMaxLines</item>
+			<item>TextAreaScrollBar</item>
+			<item>BackdropMirrored</item>
+			<item>DialogBackdrop</item>
+			<item>BackdropTileBackground</item>
 		</list>
 
 		<contexts>
@@ -71,6 +92,10 @@
 				<!-- Less than Kate 3.5 - Otherwise use WordDetect -->
 				<RegExpr attribute="Keyword" String="\b{\b" beginRegion="blockRegion"/>
 				<RegExpr attribute="Keyword" String="\b}\b" endRegion="blockRegion"/>
+
+				<IncludeRules context="##Doxygen" />
+        			<Detect2Chars attribute="Comment" context="Commentar 1" char="/" char1="/"/>
+				<Detect2Chars attribute="Comment" context="Commentar 2" char="/" char1="*" beginRegion="Comment"/>
 
 				<!--To make reals and integers colored-->
 				<Float attribute="Float" context="#stay">
