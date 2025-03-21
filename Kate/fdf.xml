@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
-<language name="vJass" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.fdf;*.FDF" author="Barade" priority="9">
+<!-- https://www.hiveworkshop.com/threads/ui-reading-a-fdf.315850/ -->
+<language name="FDF" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.fdf;*.FDF" author="Barade" priority="9">
 	<highlighting>
 		<!-- keywords of vJass-->
 		<list name="keywords">
