@@ -22,9 +22,13 @@
 			<item>UseHighlight</item>
 			<item>BarTexture</item>
 			<item>FontColor</item>
+			<item>FontHighlightColor</item>
+			<item>FontDisabledColor</item>
 			<item>FontShadowColor</item>
 			<item>FontShadowOffset</item>
-			<item>DecorateFileNames</item>
+			<item>FontJustificationV</item>
+			<item>FontJustificationH</item>
+			<item>FontFlags</item>
 			<item>SetAllPoints</item>
 			<item>ControlStyle</item>
 			<item>ControlBackdrop</item>
@@ -63,7 +67,6 @@
 			<item>BackdropEdgeFile</item>
 			<item>EditTextFrame</item>
 			<item>BackdropBackgroundSize</item>
-			<item>FontJustificationH</item>
 			<item>JUSTIFYLEFT</item>
 			<item>JUSTIFYTOP</item>
 			<item>FrameFont</item>
