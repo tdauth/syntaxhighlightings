@@ -97,6 +97,7 @@
 			<item>NormalText</item>
 			<item>DisabledText</item>
 			<item>HighlightText</item>
+			<item>MenuItem</item>
 		</list>
 
 		<contexts>
