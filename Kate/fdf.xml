@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 <!-- https://www.hiveworkshop.com/threads/ui-reading-a-fdf.315850/ -->
-<language name="FDF" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.fdf;*.FDF" author="Barade" priority="1">
+<language name="FDF" version="1.31" kateversion="3.4.5" section="Scripts" extensions="*.fdf;*.FDF" author="Baradé">
 	<highlighting>
 		<!-- keywords of vJass-->
 		<list name="keywords">
@@ -78,6 +78,17 @@
 			<item>BackdropMirrored</item>
 			<item>DialogBackdrop</item>
 			<item>BackdropTileBackground</item>
+			<item>TexCoord</item>
+			<item>UseActiveContext</item>
+			<item>FontJustificationH</item>
+			<item>JUSTIFYRIGHT</item>
+			<item>FontJustificationV</item>
+			<item>PopupTitleFrame</item>
+			<item>PopupButtonInset</item>
+			<item>PopupArrowFrame</item>
+			<item>PopupMenuFrame</item>
+			<item>CENTER</item>
+			<item>JUSTIFYMIDDLE</item>
 		</list>
 
 		<contexts>

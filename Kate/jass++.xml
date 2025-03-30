@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 <!-- TODO \ character continues line at next line, { and } are not used for scopes anymore -> add scope spaces when using tabs (like Python)! Highlight object data values in strings. -->
-<language name="JASS++" version="1.0" kateversion="3.4.5" section="Scripts" extensions="*.j;*.J;*.ai;*.AI;*.aipp;*.AIPP;*.jpp;*.JPP" author="Tamino Dauth" priority="5">
+<language name="JASS++" version="1.0" kateversion="3.4.5" section="Scripts" extensions="*.aipp;*.AIPP;*.jpp;*.JPP" author="Tamino Dauth">
 	<highlighting>
 		<list name="type_keywords">
 			<item>void</item>
