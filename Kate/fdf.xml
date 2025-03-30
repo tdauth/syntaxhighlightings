@@ -89,6 +89,14 @@
 			<item>PopupMenuFrame</item>
 			<item>CENTER</item>
 			<item>JUSTIFYMIDDLE</item>
+			<item>ButtonPushedTextOffset</item>
+			<item>NormalTexture</item>
+			<item>PushedTexture</item>
+			<item>DisabledTexture</item>
+			<item>UseHighlight</item>
+			<item>NormalText</item>
+			<item>DisabledText</item>
+			<item>HighlightText</item>
 		</list>
 
 		<contexts>
