@@ -10,11 +10,11 @@ Different syntax highlighting files mostly for Warcraft III modding.
 
 ### Linux
 
-The Kate syntax highlighting XML files have to be placed into `$HOME/.local/share/katepart5/syntax/`.
+[update.sh](./update.sh) updates all syntax highlighting file on Linux.
 
 ### Windows
 
-The Kate syntax highlighting XML files have to be placed into `%USERPROFILE%\AppData\Local\org.kde.syntax-highlighting\syntax\`.
+[update.bat](./update.bat) updates all syntax highlighting file on Windows.
 
 ### Auto Completion
 
