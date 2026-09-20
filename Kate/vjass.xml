@@ -5017,6 +5017,8 @@
 			<item>bj_MISSION_INDEX_RU01</item> <!-- Forsaken Kingdom -->
 			<item>bj_MISSION_INDEX_RU02</item> <!-- Forsaken Kingdom -->
 			<item>bj_MISSION_INDEX_RU03</item> <!-- Forsaken Kingdom -->
+			<item>bj_CINEMATICINDEX_HFO</item> <!-- Forsaken Kingdom -->
+			<item>bj_CINEMATICINDEX_UFE</item> <!-- Forsaken Kingdom -->
 			<item>bj_KEYEVENTKEY_A</item> <!-- Forsaken Kingdom -->
 			<item>bj_MAX_PLAYERS</item>
 			<item>bj_PLAYER_NEUTRAL_VICTIM</item>
