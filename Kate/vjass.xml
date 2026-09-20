@@ -5292,6 +5292,8 @@
 			<item>ZEPPELIN</item>
 			<item>W2_WARLOCK</item>
 			<item>PIG_FARM</item>
+			<item>FOREST_TROLL</item>
+			<item>DRAGON_ROOST</item>
 			<item>CHAOS_GRUNT</item>
 			<item>CHAOS_WARLOCK</item>
 			<item>CHAOS_RAIDER</item>
@@ -5451,6 +5453,8 @@
 			<item>HIGH_TOWER</item>
 			<item>ELF_HIGH_BARRACKS</item>
 			<item>CORRUPT_LIFE</item>
+			<item>CORRUPT_AGES</item>
+			<item>CORRUPT_ETERNITY</item>
 			<item>CORRUPT_WELL</item>
 			<item>CORRUPT_PROTECTOR</item>
 			<item>CORRUPT_WAR</item>
