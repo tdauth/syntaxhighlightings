@@ -102,6 +102,95 @@
 			<item>AddUnitToStock</item>
 			<item>AddWeatherEffect</item>
 			<item>AdjustCameraField</item>
+			<item>AllowHeroGlowOnUnit</item> <!-- Forsaken Kingdom -->
+			<item>DisallowHeroGlowOnUnit</item> <!-- Forsaken Kingdom -->
+			<item>HeroGlowIsAllowedOnUnit</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetUnitAnimationDuration</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetUnitAnimationDurationByIndex</item> <!-- Forsaken Kingdom -->
+			<item>SetCameraFieldControlledByInput</item> <!-- Forsaken Kingdom -->
+			<item>GetCameraFieldControlledByInput</item> <!-- Forsaken Kingdom -->
+			<item>BlzCameraSetCameraType</item> <!-- Forsaken Kingdom -->
+			<item>BlzCameraGetCameraType</item> <!-- Forsaken Kingdom -->
+			<item>BlzCameraSetupSetCameraType</item> <!-- Forsaken Kingdom -->
+			<item>BlzCameraSetupGetCameraType</item> <!-- Forsaken Kingdom -->
+			<item>EnableCameraBlocker</item> <!-- Forsaken Kingdom -->
+			<item>AddCameraBlocker</item> <!-- Forsaken Kingdom -->
+			<item>BlzPauseThematicMusicOnFocusLost</item> <!-- Forsaken Kingdom -->
+			<item>SetHDWaterParams</item> <!-- Forsaken Kingdom -->
+			<item>SetHDWaterParamsEx</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterColorOverride</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterVertexDisplacement</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterMinOpacity</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterMaxOpacity</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterReflectivity</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEmissivity</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEdgeSoftness</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterWaveStrength</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEnvMapStrength</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsTerrainPathableEx</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSingleDoodadAnimation</item> <!-- Forsaken Kingdom -->
+			<item>SetDoodadColor</item> <!-- Forsaken Kingdom -->
+			<item>SetDoodadColorRect</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSingleDoodadColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadX</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadY</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadZ</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadScaleX</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadScaleY</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadScaleZ</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadIsUsingModelAxes</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadYaw</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadPitch</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadVariation</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetDoodadId</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetNumDoodads</item> <!-- Forsaken Kingdom -->
+			<item>BlzResetUnitAttack</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSpecialEffectAnimationBlendTime</item> <!-- Forsaken Kingdom -->
+			<item>BlzQueueSpecialEffectAnimation</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSpecialEffectAnimation</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitEnableAuras</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetUnitAbilityCooldownPercent</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetUnitAbilityCooldownRemaining</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetUnitAbilityCooldownPercent</item> <!-- Forsaken Kingdom -->
+			<item>BlzAdjustUnitAbilityCooldownRemaining</item> <!-- Forsaken Kingdom -->
+			<item>BlzAdjustUnitAbilityCooldownPercent</item> <!-- Forsaken Kingdom -->
+			<item>BlzTextAreaFrameSetAutoScroll</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsMetaKeyPressed</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsKeyPressed</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsMouseButtonPressed</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetMouseScreenPosX</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetMouseScreenPosY</item> <!-- Forsaken Kingdom -->
+			<item>BlzPixelToFrameX</item> <!-- Forsaken Kingdom -->
+			<item>BlzPixelToFrameY</item> <!-- Forsaken Kingdom -->
+			<item>BlzFrameToPixelX</item> <!-- Forsaken Kingdom -->
+			<item>BlzFrameToPixelY</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructablePitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructablePitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableWithSkinPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZWithSkinPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableWithSkinPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZWithSkinPitchRoll</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableWithSkinColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZWithSkinColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableWithSkinColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZWithSkinColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructablePitchRollWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZPitchRollWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructablePitchRollWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZPitchRollWithColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableWithSkinPitchRollColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDestructableZWithSkinPitchRollColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableWithSkinPitchRollColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzCreateDeadDestructableZWithSkinPitchRollColor</item> <!-- Forsaken Kingdom -->
+			<item>SetDestructableVertexColor</item> <!-- Forsaken Kingdom -->
 			<item>And</item>
 			<item>Asin</item>
 			<item>Atan</item>
@@ -128,6 +217,7 @@
 			<item>ChooseRandomCreep</item>
 			<item>ChooseRandomItem</item>
 			<item>ChooseRandomItemEx</item>
+			<item>ChooseRandomItemExWithFilter</item> <!-- Forsaken Kingdom -->
 			<item>ChooseRandomNPBuilding</item>
 			<item>ClearMapMusic</item>
 			<item>ClearSelection</item>
@@ -581,6 +671,8 @@
 			<item>IsItemIdPowerup</item>
 			<item>IsItemIdSellable</item>
 			<item>IsItemInvulnerable</item>
+			<item>IsItemEquipped</item> <!-- Forsaken Kingdom -->
+			<item>IsItemInBag</item> <!-- Forsaken Kingdom -->
 			<item>IsItemOwned</item>
 			<item>IsItemPawnable</item>
 			<item>IsItemPowerup</item>
@@ -739,6 +831,14 @@
 			<item>PlayerGetLeaderboard</item>
 			<item>PlayerSetLeaderboard</item>
 			<item>PlayModelCinematic</item>
+			<item>BlzPreloadModelCinematicGame</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetModelCinematicGameShotCount</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetModelCinematicGameCurrentShot</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetModelCinematicGameRemainingTime</item> <!-- Forsaken Kingdom -->
+			<item>BlzPlayModelCinematicGameAtPosition</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetCinematicEnabledDE</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetMinShadowCastingPointLightCount</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetMinShadowCastingPointLightCount</item> <!-- Forsaken Kingdom -->
 			<item>PlayMusic</item>
 			<item>PlayMusicEx</item>
 			<item>PlayThematicMusic</item>
@@ -851,6 +951,7 @@
 			<item>SetDefaultDifficulty</item>
 			<item>SetDestructableAnimation</item>
 			<item>SetDestructableAnimationSpeed</item>
+			<item>SetDestructableColor</item> <!-- Forsaken Kingdom -->
 			<item>SetDestructableInvulnerable</item>
 			<item>SetDestructableLife</item>
 			<item>SetDestructableMaxLife</item>
@@ -889,8 +990,11 @@
 			<item>SetItemPawnable</item>
 			<item>SetItemPlayer</item>
 			<item>SetItemPosition</item>
+			<item>SetItemColor</item> <!-- Forsaken Kingdom -->
 			<item>SetItemTypeSlots</item>
 			<item>SetItemUserData</item>
+			<item>GetItemEquipmentType</item> <!-- Forsaken Kingdom -->
+			<item>GetItemTag</item> <!-- Forsaken Kingdom -->
 			<item>SetItemVisible</item>
 			<item>SetLightningColor</item>
 			<item>SetMapDescription</item>
@@ -910,6 +1014,7 @@
 			<item>SetPlayerName</item>
 			<item>SetPlayerOnScoreScreen</item>
 			<item>SetPlayerRacePreference</item>
+			<item>SetPlayerRaceSkin</item> <!-- Forsaken Kingdom -->
 			<item>SetPlayerRaceSelectable</item>
 			<item>SetPlayers</item>
 			<item>SetPlayerStartLocation</item>
@@ -943,6 +1048,18 @@
 			<item>SetTeams</item>
 			<item>SetTerrainFog</item>
 			<item>SetTerrainFogEx</item>
+			<item>SetTerrainFogExV</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogStyle</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogZStart</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogZEnd</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogDensity</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogHeightStart</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogHeightEnd</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogLinearStart</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogLinearEnd</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogMaxLinearDensity</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogDrawOverSky</item><!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogColor</item><!-- Forsaken Kingdom -->
 			<item>SetTerrainPathable</item>
 			<item>SetTerrainType</item>
 			<item>SetTextTagAge</item>
@@ -1081,6 +1198,7 @@
 			<item>UnitAddAbility</item>
 			<item>UnitAddIndicator</item>
 			<item>UnitAddItem</item>
+			<item>UnitEquipItem</item> <!-- Forsaken Kingdom -->
 			<item>UnitAddItemById</item>
 			<item>UnitAddItemToSlotById</item>
 			<item>UnitAddSleep</item>
@@ -1097,11 +1215,20 @@
 			<item>UnitDropItemTarget</item>
 			<item>UnitHasBuffsEx</item>
 			<item>UnitHasItem</item>
+			<item>UnitHasItemBagged</item> <!-- Forsaken Kingdom -->
 			<item>UnitId</item>
 			<item>UnitId2String</item>
 			<item>UnitIgnoreAlarm</item>
 			<item>UnitIgnoreAlarmToggled</item>
 			<item>UnitInventorySize</item>
+			<item>UnitExtendedInventorySize</item> <!-- Forsaken Kingdom -->
+			<item>UnitItemInBagSlot</item> <!-- Forsaken Kingdom -->
+			<item>UnitItemInEquipmentSlot</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasItemEquipped</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasLoadoutSlotEmpty</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasAnyItemEquiped</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasItemEquipmentOfType</item> <!-- Forsaken Kingdom -->
+			<item>UnitCanEquipItemOfEquipmentType</item> <!-- Forsaken Kingdom -->
 			<item>UnitIsSleeping</item>
 			<item>UnitItemInSlot</item>
 			<item>UnitMakeAbilityPermanent</item>
@@ -1114,6 +1241,8 @@
 			<item>UnitRemoveBuffsEx</item>
 			<item>UnitRemoveItem</item>
 			<item>UnitRemoveItemFromSlot</item>
+			<item>UnitUnequipItem</item> <!-- Forsaken Kingdom -->
+			<item>UnitUnequipItemFromSlot</item> <!-- Forsaken Kingdom -->
 			<item>UnitRemoveType</item>
 			<item>UnitResetCooldown</item>
 			<item>UnitSetConstructionProgress</item>
@@ -1280,6 +1409,10 @@
 			<item>ConvertRegenType</item>
 			<item>ConvertUnitCategory</item>
 			<item>ConvertPathingFlag</item>
+			<item>ConvertFogStyle</item> <!-- Forsaken Kingdom -->
+			<item>ConvertEquipmentType</item> <!-- Forsaken Kingdom -->
+			<item>ConvertItemTag</item> <!-- Forsaken Kingdom -->
+			<item>ConvertLoadoutSlot</item> <!-- Forsaken Kingdom -->
 			<item>GetBJMaxPlayers</item>
 			<item>GetBJPlayerNeutralVictim</item>
 			<item>GetBJPlayerNeutralExtra</item>
@@ -1655,6 +1788,74 @@
 			<item>AtanBJ</item>
 			<item>AttachSoundToUnitBJ</item>
 			<item>BJDebugMsg</item>
+			<item>SetWantDestroyGroupBJ</item> <!-- Forsaken Kingdom -->
+			<item>ClearWantDestroyGroupBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetWantDestroyGroupBJ</item> <!-- Forsaken Kingdom -->
+			<item>IsMouseButtonPressedBJ</item> <!-- Forsaken Kingdom -->
+			<item>IsMetaKeyPressedBJ</item> <!-- Forsaken Kingdom -->
+			<item>IsKeyPressedBJ</item> <!-- Forsaken Kingdom -->
+			<item>SetHDWaterParamsExBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterColorBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterColorOverrideBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzClearHDWaterColorOverrideBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterVertexDisplacementBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterMinOpacityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterMaxOpacityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterReflectivityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEmissivityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEdgeSoftnessBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterWaveStrengthBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetHDWaterEnvMapStrengthBJ</item> <!-- Forsaken Kingdom -->
+			<item>SetTerrainFogExVBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogStyleBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogZStartBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogZEndBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogDensityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogHeightStartBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogHeightEndBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogLinearStartBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogLinearEndBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogMaxLinearDensityBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogDrawOverSkyBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetTerrainFogColorBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSingleDoodadAnimationBJ</item> <!-- Forsaken Kingdom -->
+			<item>SetDoodadColorBJ</item> <!-- Forsaken Kingdom -->
+			<item>SetDoodadColorRectBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetSingleDoodadColorBJ</item> <!-- Forsaken Kingdom -->
+			<item>AllowHeroGlowOnUnitBJ</item> <!-- Forsaken Kingdom -->
+			<item>DisallowHeroGlowOnUnitBJ</item> <!-- Forsaken Kingdom -->
+			<item>ToggleHeroGlowOnAllUnitsBJEnum</item> <!-- Forsaken Kingdom -->
+			<item>ToggleHeroGlowOnAllUnitsBJ</item> <!-- Forsaken Kingdom -->
+			<item>AllowHeroGlowOnAllUnitsBJ</item> <!-- Forsaken Kingdom -->
+			<item>DisallowHeroGlowOnAllUnitsBJ</item> <!-- Forsaken Kingdom -->
+			<item>HeroGlowIsAllowedOnUnitBJ</item> <!-- Forsaken Kingdom -->
+			<item>DestroyEffectAsyncBJ</item> <!-- Forsaken Kingdom -->
+			<item>DestroyEffectAfterTimeBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitEquipItemSwapped</item> <!-- Forsaken Kingdom -->
+			<item>UnitEquipItemByIdSwapped</item> <!-- Forsaken Kingdom -->
+			<item>UnitUnequipItemSwapped</item> <!-- Forsaken Kingdom -->
+			<item>UnitUnequipItemFromSlotSwapped</item> <!-- Forsaken Kingdom -->
+			<item>GetLastEquippedItem</item> <!-- Forsaken Kingdom -->
+			<item>GetLastUnequippedItem</item> <!-- Forsaken Kingdom -->
+			<item>UnitItemInBagSlotBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitItemInEquipmentSlotBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetInventoryBagIndexOfItemTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetItemOfTypeFromUnitBagBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasItemOfTypeBaggedBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetInventoryBagIndexOfEquipmentTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetItemOfEquipmentTypeFromUnitBagBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetEquipmentInventoryIndexOfItemTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetEquipmentInventoryIndexOfEquipmentTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetItemEquippedByHeroOfTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>GetItemEquippedByHeroOfEquipmentTypeBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitHasItemOfTypeEquippedBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitExtendedInventoryCount</item> <!-- Forsaken Kingdom -->
+			<item>UnitExtendedInventorySizeBJ</item> <!-- Forsaken Kingdom -->
+			<item>UnitEquipmentCount</item> <!-- Forsaken Kingdom -->
+			<item>ChooseRandomItemExWithFilterBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzAllUnitsEnableAurasBJEnum</item> <!-- Forsaken Kingdom -->
+			<item>BlzAllUnitsEnableAurasBJ</item> <!-- Forsaken Kingdom -->
+			<item>BlzEnableAuras</item> <!-- Forsaken Kingdom -->
 			<item>BlightGoldMineForPlayer</item>
 			<item>BlightGoldMineForPlayerBJ</item>
 			<item>CameraClearNoiseForPlayer</item>
@@ -2987,6 +3188,7 @@
 			<item>textaligntype</item>
 			<item>frameeventtype</item>
 			<item>oskeytype</item>
+			<item>metakeytype</item> <!-- Forsaken Kingdom -->
 			<item>abilityintegerfield</item>
 			<item>abilityrealfield</item>
 			<item>abilitybooleanfield</item>
@@ -3020,6 +3222,10 @@
 			<item>unitcategory</item>
 			<item>pathingflag</item>
 			<item>commandbuttoneffect</item>
+			<item>fogstyle</item> <!-- Forsaken Kingdom -->
+			<item>equipmentType</item> <!-- Forsaken Kingdom -->
+			<item>itemTag</item> <!-- Forsaken Kingdom -->
+			<item>loadoutslot</item> <!-- Forsaken Kingdom -->
 		</list>
 
 		<!--Constant variables from the language-->
@@ -3131,6 +3337,7 @@
 			<item>RACE_PREF_DEMON</item>
 			<item>RACE_PREF_RANDOM</item>
 			<item>RACE_PREF_USER_SELECTABLE</item>
+			<item>RACE_PREF_FORSAKEN</item> <!-- Forsaken Kingdom -->
 			<item>MAP_CONTROL_USER</item>
 			<item>MAP_CONTROL_COMPUTER</item>
 			<item>MAP_CONTROL_RESCUABLE</item>
@@ -3187,6 +3394,12 @@
 			<item>PLAYER_SLOT_STATE_EMPTY</item>
 			<item>PLAYER_SLOT_STATE_PLAYING</item>
 			<item>PLAYER_SLOT_STATE_LEFT</item>
+			<item>FOG_STYLE_LINEAR</item> <!-- Forsaken Kingdom -->
+			<item>FOG_STYLE_EXP</item> <!-- Forsaken Kingdom -->
+			<item>FOG_STYLE_EXP2</item> <!-- Forsaken Kingdom -->
+			<item>FOG_STYLE_HEIGHT</item> <!-- Forsaken Kingdom -->
+			<item>FOG_STYLE_NEW_EXP</item> <!-- Forsaken Kingdom -->
+			<item>FOG_STYLE_NEW_EXP_2</item> <!-- Forsaken Kingdom -->
 			<item>SOUND_VOLUMEGROUP_UNITMOVEMENT</item>
 			<item>SOUND_VOLUMEGROUP_UNITSOUNDS</item>
 			<item>SOUND_VOLUMEGROUP_COMBAT</item>
@@ -3411,9 +3624,38 @@
 			<item>ITEM_TYPE_PURCHASABLE</item>
 			<item>ITEM_TYPE_CAMPAIGN</item>
 			<item>ITEM_TYPE_MISCELLANEOUS</item>
+			<item>ITEM_TYPE_EQUIPMENT</item> <!-- Forsaken Kingdom -->
 			<item>ITEM_TYPE_UNKNOWN</item>
 			<item>ITEM_TYPE_ANY</item>
 			<item>ITEM_TYPE_TOME</item>
+			<item>EQUIPMENT_TYPE_NONE</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_HEAD</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_CHEST</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_GLOVES</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_BOOTS</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_RING</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_PRIMARY</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_OFFHAND</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_TRINKET</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_TYPE_ANY</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_UNDEFINED</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_DROPPABLE</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_QUESTREWARD</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_BOSSDROP</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_SECRET</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_PUZZLE</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_WORLD</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_SHOP</item> <!-- Forsaken Kingdom -->
+			<item>ITEMTAG_TYPE_ANY</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_HEAD</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_CHEST</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_GLOVES</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_BOOTS</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_RING</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_RINGALT</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_PRIMARY</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_OFFHAND</item> <!-- Forsaken Kingdom -->
+			<item>EQUIPMENT_LOADOUT_SLOT_TRINKET</item> <!-- Forsaken Kingdom -->
 			<item>CAMERA_FIELD_TARGET_DISTANCE</item>
 			<item>CAMERA_FIELD_FARZ</item>
 			<item>CAMERA_FIELD_ANGLE_OF_ATTACK</item>
@@ -3463,6 +3705,7 @@
 			<item>PLAYER_COLOR_SNOW</item>
 			<item>PLAYER_COLOR_EMERALD</item>
 			<item>PLAYER_COLOR_PEANUT</item>
+			<item>PLAYER_COLOR_BLACK</item> <!-- Forsaken Kingdom -->
 			<item>MOUSE_BUTTON_TYPE_LEFT</item>
 			<item>MOUSE_BUTTON_TYPE_MIDDLE</item>
 			<item>MOUSE_BUTTON_TYPE_RIGHT</item>
@@ -3541,11 +3784,18 @@
 			<item>EVENT_PLAYER_KEY_DOWN</item>
 			<item>EVENT_PLAYER_KEY_UP</item>
 			<item>EVENT_PLAYER_UNIT_STACK_ITEM</item>
+			<item>EVENT_PLAYER_UNIT_EQUIP_ITEM</item> <!-- Forsaken Kingdom -->
+			<item>EVENT_PLAYER_UNIT_UNEQUIP_ITEM</item> <!-- Forsaken Kingdom -->
 			<item>EVENT_UNIT_STACK_ITEM</item>
+			<item>EVENT_UNIT_EQUIP_ITEM</item> <!-- Forsaken Kingdom -->
+			<item>EVENT_UNIT_UNEQUIP_ITEM</item> <!-- Forsaken Kingdom -->
 			<item>CAMERA_FIELD_NEARZ</item>
 			<item>CAMERA_FIELD_LOCAL_PITCH</item>
 			<item>CAMERA_FIELD_LOCAL_YAW</item>
 			<item>CAMERA_FIELD_LOCAL_ROLL</item>
+			<item>CAMERA_FIELD_DEPTH_OF_FIELD_DISTANCE</item> <!-- Forsaken Kingdom -->
+			<item>CAMERA_FIELD_DEPTH_OF_FIELD_SCALE</item> <!-- Forsaken Kingdom -->
+			<item>CAMERA_FIELD_ZABSOLUTE</item> <!-- Forsaken Kingdom -->
 			<item>ORIGIN_FRAME_GAME_UI</item>
 			<item>ORIGIN_FRAME_COMMAND_BUTTON</item>
 			<item>ORIGIN_FRAME_HERO_BAR</item>
@@ -3789,6 +4039,11 @@
 			<item>OSKEY_NONAME</item>
 			<item>OSKEY_PA1</item>
 			<item>OSKEY_OEM_CLEAR</item>
+			<item>METAKEY_NONE</item> <!-- Forsaken Kingdom -->
+			<item>METAKEY_SHIFT</item> <!-- Forsaken Kingdom -->
+			<item>METAKEY_CTRL</item> <!-- Forsaken Kingdom -->
+			<item>METAKEY_ALT</item> <!-- Forsaken Kingdom -->
+			<item>METAKEY_WINKEYS</item> <!-- Forsaken Kingdom -->
 			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_X</item>
 			<item>ABILITY_IF_BUTTON_POSITION_NORMAL_Y</item>
 			<item>ABILITY_IF_BUTTON_POSITION_ACTIVATED_X</item>
@@ -4576,6 +4831,7 @@
 			<item>UNIT_RF_MANA_REGENERATION</item>
 			<item>UNIT_RF_DEATH_TIME</item>
 			<item>UNIT_RF_FLY_HEIGHT</item>
+			<item>UNIT_RF_FLY_MAX_HEIGHT</item> <!-- Forsaken Kingdom -->
 			<item>UNIT_RF_TURN_RATE</item>
 			<item>UNIT_RF_ELEVATION_SAMPLE_RADIUS</item>
 			<item>UNIT_RF_FOG_OF_WAR_SAMPLE_RADIUS</item>
@@ -4613,6 +4869,8 @@
 			<item>UNIT_BF_SCALE_PROJECTILES</item>
 			<item>UNIT_BF_SELECTION_CIRCLE_ON_WATER</item>
 			<item>UNIT_BF_HAS_WATER_SHADOW</item>
+			<item>UNIT_BF_SHOW_AIR_TO_GROUND</item> <!-- Forsaken Kingdom -->
+			<item>UNIT_BF_FORCE_DISPLAY_HP</item> <!-- Forsaken Kingdom -->
 			<item>UNIT_SF_NAME</item>
 			<item>UNIT_SF_PROPER_NAMES</item>
 			<item>UNIT_SF_GROUND_TEXTURE</item>
@@ -4744,6 +5002,22 @@
 			<item>bj_POLLED_WAIT_INTERVAL</item>
 			<item>bj_POLLED_WAIT_SKIP_THRESHOLD</item>
 			<item>bj_MAX_INVENTORY</item>
+			<item>bj_MAX_EXTENDED_INVENTORY</item> <!-- Forsaken Kingdom -->
+			<item>bj_MAX_EQUIPMENT_INVENTORY</item> <!-- Forsaken Kingdom -->
+			<item>bj_CAMPAIGN_INDEX_RH</item> <!-- Forsaken Kingdom -->
+			<item>bj_CAMPAIGN_INDEX_RU</item> <!-- Forsaken Kingdom -->
+			<item>bj_CAMPAIGN_OFFSET_RH</item> <!-- Forsaken Kingdom -->
+			<item>bj_CAMPAIGN_OFFSET_RU</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RH00</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RH01</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RH02</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RH03</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RH04</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RU00</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RU01</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RU02</item> <!-- Forsaken Kingdom -->
+			<item>bj_MISSION_INDEX_RU03</item> <!-- Forsaken Kingdom -->
+			<item>bj_KEYEVENTKEY_A</item> <!-- Forsaken Kingdom -->
 			<item>bj_MAX_PLAYERS</item>
 			<item>bj_PLAYER_NEUTRAL_VICTIM</item>
 			<item>bj_PLAYER_NEUTRAL_EXTRA</item>
@@ -5688,6 +5962,13 @@
 			<item>bj_delayedSuspendDecayTrig</item>
 			<item>bj_livingPlayerUnitsTypeId</item>
 			<item>bj_lastDyingWidget</item>
+			<item>bj_HeroGlowAllUnitsFlag</item>
+			<item>bj_enableAurasAllUnits</item>
+			<item>bj_affectsUIAurasAllUnits</item>
+			<item>bj_lastEquippedItem</item>
+			<item>bj_lastUnequippedItem</item>
+			<item>bj_destroyEffectAsyncEffect</item>
+			<item>bj_destroyEffectAsyncTime</item>
 			<item>bj_randDistCount</item>
 			<item>bj_randDistID</item>
 			<item>bj_randDistChance</item>
