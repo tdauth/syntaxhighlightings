@@ -671,8 +671,39 @@
 			<item>IsItemIdPowerup</item>
 			<item>IsItemIdSellable</item>
 			<item>IsItemInvulnerable</item>
+			<item>GetEquippedItem</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetEquippedItem</item> <!-- Forsaken Kingdom -->
+			<item>GetUnequippedItem</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetUnequippedItem</item> <!-- Forsaken Kingdom -->
 			<item>IsItemEquipped</item> <!-- Forsaken Kingdom -->
 			<item>IsItemInBag</item> <!-- Forsaken Kingdom -->
+			<item>BlzTriggerIsRunning</item> <!-- Forsaken Kingdom -->
+			<item>BlzTriggerInterrupt</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetItemColor</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsItemEquipped</item> <!-- Forsaken Kingdom -->
+			<item>BlzIsItemInBag</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetItemEquipmentType</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetItemTag</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitEquipItem</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitUnequipItem</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitUnequipItemFromSlot</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHasItemBagged</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitExtendedInventorySize</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitItemInBagSlot</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitItemInEquipmentSlot</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHasItemEquipped</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHasLoadoutSlotEmpty</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHasAnyItemEquipped</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHasItemEquipmentOfType</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitCanEquipItemOfEquipmentType</item> <!-- Forsaken Kingdom -->
+			<item>BlzUnitHeal</item> <!-- Forsaken Kingdom -->
+			<item>BlzResetUnitTalents</item> <!-- Forsaken Kingdom -->
+			<item>ChooseRandomItemExWithFilterAndIncludes</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetHUDScale</item> <!-- Forsaken Kingdom -->
+			<item>BlzGetCameraAllowsHotkeyTargetLock</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetCameraAllowsHotkeyTargetLock</item> <!-- Forsaken Kingdom -->
+			<item>BlzSetThematicMusicAbsoluteVolume</item> <!-- Forsaken Kingdom -->
+			<item>BlzRemoveEffect</item> <!-- Forsaken Kingdom -->
 			<item>IsItemOwned</item>
 			<item>IsItemPawnable</item>
 			<item>IsItemPowerup</item>
@@ -4664,6 +4695,28 @@
 			<item>ABILITY_RLF_FULL_DAMAGE_AMOUNT_NVC5</item>
 			<item>ABILITY_RLF_HALF_DAMAGE_FACTOR</item>
 			<item>ABILITY_RLF_INTERVAL_BETWEEN_PULSES</item>
+			<item>ABILITY_RLF_ALLY_HEALING_PER_SECOND</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_DAMAGE_PER_SECOND</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_HEALING_REDUCTION_PERCENT</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_HEALING_BASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_HEALING_PER_DEBUFF_REMOVED</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_BUFF_DURATION</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_DAMAGE_BONUS_PERCENT_BASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_DAMAGE_BONUS_PERCENT_PER_DEBUFF_REMOVED</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_STUN_DURATION</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_DAMAGE_TO_SUMMONS</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_PERCENT_MAGIC_RESIST_INCREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_PERCENT_HEALING_INCREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_PERCENT_COOLDOWN_DECREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_PERCENT_MAGIC_RESIST_DECREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_PERCENT_HEALING_DECREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ENEMY_PERCENT_COOLDOWN_INCREASE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_ALLY_FLAT_MANA_REGEN</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_DASH_SPEED</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_DASH_DAMAGE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_BONUS_CRITICAL_STRIKE</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_NORMAL_BONUS_CRITICAL_STRIKE_DURATION</item> <!-- Forsaken Kingdom -->
+			<item>ABILITY_RLF_HERO_BONUS_CRITICAL_STRIKE_DURATION</item> <!-- Forsaken Kingdom -->
 			<item>ABILITY_BLF_PERCENT_BONUS_HAB2</item>
 			<item>ABILITY_BLF_USE_TELEPORT_CLUSTERING_HMT3</item>
 			<item>ABILITY_BLF_NEVER_MISS_OCR5</item>
@@ -4728,6 +4781,7 @@
 			<item>ABILITY_BLF_ALLOW_ON_ANY_PLAYER_SLOT</item>
 			<item>ABILITY_BLF_DISABLE_OTHER_ABILITIES</item>
 			<item>ABILITY_BLF_ALLOW_BOUNTY</item>
+			<item>ABILITY_BLF_REMOVE_BUFFS_ON_ABILITY_START</item> <!-- Forsaken Kingdom -->
 			<item>ABILITY_SLF_ICON_NORMAL</item>
 			<item>ABILITY_SLF_CASTER</item>
 			<item>ABILITY_SLF_TARGET</item>
@@ -6004,6 +6058,8 @@
 			<item>bj_lastCreatedImage</item>
 			<item>bj_lastCreatedUbersplat</item>
 			<item>bj_wantDestroyGroup</item>
+			<item>bj_destroyOrRemoveEffectAsyncEffect</item> <!-- Forsaken Kingdom -->
+			<item>bj_destroyOrRemoveEffectAsyncTime</item> <!-- Forsaken Kingdom -->
 			<item>filterIssueHauntOrderAtLocBJ</item>
 			<item>filterEnumDestructablesInCircleBJ</item>
 			<item>filterGetUnitsInRectOfPlayer</item>
